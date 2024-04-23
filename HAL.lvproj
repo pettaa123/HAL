@@ -28,6 +28,9 @@
 				<Item Name="niFgen_ctl Exported Signal Identifiers (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Identifiers (Ring).ctl"/>
 				<Item Name="niFgen_ctl Exported Signal Name Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Name Values (Ring).ctl"/>
 			</Item>
+			<Item Name="Configuration.lvclass" Type="LVClass" URL="../PXI-5441_class/configurations/Configuration_class/Configuration.lvclass"/>
+			<Item Name="NativeBaseTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate_4x4x4/NativeBaseTemplate_4x4x4.lvclass"/>
+			<Item Name="NativeSubTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate_4x4x4/NativeSubTemplate_4x4x4.lvclass"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

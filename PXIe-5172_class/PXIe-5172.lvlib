@@ -7,13 +7,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="configurations" Type="Folder">
-		<Item Name="DC Config.lvclass" Type="LVClass" URL="../DC Config_class/DC Config.lvclass"/>
-		<Item Name="IConfigure.lvclass" Type="LVClass" URL="../IConfigure_interface/IConfigure.lvclass"/>
+		<Item Name="Configuration.lvclass" Type="LVClass" URL="../../configurations/Configuration_class/Configuration.lvclass"/>
+		<Item Name="IConfigure.lvclass" Type="LVClass" URL="../../configurations/IConfigure_interface/IConfigure.lvclass"/>
 	</Item>
-	<Item Name="states" Type="Folder">
-		<Item Name="Connected.lvclass" Type="LVClass" URL="../states/Connected_class/Connected.lvclass"/>
-		<Item Name="Disconnected.lvclass" Type="LVClass" URL="../states/Disconnected_class/Disconnected.lvclass"/>
-		<Item Name="Error.lvclass" Type="LVClass" URL="../states/Error_class/Error.lvclass"/>
-	</Item>
-	<Item Name="PXI-5441.lvclass" Type="LVClass" URL="../PXI-5441.lvclass"/>
+	<Item Name="states" Type="Folder"/>
+	<Item Name="PXIe-5172.lvclass" Type="LVClass" URL="../PXIe-5172.lvclass"/>
 </Library>
