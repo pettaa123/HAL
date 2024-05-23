@@ -1,0 +1,12 @@
+{
+	"MAX Identifier":"DS1054",
+	"Attributes":{
+	"Channel":{
+	"Channel":1,
+	"Vertical Coupling":0,
+	"Probe Attenuation":1.0,
+	"Vertical Range":10.0,
+	"Vertical Offset":0.0
+	"Channel Unit":0,
+	}
+}

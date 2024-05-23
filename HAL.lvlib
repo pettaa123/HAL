@@ -5,9 +5,41 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Hardware.lvclass" Type="LVClass" URL="../Hardware_class/Hardware.lvclass"/>
-	<Item Name="IFGEN.lvlib" Type="Library" URL="../IFGEN_interface/IFGEN.lvlib"/>
-	<Item Name="IScope.lvlib" Type="Library" URL="../IScope_interface/IScope.lvlib"/>
-	<Item Name="PXI-5441.lvlib" Type="Library" URL="../PXI-5441_class/PXI-5441.lvlib"/>
-	<Item Name="PXIe-5172.lvlib" Type="Library" URL="../PXIe-5172_class/PXIe-5172.lvlib"/>
+	<Item Name="Camera" Type="Folder">
+		<Item Name="Camera Base" Type="Folder">
+			<Item Name="Camera Base.lvclass" Type="LVClass" URL="../Camera Base/Camera Base.lvclass"/>
+		</Item>
+		<Item Name="Camera Imaqdx" Type="Folder">
+			<Item Name="Camera Imaqdx.lvclass" Type="LVClass" URL="../Camera Imaqdx/Camera Imaqdx.lvclass"/>
+			<Item Name="Camera Imaqdx CFG.lvclass" Type="LVClass" URL="../Camera Imaqdx/Configuration/Camera Imaqdx CFG.lvclass"/>
+		</Item>
+	</Item>
+	<Item Name="Scope" Type="Folder">
+		<Item Name="Scope VISA" Type="Folder">
+			<Item Name="Scope VISA.lvclass" Type="LVClass" URL="../Scope VISA/Scope VISA.lvclass"/>
+			<Item Name="Scope VISA CFG.lvclass" Type="LVClass" URL="../Scope VISA/Configuration/Scope VISA CFG.lvclass"/>
+		</Item>
+		<Item Name="Scope Base" Type="Folder">
+			<Item Name="Scope Base.lvclass" Type="LVClass" URL="../Scope Base/Scope Base.lvclass"/>
+			<Item Name="Scope Base CFG.lvclass" Type="LVClass" URL="../Scope Base/Configuration/Scope Base CFG.lvclass"/>
+		</Item>
+		<Item Name="Scope PXI" Type="Folder">
+			<Item Name="Scope PXI.lvclass" Type="LVClass" URL="../Scope PXI/Scope PXI.lvclass"/>
+			<Item Name="Scope PXI CFG.lvclass" Type="LVClass" URL="../Scope PXI CFG/Scope PXI CFG.lvclass"/>
+		</Item>
+	</Item>
+	<Item Name="Configuration Base" Type="Folder">
+		<Item Name="Configuration Base.lvclass" Type="LVClass" URL="../Configuration Base/Configuration Base.lvclass"/>
+	</Item>
+	<Item Name="Fgen" Type="Folder">
+		<Item Name="Fgen Base" Type="Folder">
+			<Item Name="Fgen Base.lvclass" Type="LVClass" URL="../Fgen Base/Fgen Base.lvclass"/>
+			<Item Name="Fgen Base CFG.lvclass" Type="LVClass" URL="../Fgen Base/Configuration/Fgen Base CFG.lvclass"/>
+		</Item>
+		<Item Name="Fgen VISA" Type="Folder">
+			<Item Name="Fgen VISA.lvclass" Type="LVClass" URL="../Fgen VISA/Fgen VISA.lvclass"/>
+			<Item Name="Fgen VISA CFG.lvclass" Type="LVClass" URL="../Fgen VISA/Configuration/Fgen VISA CFG.lvclass"/>
+		</Item>
+	</Item>
+	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Hardware_class/Instrument.lvclass"/>
 </Library>
