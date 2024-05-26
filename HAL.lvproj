@@ -11,10 +11,32 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Camera" Type="Folder">
+			<Item Name="Camera Base" Type="Folder">
+				<Item Name="Camera Base.lvclass" Type="LVClass" URL="../Camera Base/Camera Base.lvclass"/>
+			</Item>
+			<Item Name="Camera Imaqdx" Type="Folder">
+				<Item Name="Camera Imaqdx CFG.lvclass" Type="LVClass" URL="../Camera Imaqdx/Configuration/Camera Imaqdx CFG.lvclass"/>
+				<Item Name="Camera Imaqdx.lvclass" Type="LVClass" URL="../Camera Imaqdx/Camera Imaqdx.lvclass"/>
+			</Item>
+		</Item>
+		<Item Name="Configuration Base" Type="Folder">
+			<Item Name="Configuration Base.lvclass" Type="LVClass" URL="../Configuration Base/Configuration Base.lvclass"/>
+		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="FLIR A700.lvlib" Type="Library" URL="../Devices/Flir A700/FLIR A700.lvlib"/>
 			<Item Name="PXIe-5172 Simulated.lvlib" Type="Library" URL="../Devices/PXIe-5172 Simulated/PXIe-5172 Simulated.lvlib"/>
 			<Item Name="RIGOL DS1054.lvlib" Type="Library" URL="../Devices/Rigol DS1054/RIGOL DS1054.lvlib"/>
+		</Item>
+		<Item Name="Fgen" Type="Folder">
+			<Item Name="Fgen Base" Type="Folder">
+				<Item Name="Fgen Base CFG.lvclass" Type="LVClass" URL="../Fgen Base/Configuration/Fgen Base CFG.lvclass"/>
+				<Item Name="Fgen Base.lvclass" Type="LVClass" URL="../Fgen Base/Fgen Base.lvclass"/>
+			</Item>
+			<Item Name="Fgen VISA" Type="Folder">
+				<Item Name="Fgen VISA CFG.lvclass" Type="LVClass" URL="../Fgen VISA/Configuration/Fgen VISA CFG.lvclass"/>
+				<Item Name="Fgen VISA.lvclass" Type="LVClass" URL="../Fgen VISA/Fgen VISA.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="ICamera IR.lvclass" Type="LVClass" URL="../Interfaces/ICamera IR/ICamera IR.lvclass"/>
@@ -23,7 +45,12 @@
 			<Item Name="IFGEN.lvclass" Type="LVClass" URL="../Interfaces/IFGEN/IFGEN.lvclass"/>
 			<Item Name="IScope.lvclass" Type="LVClass" URL="../Interfaces/IScope/IScope.lvclass"/>
 		</Item>
-		<Item Name="HAL.lvlib" Type="Library" URL="../HAL.lvlib"/>
+		<Item Name="Scope" Type="Folder">
+			<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope Base/Scope Base.lvlib"/>
+			<Item Name="Scope PXI.lvlib" Type="Library" URL="../Scope PXI/Scope PXI.lvlib"/>
+			<Item Name="Scope VISA.lvlib" Type="Library" URL="../Scope VISA/Scope VISA.lvlib"/>
+		</Item>
+		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Hardware_class/Instrument.lvclass"/>
 		<Item Name="test2.vi" Type="VI" URL="../test/test2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -98,10 +125,18 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQdx Attribute Type.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Attribute Type.ctl"/>
+				<Item Name="IMAQdx Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Calculate Frames per Second.vi"/>
+				<Item Name="IMAQdx Close Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Close Camera.vi"/>
+				<Item Name="IMAQdx Configure Grab.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Configure Grab.vi"/>
+				<Item Name="IMAQdx Grab2.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Grab2.vi"/>
+				<Item Name="IMAQdx Open Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Open Camera.vi"/>
+				<Item Name="IMAQdx Start Acquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Start Acquisition.vi"/>
+				<Item Name="IMAQdx Stop Acquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Stop Acquisition.vi"/>
+				<Item Name="IMAQdx Unconfigure Acquisition.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Unconfigure Acquisition.vi"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
@@ -115,7 +150,6 @@
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -129,13 +163,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Apply Configuration.vi" Type="VI" URL="../Devices/Rigol DS1054/Apply Configuration.vi"/>
-			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+			<Item Name="niScope_32.dll" Type="Document" URL="niScope_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

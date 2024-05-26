@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Scope Base CFG.lvclass" Type="LVClass" URL="../Configuration/Scope Base CFG.lvclass"/>
+	<Item Name="Scope Base.lvclass" Type="LVClass" URL="../Scope Base.lvclass"/>
 </Library>
