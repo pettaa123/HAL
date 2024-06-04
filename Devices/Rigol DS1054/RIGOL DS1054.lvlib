@@ -5,7 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configurations" Type="Folder">
-		<Item Name="Continuous Waveform Acq CFG.lvclass" Type="LVClass" URL="../Configurations/Continuous Waveform Acquisition/Continuous Waveform Acq CFG.lvclass"/>
+		<Item Name="DS1054 Base CFG.lvclass" Type="LVClass" URL="../Configurations/DS1054 Base CFG/DS1054 Base CFG.lvclass"/>
+		<Item Name="Fetch Display CFG.lvclass" Type="LVClass" URL="../Configurations/Fetch Display CFG/Fetch Display CFG.lvclass"/>
 	</Item>
 	<Item Name="Rigol DS1054.lvclass" Type="LVClass" URL="../Rigol DS1054.lvclass"/>
 </Library>
