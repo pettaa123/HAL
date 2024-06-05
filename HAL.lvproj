@@ -25,8 +25,8 @@
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="FLIR A700.lvlib" Type="Library" URL="../Devices/Flir A700/FLIR A700.lvlib"/>
-			<Item Name="RIGOL DS1054.lvlib" Type="Library" URL="../Devices/Rigol DS1054/RIGOL DS1054.lvlib"/>
-			<Item Name="RIGOL DS1054Z.lvlib" Type="Library" URL="../../RIGOL-DS1054Z-LabVIEW/RIGOL DS1054Z.lvlib"/>
+			<Item Name="RIGOL DS1054Z Driver.lvlib" Type="Library" URL="../../RIGOL-DS1054Z-LabVIEW/RIGOL DS1054Z Driver.lvlib"/>
+			<Item Name="RIGOL DS1054Z.lvlib" Type="Library" URL="../Devices/Rigol DS1054/RIGOL DS1054Z.lvlib"/>
 		</Item>
 		<Item Name="Fgen" Type="Folder">
 			<Item Name="Fgen Base" Type="Folder">
@@ -110,6 +110,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -126,6 +127,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -135,6 +137,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="OWON SDS1022.lvlib" Type="Library" URL="../../OWON-SDS1022-LabVIEW/OWON SDS1022/OWON SDS1022.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
