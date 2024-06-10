@@ -42,8 +42,10 @@
 			<Item Name="ICamera IR.lvclass" Type="LVClass" URL="../Interfaces/ICamera IR/ICamera IR.lvclass"/>
 			<Item Name="ICamera.lvclass" Type="LVClass" URL="../Interfaces/ICamera/ICamera.lvclass"/>
 			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
+			<Item Name="IConfigure Voltmeter.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Voltmeter/IConfigure Voltmeter.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 			<Item Name="IFGEN.lvclass" Type="LVClass" URL="../Interfaces/IFGEN/IFGEN.lvclass"/>
+			<Item Name="IRead Voltage.lvclass" Type="LVClass" URL="../Interfaces/IRead Voltage/IRead Voltage.lvclass"/>
 			<Item Name="IScope.lvclass" Type="LVClass" URL="../Interfaces/IScope/IScope.lvclass"/>
 		</Item>
 		<Item Name="Scope" Type="Folder">
@@ -53,6 +55,7 @@
 		</Item>
 		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 		<Item Name="test2.vi" Type="VI" URL="../test/test2.vi"/>
+		<Item Name="test3.vi" Type="VI" URL="../test/test3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
@@ -137,7 +140,6 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="OWON SDS1022.lvlib" Type="Library" URL="../../OWON-SDS1022-LabVIEW/OWON SDS1022/OWON SDS1022.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

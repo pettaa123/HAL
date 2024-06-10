@@ -7,6 +7,7 @@
 	<Item Name="Configurations" Type="Folder">
 		<Item Name="DS1054 Base CFG.lvclass" Type="LVClass" URL="../Configurations/DS1054 Base CFG/DS1054 Base CFG.lvclass"/>
 		<Item Name="Fetch Display CFG.lvclass" Type="LVClass" URL="../Configurations/Fetch Display CFG/Fetch Display CFG.lvclass"/>
+		<Item Name="Voltmeter CFG.lvclass" Type="LVClass" URL="../Configurations/Voltmeter CFG/Voltmeter CFG.lvclass"/>
 	</Item>
 	<Item Name="Rigol DS1054.lvclass" Type="LVClass" URL="../Rigol DS1054.lvclass"/>
 </Library>
