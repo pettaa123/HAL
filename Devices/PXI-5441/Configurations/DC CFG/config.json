@@ -1,5 +1,5 @@
 {
-	"MAX Identifier": "DS1054",
+	"MAX Identifier": "FGEN",
 	"Attributes": {
 		"Channels": [
 			{
@@ -18,11 +18,6 @@
 			"Output Terminal": "PFI 0",
 			"Signal Identifier": "None",
 			"Signal": "Start Trigger"
-		},
-		"Horizontal": {
-			"Scale": 0.00005,
-			"Offset": 0.0,
-			"Mode": 2 //Roll
 		}
 	}
 }
