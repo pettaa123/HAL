@@ -21,22 +21,17 @@
 			</Item>
 		</Item>
 		<Item Name="Configuration Base" Type="Folder">
-			<Item Name="Configuration Base.lvclass" Type="LVClass" URL="../Configuration Base/Configuration Base.lvclass"/>
+			<Item Name="Configuration Base.lvlib" Type="Library" URL="../Configuration Base/Configuration Base.lvlib"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="FLIR A700.lvlib" Type="Library" URL="../Devices/Flir A700/FLIR A700.lvlib"/>
-			<Item Name="RIGOL DS1054Z Driver.lvlib" Type="Library" URL="../../RIGOL-DS1054Z-LabVIEW/RIGOL DS1054Z Driver.lvlib"/>
+			<Item Name="PXI-5441.lvlib" Type="Library" URL="../Devices/PXI-5441/PXI-5441.lvlib"/>
 			<Item Name="RIGOL DS1054Z.lvlib" Type="Library" URL="../Devices/Rigol DS1054/RIGOL DS1054Z.lvlib"/>
 		</Item>
 		<Item Name="Fgen" Type="Folder">
-			<Item Name="Fgen Base" Type="Folder">
-				<Item Name="Fgen Base CFG.lvclass" Type="LVClass" URL="../Fgen Base/Configuration/Fgen Base CFG.lvclass"/>
-				<Item Name="Fgen Base.lvclass" Type="LVClass" URL="../Fgen Base/Fgen Base.lvclass"/>
-			</Item>
-			<Item Name="Fgen VISA" Type="Folder">
-				<Item Name="Fgen VISA CFG.lvclass" Type="LVClass" URL="../Fgen VISA/Configuration/Fgen VISA CFG.lvclass"/>
-				<Item Name="Fgen VISA.lvclass" Type="LVClass" URL="../Fgen VISA/Fgen VISA.lvclass"/>
-			</Item>
+			<Item Name="Fgen Base.lvlib" Type="Library" URL="../Fgen Base/Fgen Base.lvlib"/>
+			<Item Name="Fgen PXI.lvlib" Type="Library" URL="../Fgen PXI/Fgen PXI.lvlib"/>
+			<Item Name="Fgen VISA.lvlib" Type="Library" URL="../Fgen VISA/Fgen VISA.lvlib"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="ICamera IR.lvclass" Type="LVClass" URL="../Interfaces/ICamera IR/ICamera IR.lvclass"/>
@@ -45,8 +40,10 @@
 			<Item Name="IConfigure Voltmeter.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Voltmeter/IConfigure Voltmeter.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 			<Item Name="IFGEN.lvclass" Type="LVClass" URL="../Interfaces/IFGEN/IFGEN.lvclass"/>
+			<Item Name="IModulate Voltage.lvclass" Type="LVClass" URL="../Interfaces/IModulate Voltage/IModulate Voltage/IModulate Voltage.lvclass"/>
 			<Item Name="IRead Voltage.lvclass" Type="LVClass" URL="../Interfaces/IRead Voltage/IRead Voltage.lvclass"/>
 			<Item Name="IScope.lvclass" Type="LVClass" URL="../Interfaces/IScope/IScope.lvclass"/>
+			<Item Name="ISwitch.lvclass" Type="LVClass" URL="../Interfaces/ISwitch/ISwitch.lvclass"/>
 		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope Base/Scope Base.lvlib"/>
@@ -58,11 +55,27 @@
 		<Item Name="test3.vi" Type="VI" URL="../test/test3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niFgen Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Close.vi"/>
+				<Item Name="niFgen Configure Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Output Mode.vi"/>
+				<Item Name="niFgen Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Standard Waveform.vi"/>
+				<Item Name="niFgen Configure Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Trigger Mode.vi"/>
+				<Item Name="niFgen Export Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Export Signal.vi"/>
+				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
+				<Item Name="niFgen Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initialize.vi"/>
+				<Item Name="niFgen Initiate Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initiate Generation.vi"/>
+				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
+				<Item Name="niFgen Output Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Mode.ctl"/>
+				<Item Name="niFgen Trigger Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Trigger Mode.ctl"/>
+				<Item Name="niFgen Waveform Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Waveform Type.ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Desination Values (ComboBox).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Desination Values (ComboBox).ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Identifiers (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Identifiers (Ring).ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Name Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Name Values (Ring).ctl"/>
 				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
 				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
 				<Item Name="niScope Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize.vi"/>
 				<Item Name="niScope Initiate Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Initiate Acquisition.vi"/>
 				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
+				<Item Name="RIGOL DS1054Z Driver.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL-DS1054Z-LabVIEW/RIGOL DS1054Z Driver.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
@@ -131,6 +144,9 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

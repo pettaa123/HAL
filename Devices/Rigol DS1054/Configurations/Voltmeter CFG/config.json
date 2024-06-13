@@ -1,0 +1,61 @@
+{
+	"MAX Identifier": "DS1054",
+	"Attributes": {
+		"Channels": [
+			{
+				"Name": 1,
+				"Display": true,
+				"Vertical Coupling": 0, //DC
+				"Probe Attenuation": 1.0,
+				"Vertical Scale": 1.0,
+				"Vertical Offset": 0.0,
+				"Channel Unit": 0, //Volts
+				"Inverse": false,
+				"Bandwith Limit": true
+			},
+			{
+				"Name": 2,
+				"Display": false,
+				"Vertical Coupling": 0, //DC
+				"Probe Attenuation": 1.0,
+				"Vertical Scale": 10.0,
+				"Vertical Offset": 0.0,
+				"Channel Unit": 0, //Volts
+				"Inverse": false,
+				"Bandwith Limit": false
+			},
+			{
+				"Name": 3,
+				"Display": false,
+				"Vertical Coupling": 0, //DC
+				"Probe Attenuation": 1.0,
+				"Vertical Scale": 10.0,
+				"Vertical Offset": 0.0,
+				"Channel Unit": 0, //Volts
+				"Inverse": false,
+				"Bandwith Limit": false
+			},
+			{
+				"Name": 4,
+				"Display": false,
+				"Vertical Coupling": 0, //DC
+				"Probe Attenuation": 1.0,
+				"Vertical Scale": 10.0,
+				"Vertical Offset": 0.0,
+				"Channel Unit": 0, //Volts
+				"Inverse": false,
+				"Bandwith Limit": false
+			}
+		],
+		"Acquire": {
+			"Type": 0, //Normal
+			"Number Averages": 8,//Ignored
+			"Mode": 0 //Real Time
+		},
+		"Horizontal": {
+			"Scale": 0.00005,
+			"Offset": 0.0,
+			"Mode": 2 //Roll
+		}
+	}
+}

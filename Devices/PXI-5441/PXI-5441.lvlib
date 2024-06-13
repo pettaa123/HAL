@@ -4,14 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="configurations" Type="Folder">
-		<Item Name="AW Config.lvclass" Type="LVClass" URL="../configurations/AW Config_class/AW Config.lvclass"/>
-		<Item Name="DC Config.lvclass" Type="LVClass" URL="../configurations/DC Config_class/DC Config.lvclass"/>
-	</Item>
-	<Item Name="states" Type="Folder">
-		<Item Name="Connected.lvclass" Type="LVClass" URL="../states/Connected_class/Connected.lvclass"/>
-		<Item Name="Disconnected.lvclass" Type="LVClass" URL="../states/Disconnected_class/Disconnected.lvclass"/>
-		<Item Name="Error.lvclass" Type="LVClass" URL="../states/Error_class/Error.lvclass"/>
+	<Item Name="Configurations" Type="Folder">
+		<Item Name="DC CFG.lvclass" Type="LVClass" URL="../Configurations/DC CFG/DC CFG.lvclass"/>
 	</Item>
 	<Item Name="PXI-5441.lvclass" Type="LVClass" URL="../PXI-5441.lvclass"/>
 </Library>

@@ -93,21 +93,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="pxi test.vi" Type="VI" URL="../pxi test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
-				<Item Name="niFgen Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Close.vi"/>
-				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
-				<Item Name="niFgen Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initialize.vi"/>
-				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
-			</Item>
-			<Item Name="Connected.lvclass" Type="LVClass" URL="../../PXI-5441_class/states/Connected_class/Connected.lvclass"/>
-			<Item Name="Disconnected.lvclass" Type="LVClass" URL="../../PXI-5441_class/states/Disconnected_class/Disconnected.lvclass"/>
-			<Item Name="Error.lvclass" Type="LVClass" URL="../../PXI-5441_class/states/Error_class/Error.lvclass"/>
-			<Item Name="HAL.lvlib" Type="Library" URL="/C/Users/tupp_js-a/Documents/qirt journal/HAL.lvlib"/>
-			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Disconnect.vi" Type="VI" URL="../../PXI-5441_class/Disconnect.vi"/>
 			<Item Name="PXI-5441.lvclass" Type="LVClass" URL="../../PXI-5441_class/PXI-5441.lvclass"/>
+			<Item Name="PXI-5441_Init.vi" Type="VI" URL="../../PXI-5441_class/PXI-5441_Init.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
