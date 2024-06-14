@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,48 +12,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Camera" Type="Folder">
-			<Item Name="Camera Base" Type="Folder">
-				<Item Name="Camera Base.lvclass" Type="LVClass" URL="../Camera Base/Camera Base.lvclass"/>
-			</Item>
-			<Item Name="Camera Imaqdx" Type="Folder">
-				<Item Name="Camera Imaqdx CFG.lvclass" Type="LVClass" URL="../Camera Imaqdx/Configuration/Camera Imaqdx CFG.lvclass"/>
-				<Item Name="Camera Imaqdx.lvclass" Type="LVClass" URL="../Camera Imaqdx/Camera Imaqdx.lvclass"/>
-			</Item>
-		</Item>
-		<Item Name="Configuration Base" Type="Folder">
-			<Item Name="Configuration Base.lvlib" Type="Library" URL="../Configuration Base/Configuration Base.lvlib"/>
-		</Item>
-		<Item Name="Devices" Type="Folder">
-			<Item Name="FLIR A700.lvlib" Type="Library" URL="../Devices/Flir A700/FLIR A700.lvlib"/>
-			<Item Name="PXI-5441.lvlib" Type="Library" URL="../Devices/PXI-5441/PXI-5441.lvlib"/>
-			<Item Name="RIGOL DS1054Z.lvlib" Type="Library" URL="../Devices/Rigol DS1054/RIGOL DS1054Z.lvlib"/>
-		</Item>
-		<Item Name="Fgen" Type="Folder">
-			<Item Name="Fgen Base.lvlib" Type="Library" URL="../Fgen Base/Fgen Base.lvlib"/>
-			<Item Name="Fgen PXI.lvlib" Type="Library" URL="../Fgen PXI/Fgen PXI.lvlib"/>
-			<Item Name="Fgen VISA.lvlib" Type="Library" URL="../Fgen VISA/Fgen VISA.lvlib"/>
-		</Item>
-		<Item Name="Interfaces" Type="Folder">
-			<Item Name="ICamera IR.lvclass" Type="LVClass" URL="../Interfaces/ICamera IR/ICamera IR.lvclass"/>
-			<Item Name="ICamera.lvclass" Type="LVClass" URL="../Interfaces/ICamera/ICamera.lvclass"/>
-			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
-			<Item Name="IConfigure Voltmeter.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Voltmeter/IConfigure Voltmeter.lvclass"/>
-			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
-			<Item Name="IFGEN.lvclass" Type="LVClass" URL="../Interfaces/IFGEN/IFGEN.lvclass"/>
-			<Item Name="IModulate Voltage.lvclass" Type="LVClass" URL="../Interfaces/IModulate Voltage/IModulate Voltage/IModulate Voltage.lvclass"/>
-			<Item Name="IRead Voltage.lvclass" Type="LVClass" URL="../Interfaces/IRead Voltage/IRead Voltage.lvclass"/>
-			<Item Name="IScope.lvclass" Type="LVClass" URL="../Interfaces/IScope/IScope.lvclass"/>
-			<Item Name="ISwitch.lvclass" Type="LVClass" URL="../Interfaces/ISwitch/ISwitch.lvclass"/>
-		</Item>
-		<Item Name="Scope" Type="Folder">
-			<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope Base/Scope Base.lvlib"/>
-			<Item Name="Scope PXI.lvlib" Type="Library" URL="../Scope PXI/Scope PXI.lvlib"/>
-			<Item Name="Scope VISA.lvlib" Type="Library" URL="../Scope VISA/Scope VISA.lvlib"/>
-		</Item>
-		<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 		<Item Name="test2.vi" Type="VI" URL="../test/test2.vi"/>
 		<Item Name="test3.vi" Type="VI" URL="../test/test3.vi"/>
+		<Item Name="HAL Interfaces.lvlib" Type="Library" URL="/C/Users/tupp_js-a/Documents/HAL Interfaces.lvlib"/>
+		<Item Name="HAL.lvlib" Type="Library" URL="/C/Users/tupp_js-a/Documents/HAL.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Close.vi"/>
@@ -150,10 +113,10 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
