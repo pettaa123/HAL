@@ -15,7 +15,7 @@
 	<Property Name="EndevoGOOP_TemplateUsed" Type="Str"></Property>
 	<Property Name="EndevoGOOP_TemplateVersion" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.Lib.ContainingLib" Type="Str">HAL Interfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/C/Users/tupp_js-a/Documents/HAL Interfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../HAL Interfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)X!!!*Q(C=\&gt;8.&lt;&gt;N!%)&lt;B,Y%0O;K$1#V-#U1[%&amp;3"JQ)"OJK]B#FB7F!,+M(4AM[_K18[X@6!-'T(OC2"9(DJJ;FP`RYP+6LKZ:NUI_6;W&lt;Z&lt;KHX:^J\NV'N,8L2P+VO?UF@N3ZUP&amp;W_/@X&lt;ROPXX[\`DPV,U74\,RSZX6\]%@`V\]%8N252.;F#&gt;;GL,,EG?Z%G?Z%G?Z%%?Z%%?Z%%?Z%\OZ%\OZ%\OZ%:OZ%:OZ%:OZ0UA&amp;\H)21YJ74R:+*EUG3$J$%8*+@%EHM34?0CIR*.Y%E`C34RU5?**0)EH]31?BCHR**\%EXA3$V.V3@;$(%`C98I&amp;HM!4?!*0Y'&amp;*":Y!%#Q74"R-!E."9X!2?!*0Y/&amp;3A3@Q"*\!%XBI6O!*0)%H]!1?BP2&gt;C;ZJ"TE?JJ(D=4S/R`%Y(K;7YX%]DM@R/"[7E_.R0!\#7&gt;#:()+=15Y(ZY0D=4T]EO.R0)\(]4A?GPI&gt;]LYT4&gt;-/=DS'R`!9(M.D?*B#BM@Q'"\$9XC96I&lt;(]"A?QW.Y7%K'R`!9(A.C,-LS-C9T"BK&gt;D-$Q]./@&amp;ONX+&lt;L%_C(6Q[N[+&amp;50G_IB5DU=KJOOOJGKG[4;@.7GKD:,N1GK0U[&amp;6G&amp;5C[A'NYY[=TZ2D^1$&gt;;&lt;OK2PK1&amp;V46WXI(_ZY0J^V/JVU0"ZV/"QUT\0W_\UWGYW'9&gt;"[P&gt;:KN&lt;K]"LZT8&amp;Y)4__F/[[HB^UYT4`'[@ZWH(Y.Y`2T.\&lt;](`R``A`?D@KKZWOQ2Y]&gt;S(35!!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">IFGEN</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
@@ -48,13 +48,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
 	</Item>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!E&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC$5F'2U6/,GRW9WRB=X-!!!F*2E&gt;&amp;4C"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!#R!=!!?!!!5%EF$&lt;WZG;7&gt;V=G5O&lt;(:D&lt;'&amp;T=Q!!$5F$&lt;WZG;7&gt;V=G5A;7Y!/%"Q!"Y!!#153%&amp;-)%FO&gt;'6S:G&amp;D:8-O&lt;(:M;7).35:(25YO&lt;(:D&lt;'&amp;T=Q!!#%F'2U6/)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!E&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC$5F'2U6/,GRW9WRB=X-!!!F*2E&gt;&amp;4C"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!%"!=!!?!!!J&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC%EF$&lt;WZG;7&gt;V=G5O&lt;(:D&lt;'&amp;T=Q!.35.P&lt;G:J:X6S:3"J&lt;A!Y1(!!(A!!*"2)15QA37ZU:8*G97.F=SZM&gt;GRJ9AV*2E&gt;&amp;4CZM&gt;G.M98.T!!!)35:(25YA;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!#1!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1084236304</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="Start.vi" Type="VI" URL="../Start.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!$J!=!!?!!!E&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC$5F'2U6/,GRW9WRB=X-!!!JP9GJF9X1A&lt;X6U!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!/%"Q!"Y!!#153%&amp;-)%FO&gt;'6S:G&amp;D:8-O&lt;(:M;7).35:(25YO&lt;(:D&lt;'&amp;T=Q!!#7^C;G6D&gt;#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>

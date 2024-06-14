@@ -15,7 +15,7 @@
 	<Property Name="EndevoGOOP_TemplateUsed" Type="Str"></Property>
 	<Property Name="EndevoGOOP_TemplateVersion" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.Lib.ContainingLib" Type="Str">HAL Interfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/C/Users/tupp_js-a/Documents/HAL Interfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../HAL Interfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)W!!!*Q(C=\&gt;5R4A*"&amp;-&lt;R4W.BCS&gt;1DO#L\$G"#?%'\QKUF,2%G^&gt;;=A7O]#J\#C`!&amp;@!`QW.$9;229YSTTO\ST=\-D^FFF8KZFK[U0V&gt;GHZ&lt;7PK`$=&gt;?D[HFI0_ZGBWS)4NK(UX0^^R`U0RY'R/SU`80`G;,`]F`_&gt;FG=`2&amp;]__`A1OV&amp;2%VK5*VK;N0OETT*ETT*ETT*ATT)ATT)ATT)H&gt;T*H&gt;T*H&gt;T*D&gt;T)D&gt;T)D&gt;T)_U9O=J',(&amp;)S?4*2-GAS1()R&amp;#7\R*.Y%E`CY;-34_**0)EH]8#*%E`C34S**`(149EH]33?R*.Y'+J,MG`E?")0QSPQ"*\!%XA#$V-K]!3!9,*AY'!1'!I;AZ0!%XA#$[=+0)%H]!3?Q%/T!E`A#4S"*`$1J;^+&gt;%X&lt;S0%QD"S0YX%]DM@R-,1=D_.R0)\(]4#&gt;()`D=2$/B-\A%/2U=CZQ0DA?R]."DM@R/"\(YXBI[H@)_]IU4&gt;P)]2A?QW.Y$)`B91A:(M.D?!S0Y7&amp;9'2\$9XA-D_&amp;B+BE?QW.Y$)AR+&gt;0,'-TI;&amp;RE");(P`[U7,^,U387.[E?8N6$K8L96!_2[O&amp;1X846T64&gt;*.8CKR:6N6CK26"^/26;B6&amp;.IOL=,N3/`:;[I;[J3_K=/K6/K'0KK(8^YANXOZWWW[UWGYX7[\77S[8G]\GGU[EGEYH'Y\&amp;'I^(Q'LBF'VY)B`@3AP/HB^?XZZ?&lt;V@.^/T[OHOZSV@)@_0`]#^[.ON4J(+T2/Q#^?U=!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">IConfigure</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>

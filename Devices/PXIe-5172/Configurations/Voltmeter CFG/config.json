@@ -1,0 +1,108 @@
+{
+	"MAX Identifier": "FGEN",
+	"Attributes": {
+		"Channels": [
+			{
+				"Name": "CH0",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH1",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH2",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH3",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH4",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH5",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH6",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "CH7",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			}
+		],
+		"Horizontal": {
+			"Enforce Realtime": true,
+			"Number of Records": 1,
+			"Min Sample Rate": 1e+5,
+			"Reference Position":50, //percent
+			"Min Record Length":1e+3
+		},
+		"Acquire": {
+			"Type": "Normal"
+		},
+		"Export Signal": {
+			"Signal Identifier": "None",
+			"Signal": "None",
+			"Output Terminal": "None"
+		},
+		"Trigger": {
+			"Type": "Digital",
+			"Source": "RTSI 0",
+			"Holdoff": 0.0,
+			"Delay": 0.0
+		}
+	}
+}

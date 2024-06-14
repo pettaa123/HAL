@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="23008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">HAL Interfaces.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">/C/Users/tupp_js-a/Documents/HAL Interfaces.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../../HAL Interfaces.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!*Q(C=\&gt;5^&lt;C*"%)&lt;B&lt;[U&gt;S3EX7(%$K[Z!AO4)%F?I+Z!3%FOQ5FW"+X#&amp;CJS47(,+&amp;@$&lt;49'QN,ME;]OS0%VDZOO`BZZB,08D6PKJQ\6D_/@2WA^$[X3IEX03B^&lt;:]86KK()?=JH]J8VYUX\R_O0[QWHJY&lt;L`SK(PY`PYWM@C[I`AX8](0^1?2.3E"N7JJL&lt;M)=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P"&gt;SE9N=Z*#3R:/&amp;EEG4#:,/5*3]*:\%EXA3$[&gt;+0)EH]33?R%-8*:\%EXA34_*BG"*0YEE]C3@R-&amp;78:#`E?")0USPQ"*\!%XA#$UMK]!3!9,&amp;AYG!3'!I;AQ_"*`!%(DYK]!3?Q".Y!A`.#DS"*`!%HM$$E,YLU47NE/.B'DE?R_.Y()`D97IZ(M@D?"S0YW%Z/2\(YS#=":X*)=A:Z(2Q4BS0Y_'0()`D=4S/R`(1V+_1^ZVJGF&lt;)]2A?QW.Y$)`B91I:(M.D?!S0Y7&amp;;'2\$9XA-D_&amp;B+2E?QW.Y$)CR+-P,G-Q9;(1S!M0$K^]NVK^3&gt;)HV)N8.K\IJ64?&lt;[C:3X2SKC[[[G+K,J.J]V;;K.EOV#;IPJU+L-+J&amp;6).&lt;2_VZXV'XV!VV3:V4:^1*&gt;5Q&gt;N;(`O?._P^&gt;ON^.WO^6GM^&amp;SO&gt;2]0N&gt;M.N.E-N&amp;Y0.:I.$I`"HZ2TA_%YX.JQ?@6`=P&gt;\[@V&gt;0WQHKY?(K?L__?\FH`!`_&gt;0]'T5D3\89)^?!&lt;&lt;Q3K%!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
