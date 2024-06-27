@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="23008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">HAL.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../HAL.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!*Q(C=\&gt;5R4BN"&amp;-&lt;RDSA&amp;EKPN+".@Y68JH9)$_!LP#GZ&gt;GA\209ES&lt;NSF^AGCP#PY#L\#ZD`DR]KCQ!UA&amp;,(,'0O&lt;G4=`:N?,V)^L[;P'3]@MR;0V^U(D\01S4L`[V.0(XPMUK$J/&lt;:J@Q4B.G-X/ZE`VHTKH_&amp;H`?$:EL0IP_S]=_DQ_D``\7&amp;`]%LTZ^_"+\5&amp;%3VL1H':KSYZ*HO2*HO2*HO2"(O2"(O2"(O2/\O2/\O2/\O2'&lt;O2'&lt;O2'&lt;O4^*"?ZS%5/+6E]73AJGB2)"E.2]J*Y%E`C34R]6/**0)EH]31?BCDR**\%EXA3$^/5?"*0YEE]C9&gt;38:,^*-?4?#CPQ".Y!E`A#4QMK=!4!),&amp;AM*"%2A+/I-XA3@Q""\?+P!%HM!4?!)0X1I]A3@Q"*\!QZ3_+^%V\34(1REZ(M@D?"S0Y['U()`D=4S/R`'QH"S0YX%1TI*/=1BS*DE$H!_/R`(Q3Y\(]4A?R_.Y[/J8S0P/.%U\S@%9(M.D?!S0Y;'%$)`B-4S'R`"16I&lt;(]"A?QW.Y7%K'R`!9(A.C,-LS-II:%YV"2G"Y_/FXC`7L&amp;&amp;VC`:4KZF8&gt;F+K&lt;4854K7Y/V56885T626*NPGJ46:OFWA46([&gt;#KT#K2634WU!&gt;?4X1^L1&gt;&lt;5.&lt;U:;U"7V/'^L56RZY0"ZV/"SUX__VW_WUW7SU7KWU8#[V7#QUH]]V$-0U'0D'/4U14M_F.?]@NX^`0WRP\BZ``BHO@^V_P^`?`7DZ/`R``A$02HX2_2LMU4`IG5O&amp;!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

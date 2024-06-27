@@ -1,0 +1,27 @@
+{
+	"MAX Identifier": "THERMO\ai0,THERMO\ai1,THERMO\ai2",
+	"Attributes": {
+		"Channels":{
+				"CJC Source": "Constant Value",
+				"Min Degree": 0.0,
+				"Max Degree": 200.0,
+				"CJC Degree": 25.0,
+				"Thermocouple Type": "J",
+				"CJC Channel": "",
+				"Enable Autozero": false,
+				"Autozero Mode": "None"
+		},
+		"Timing": {
+			"Sample Mode": "Continuous Samples",
+			"Sample Rate": 10.0,
+			"Sample Clock Source": "OnboardClock"
+		},
+		"Trigger": {
+			"Trigger Type": "No Trigger"
+		},
+		"Acquisition": {
+			"Samples per Fetch": 10,
+			"Timeout": 3.0
+		}
+	}
+}
