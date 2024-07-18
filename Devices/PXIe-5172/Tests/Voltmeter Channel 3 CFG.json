@@ -1,10 +1,10 @@
 {
-	"MAX Identifier": "FGEN",
+	"MAX Identifier": "SCOPE",
 	"Attributes": {
 		"Channels": [
 			{
 				"Name": "0",
-				"Enabled": true,
+				"Enabled": false,
 				"Impedance": "50 ohms",
 				"Max Frequency": 50e+6,
 				"Vertical Coupling":"DC",
@@ -34,7 +34,7 @@
 			},
 			{
 				"Name": "3",
-				"Enabled": false,
+				"Enabled": true,
 				"Impedance": "50 ohms",
 				"Max Frequency": 50e+6,
 				"Vertical Coupling":"DC",
@@ -100,6 +100,7 @@
 		},
 		"Trigger": {
 			"Type": "Digital",
+			"Slope": "Positive",
 			"Source": "RTSI 0",
 			"Holdoff": 0.0,
 			"Delay": 0.0
