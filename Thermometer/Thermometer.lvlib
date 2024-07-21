@@ -4,8 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Thermometer" Type="Folder">
-		<Item Name="Thermometer Base.lvlib" Type="Library" URL="../Thermometer Base/Thermometer Base.lvlib"/>
-		<Item Name="Thermometer DAQmx.lvlib" Type="Library" URL="../Thermometer DAQmx/Thermometer DAQmx.lvlib"/>
-	</Item>
+	<Item Name="Thermometer Base.lvlib" Type="Library" URL="../Thermometer Base/Thermometer Base.lvlib"/>
+	<Item Name="Thermometer DAQmx.lvlib" Type="Library" URL="../Thermometer DAQmx/Thermometer DAQmx.lvlib"/>
 </Library>

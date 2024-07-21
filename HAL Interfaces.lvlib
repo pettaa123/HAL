@@ -11,14 +11,17 @@
 	<Item Name="ICamera IR.lvclass" Type="LVClass" URL="../Interfaces/ICamera IR/ICamera IR.lvclass"/>
 	<Item Name="ICamera.lvclass" Type="LVClass" URL="../Interfaces/ICamera/ICamera.lvclass"/>
 	<Item Name="IConfigure IAI.lvclass" Type="LVClass" URL="../Interfaces/IConfigure IAI/IConfigure IAI.lvclass"/>
+	<Item Name="IConfigure MultiChannel Voltmeter.lvclass" Type="LVClass" URL="../Interfaces/IConfigure MultiChannel Voltmeter/IConfigure MultiChannel Voltmeter.lvclass"/>
 	<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
 	<Item Name="IConfigure Thermometer.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Thermometer/IConfigure Thermometer.lvclass"/>
 	<Item Name="IConfigure Voltmeter.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Voltmeter/IConfigure Voltmeter.lvclass"/>
 	<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
-	<Item Name="IFGEN.lvclass" Type="LVClass" URL="../Interfaces/IFGEN/IFGEN.lvclass"/>
+	<Item Name="IGenerate Waveform.lvclass" Type="LVClass" URL="../Interfaces/IGenerate Waveform/IGenerate Waveform.lvclass"/>
+	<Item Name="IInstrument Base.lvclass" Type="LVClass" URL="../Interfaces/IInstrument Base/IInstrument Base.lvclass"/>
 	<Item Name="IModulate Voltage.lvclass" Type="LVClass" URL="../Interfaces/IModulate Voltage/IModulate Voltage/IModulate Voltage.lvclass"/>
+	<Item Name="IRead Voltage from Channel.lvclass" Type="LVClass" URL="../Interfaces/IRead Voltage Multichannel/IRead Voltage from Channel.lvclass"/>
 	<Item Name="IRead Voltage.lvclass" Type="LVClass" URL="../Interfaces/IRead Voltage/IRead Voltage.lvclass"/>
-	<Item Name="IScope.lvclass" Type="LVClass" URL="../Interfaces/IScope/IScope.lvclass"/>
+	<Item Name="IRead Waveform.lvclass" Type="LVClass" URL="../Interfaces/IRead Waveform/IRead Waveform.lvclass"/>
 	<Item Name="ISwitch.lvclass" Type="LVClass" URL="../Interfaces/ISwitch/ISwitch.lvclass"/>
 	<Item Name="IThermometer.lvclass" Type="LVClass" URL="../Interfaces/IThermometer/IThermometer.lvclass"/>
 </Library>

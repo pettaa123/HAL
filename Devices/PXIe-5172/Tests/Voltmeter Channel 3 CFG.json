@@ -91,7 +91,8 @@
 			"Min Record Length":1e+3
 		},
 		"Acquire": {
-			"Type": "Normal"
+			"Type": "Normal",
+			"NumSamples": 1e+3
 		},
 		"Export Signal": {
 			"Signal Identifier": "None",
@@ -99,7 +100,7 @@
 			"Output Terminal": "None"
 		},
 		"Trigger": {
-			"Type": "Digital",
+			"Type": "Immediate",
 			"Slope": "Positive",
 			"Source": "RTSI 0",
 			"Holdoff": 0.0,

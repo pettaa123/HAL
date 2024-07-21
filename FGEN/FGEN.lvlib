@@ -4,9 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Fgen" Type="Folder">
-		<Item Name="Fgen Base.lvlib" Type="Library" URL="../../Fgen Base/Fgen Base.lvlib"/>
-		<Item Name="Fgen PXI.lvlib" Type="Library" URL="../../Fgen PXI/Fgen PXI.lvlib"/>
-		<Item Name="Fgen VISA.lvlib" Type="Library" URL="../../Fgen VISA/Fgen VISA.lvlib"/>
-	</Item>
+	<Item Name="FGEN Base.lvlib" Type="Library" URL="../FGEN Base/FGEN Base.lvlib"/>
+	<Item Name="FGEN PXI.lvlib" Type="Library" URL="../FGEN PXI/FGEN PXI.lvlib"/>
+	<Item Name="FGEN VISA.lvlib" Type="Library" URL="../FGEN VISA/FGEN VISA.lvlib"/>
 </Library>

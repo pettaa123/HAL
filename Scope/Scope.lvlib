@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Scope Base.lvlib" Type="Library" URL="../../Scope Base/Scope Base.lvlib"/>
-	<Item Name="Scope PXI.lvlib" Type="Library" URL="../../Scope PXI/Scope PXI.lvlib"/>
-	<Item Name="Scope VISA.lvlib" Type="Library" URL="../../Scope VISA/Scope VISA.lvlib"/>
+	<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope Base/Scope Base.lvlib"/>
+	<Item Name="Scope PXI.lvlib" Type="Library" URL="../Scope PXI/Scope PXI.lvlib"/>
+	<Item Name="Scope VISA.lvlib" Type="Library" URL="../Scope VISA/Scope VISA.lvlib"/>
 </Library>

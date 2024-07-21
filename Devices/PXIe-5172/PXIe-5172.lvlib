@@ -14,4 +14,5 @@
 		</Item>
 	</Item>
 	<Item Name="PXIe-5172.lvclass" Type="LVClass" URL="../PXIe-5172.lvclass"/>
+	<Item Name="PXIe-5172Ref.lvclass" Type="LVClass" URL="../PXIe-5172Ref/PXIe-5172Ref.lvclass"/>
 </Library>
