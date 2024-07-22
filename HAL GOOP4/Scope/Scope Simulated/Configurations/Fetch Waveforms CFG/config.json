@@ -1,0 +1,114 @@
+{
+	"Instr Identifier": "SimulatedScope",
+	"Instr Class Name": "Scope Simulated.lvlib:Scope Simulated.lvclass",
+	"Config Class Name": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
+    "Resource Mapping": [
+{"Target": "Photosensor","Instr Channel": 0},
+{"Target": "Powersensor","Instr Channel": 1}
+    ],
+	"Attributes": {
+		"Channels": [
+			{
+				"Name": "0",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 10.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "1",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 0.2,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "2",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "3",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "4",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "5",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "6",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "7",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			}
+		],
+		"Horizontal": {
+			"Enforce Realtime": true,
+			"Number of Records": 1,
+			"Min Sample Rate": 1e+5,
+			"Reference Position":50, //percent
+			"Min Record Length":1e+3
+		},
+		"Acquire": {
+			"Type": "Normal"
+		},
+		"Export Signal": {
+			"Signal Identifier": "None",
+			"Signal": "None",
+			"Output Terminal": "None"
+		},
+		"Trigger": {
+			"Type": "Digital",
+			"Source": "RTSI 0",
+			"Holdoff": 0.0,
+			"Delay": 0.0
+		}
+	}
+}
