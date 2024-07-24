@@ -13,8 +13,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
-			<Item Name="IInstrument.lvclass" Type="LVClass" URL="../Interfaces/IInstrument/IInstrument.lvclass"/>
-			<Item Name="IVirtual Instrument.lvclass" Type="LVClass" URL="../Interfaces/Virtual Instrument/IVirtual Instrument.lvclass"/>
 		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope/Scope Base/Scope Base.lvlib"/>
@@ -22,6 +20,7 @@
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
 		<Item Name="scope_test1.vi" Type="VI" URL="../Scope/Tests/scope_test1.vi"/>
+		<Item Name="simple test.vi" Type="VI" URL="../simple test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>

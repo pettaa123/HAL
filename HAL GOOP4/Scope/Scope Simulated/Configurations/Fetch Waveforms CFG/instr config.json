@@ -2,10 +2,6 @@
 	"Instr Identifier": "SimulatedScope",
 	"Instr Class": "Scope Simulated.lvlib:Scope Simulated.lvclass",
 	"Instr CFG Class": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
-	"Virt Instr": [
-		{"Ident": "Photosensor","Phys Instr Channel": 0,"Class": "Scope Base.lvlib:Virt Waveform Reader.lvclass""}
-		{"Ident": "Powersensor","Phys Instr Channel": 1,"Class": "Scope Base.lvlib:Virt Voltage Reader.lvclass""}
-	],
 	"Attributes": {
 		"Channels": [
 			{
