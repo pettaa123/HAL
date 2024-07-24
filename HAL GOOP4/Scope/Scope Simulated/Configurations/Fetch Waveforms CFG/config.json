@@ -1,11 +1,11 @@
 {
 	"Instr Identifier": "SimulatedScope",
-	"Instr Class Name": "Scope Simulated.lvlib:Scope Simulated.lvclass",
-	"Config Class Name": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
-    "Resource Mapping": [
-{"Target": "Photosensor","Instr Channel": 0},
-{"Target": "Powersensor","Instr Channel": 1}
-    ],
+	"Instr Class": "Scope Simulated.lvlib:Scope Simulated.lvclass",
+	"Instr CFG Class": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
+	"Virt Instr": [
+		{"Ident": "Photosensor","Phys Instr Channel": 0,"Class": "Scope Base.lvlib:Virt Waveform Reader.lvclass""}
+		{"Ident": "Powersensor","Phys Instr Channel": 1,"Class": "Scope Base.lvlib:Virt Voltage Reader.lvclass""}
+	],
 	"Attributes": {
 		"Channels": [
 			{

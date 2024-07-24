@@ -7,4 +7,5 @@
 	<Item Name="Configuration Base.lvclass" Type="LVClass" URL="../Configuration Base/Configuration Base.lvclass"/>
 	<Item Name="Instrument Base.lvclass" Type="LVClass" URL="../Instrument Base/Instrument Base.lvclass"/>
 	<Item Name="Measure and Stimulus Subsystems.lvclass" Type="LVClass" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems.lvclass"/>
+	<Item Name="Virtual Instrument Base.lvclass" Type="LVClass" URL="../Virtual Instrument Base/Virtual Instrument Base.lvclass"/>
 </Library>

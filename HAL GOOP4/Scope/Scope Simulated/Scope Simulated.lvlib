@@ -7,5 +7,6 @@
 	<Item Name="Configurations" Type="Folder">
 		<Item Name="Fetch Waveforms CFG.lvclass" Type="LVClass" URL="../Configurations/Fetch Waveforms CFG/Fetch Waveforms CFG.lvclass"/>
 	</Item>
+	<Item Name="Virtual Instruments" Type="Folder"/>
 	<Item Name="Scope Simulated.lvclass" Type="LVClass" URL="../Scope Simulated.lvclass"/>
 </Library>
