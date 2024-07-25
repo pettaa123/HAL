@@ -4,8 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Configuration Base.lvclass" Type="LVClass" URL="../Configuration Base/Configuration Base.lvclass"/>
-	<Item Name="Instrument Base.lvclass" Type="LVClass" URL="../Instrument Base/Instrument Base.lvclass"/>
+	<Item Name="Config Base.lvclass" Type="LVClass" URL="../Configuration Base/Config Base.lvclass"/>
+	<Item Name="Instr Base.lvclass" Type="LVClass" URL="../Instrument Base/Instr Base.lvclass"/>
 	<Item Name="Measure and Stimulus Subsystems.lvclass" Type="LVClass" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems.lvclass"/>
-	<Item Name="Virtual Instrument Base.lvclass" Type="LVClass" URL="../Virtual Instrument Base/Virtual Instrument Base.lvclass"/>
+	<Item Name="Virt Instr Base.lvclass" Type="LVClass" URL="../Virt Instrument Base/Virt Instr Base.lvclass"/>
 </Library>

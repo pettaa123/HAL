@@ -1,5 +1,5 @@
 {
-	"Instr Identifier": "SimulatedScope",
+	"Instr Ident": "SimulatedScope",
 	"Instr Class": "Scope Simulated.lvlib:Scope Simulated.lvclass",
 	"Instr CFG Class": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
 	"Attributes": {

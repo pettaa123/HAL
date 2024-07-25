@@ -1,6 +1,7 @@
 {
 	"Virt Instrs": [
-		{"Target Ident": "Photosensor","Action Data": "0","Class": "Scope Base.lvlib:Virt Waveform Reader.lvclass"},
-		{"Target Ident": "Powersensor","Action Data": "1","Class": "Scope Base.lvlib:Virt Voltage Reader.lvclass"}
+		{"Target Ident": "Photosensor","Instr Ident": "SimulatedScope","Const Action Data": "0","Class": "Virt Scopes.lvlib:Virt Waveform Reader.lvclass"},
+		{"Target Ident": "Powersensor","Instr Ident": "SimulatedScope","Const Action Data": "1","Class": "Virt Scopes.lvlib:Virt Voltage Reader.lvclass"},
+		{"Target Ident": "Excitation","Instr Ident": "SimulatedFGen","Const Action Data": "0","Class": "Virt FGens.lvlib:Virt Voltage Generator.lvclass"}
 	]
 }

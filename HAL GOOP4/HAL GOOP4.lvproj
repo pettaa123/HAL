@@ -11,12 +11,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="FGen" Type="Folder">
+			<Item Name="FGen Base.lvlib" Type="Library" URL="../FGen/FGen Base/FGen Base.lvlib"/>
+			<Item Name="FGen Simulated.lvlib" Type="Library" URL="../FGen/FGen Simulated/FGen Simulated.lvlib"/>
+			<Item Name="Virt FGens.lvlib" Type="Library" URL="../FGen/Virtual FGen/Virt FGens.lvlib"/>
+		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope Base.lvlib" Type="Library" URL="../Scope/Scope Base/Scope Base.lvlib"/>
 			<Item Name="Scope Simulated.lvlib" Type="Library" URL="../Scope/Scope Simulated/Scope Simulated.lvlib"/>
+			<Item Name="Virt Scopes.lvlib" Type="Library" URL="../Scope/Virtual Scopes/Virt Scopes.lvlib"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
 		<Item Name="scope_test1.vi" Type="VI" URL="../Scope/Tests/scope_test1.vi"/>
