@@ -4,6 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Read and Send Configuration Msg.lvclass" Type="LVClass" URL="../../MSS Host Actor Messages/Read and Send Configuration Msg/Read and Send Configuration Msg.lvclass"/>
+	</Item>
 	<Item Name="MSS Host Actor.lvclass" Type="LVClass" URL="../MSS Host Actor.lvclass"/>
 </Library>

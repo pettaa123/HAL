@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configurations" Type="Folder">
-		<Item Name="Fetch Waveforms CFG.lvclass" Type="LVClass" URL="../Configurations/Fetch Waveforms CFG/Fetch Waveforms CFG.lvclass"/>
+		<Item Name="Fetch Waveforms CFG.lvclass" Type="LVClass" URL="../Scope Simulated/Configurations/Fetch Waveforms CFG/Fetch Waveforms CFG.lvclass"/>
 	</Item>
-	<Item Name="Scope Simulated.lvclass" Type="LVClass" URL="../Scope Simulated.lvclass"/>
+	<Item Name="Scope Simulated.lvclass" Type="LVClass" URL="../Scope Simulated/Scope Simulated.lvclass"/>
 </Library>

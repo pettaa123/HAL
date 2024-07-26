@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Virt Voltage Reader.lvclass" Type="LVClass" URL="../Virt Voltage Reader/Virtual Voltage Reader/Virt Voltage Reader.lvclass"/>
-	<Item Name="Virt Waveform Reader.lvclass" Type="LVClass" URL="../Virt Waveform Reader/Virt Waveform Reader.lvclass"/>
+	<Item Name="Virt Voltage Reader.lvclass" Type="LVClass" URL="../Virtual Scopes/Virt Voltage Reader/Virtual Voltage Reader/Virt Voltage Reader.lvclass"/>
+	<Item Name="Virt Waveform Reader.lvclass" Type="LVClass" URL="../Virtual Scopes/Virt Waveform Reader/Virt Waveform Reader.lvclass"/>
 </Library>

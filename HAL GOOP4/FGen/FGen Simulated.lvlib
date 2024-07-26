@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configurations" Type="Folder">
-		<Item Name="Generate DC CFG.lvclass" Type="LVClass" URL="../Configurations/Generate DC CFG/Generate DC CFG.lvclass"/>
+		<Item Name="Generate DC CFG.lvclass" Type="LVClass" URL="../FGen Simulated/Configurations/Generate DC CFG/Generate DC CFG.lvclass"/>
 	</Item>
-	<Item Name="FGen Simulated.lvclass" Type="LVClass" URL="../FGen Simulated.lvclass"/>
+	<Item Name="FGen Simulated.lvclass" Type="LVClass" URL="../FGen Simulated/FGen Simulated.lvclass"/>
 </Library>
