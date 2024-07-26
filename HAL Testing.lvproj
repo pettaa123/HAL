@@ -215,7 +215,6 @@ AddOutputFilter chunkFilter
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Write Message Stream.vi" Type="VI" URL="../MSS/MSS Remote Actor/Write Message Stream.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Copy JSON CFGs to RT Target" Type="Source Distribution">
