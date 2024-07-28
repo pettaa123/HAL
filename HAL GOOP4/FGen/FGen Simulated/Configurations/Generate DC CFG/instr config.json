@@ -1,7 +1,6 @@
 {
 	"Instr Ident": "SimulatedFGen",
-	"Instr Class": "FGen Simulated.lvlib:FGen Simulated.lvclass",
-	"Instr CFG Class": "FGen Simulated.lvlib:Generate DC CFG.lvclass",
+	"Instr CFG Class": "CFGs FGen Simulated.lvlib:Generate DC CFG.lvclass",
 	"Attributes": {
 		"Channels": [
 			{

@@ -1,0 +1,110 @@
+{
+	"MAX Identifier": "SCOPE",
+	"Attributes": {
+		"Channels": [
+			{
+				"Name": "0",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "1",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "2",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "3",
+				"Enabled": true,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "4",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "5",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "6",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			},
+			{
+				"Name": "7",
+				"Enabled": false,
+				"Impedance": "50 ohms",
+				"Max Frequency": 50e+6,
+				"Vertical Coupling":"DC",
+				"Probe Attenuation": 1.0,
+				"Vertical Range": 5.0,
+				"Vertical Offset": 0.0
+			}
+		],
+		"Horizontal": {
+			"Enforce Realtime": true,
+			"Number of Records": 1,
+			"Min Sample Rate": 1e+5,
+			"Reference Position":50, //percent
+			"Min Record Length":1e+3
+		},
+		"Acquire": {
+			"Type": "Normal",
+			"NumSamples": 1e+3
+		},
+		"Export Signal": {
+			"Signal Identifier": "None",
+			"Signal": "None",
+			"Output Terminal": "None"
+		},
+		"Trigger": {
+			"Type": "Immediate",
+			"Slope": "Positive",
+			"Source": "RTSI 0",
+			"Holdoff": 0.0,
+			"Delay": 0.0
+		}
+	}
+}

@@ -1,7 +1,6 @@
 {
 	"Instr Ident": "SimulatedScope",
-	"Instr Class": "Scope Simulated.lvlib:Scope Simulated.lvclass",
-	"Instr CFG Class": "Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
+	"Instr CFG Class": "CFGs Scope Simulated.lvlib:Fetch Waveforms CFG.lvclass",
 	"Attributes": {
 		"Channels": [
 			{
