@@ -1,0 +1,8 @@
+{
+	"Virt Instrs": [
+		{"Target Ident": "Photosensor","Instr Ident": "SCOPE","Const Action Data": "0","Class": "Virt Instrs Scope.lvlib:Virt Voltage Reader.lvclass"},
+		{"Target Ident": "Powersensor","Instr Ident": "SCOPE","Const Action Data": "3","Class": "Virt Instrs Scope.lvlib:Virt Waveform Reader.lvclass"},
+		{"Target Ident": "DC","Instr Ident": "FGEN","Const Action Data": "0","Class": "Virt Instrs FGen.lvlib:Virt Voltage Generator.lvclass"},
+		{"Target Ident": "Sinewave","Instr Ident": "FGEN","Const Action Data": "3","Class": "Virt Instrs FGen.lvlib:Virt Waveform Generator.lvclass"}
+	]
+}

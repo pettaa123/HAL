@@ -1,11 +1,12 @@
 {
-	"MAX Identifier": "FGEN",
+	"Instr Ident": "SCOPE",
+	"Instr CFG Class": "PXIe-5172.lvlib:Fetch Waveforms CFG.lvclass",
 	"Attributes": {
 		"Channels": [
 			{
 				"Name": "0",
 				"Enabled": true,
-				"Impedance": "50 ohms",
+				"Impedance": "1 megaohm",
 				"Max Frequency": 50e+6,
 				"Vertical Coupling":"DC",
 				"Probe Attenuation": 1.0,
@@ -34,12 +35,12 @@
 			},
 			{
 				"Name": "3",
-				"Enabled": false,
+				"Enabled": true,
 				"Impedance": "50 ohms",
 				"Max Frequency": 50e+6,
 				"Vertical Coupling":"DC",
 				"Probe Attenuation": 1.0,
-				"Vertical Range": 5.0,
+				"Vertical Range": 1.4,
 				"Vertical Offset": 0.0
 			},
 			{
@@ -91,7 +92,8 @@
 			"Min Record Length":1e+3
 		},
 		"Acquire": {
-			"Type": "Normal"
+			"Type": "Normal",
+			"NumSamples": 1e+3
 		},
 		"Export Signal": {
 			"Signal Identifier": "None",
@@ -99,7 +101,8 @@
 			"Output Terminal": "None"
 		},
 		"Trigger": {
-			"Type": "Digital",
+			"Type": "Immediate",
+			"Slope": "Positive",
 			"Source": "RTSI 0",
 			"Holdoff": 0.0,
 			"Delay": 0.0
