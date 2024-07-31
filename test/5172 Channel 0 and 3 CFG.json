@@ -1,6 +1,6 @@
 {
 	"Instr Ident": "SCOPE",
-	"Instr CFG Class": "PXIe-5172.lvlib:Fetch Waveforms CFG.lvclass",
+	"Instr CFG Class": "Scope PXI Base CFG.lvlib:Fetch Waveforms CFG.lvclass",
 	"Attributes": {
 		"Channels": [
 			{
@@ -93,7 +93,8 @@
 		},
 		"Acquire": {
 			"Type": "Normal",
-			"NumSamples": 1e+3
+			"NumSamples": 1e+3,
+			"Fetch Relative To": "Read Pointer"
 		},
 		"Export Signal": {
 			"Signal Identifier": "None",
