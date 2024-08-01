@@ -40,6 +40,7 @@
 			<Item Name="Virt Instrs Thermometer.lvlib" Type="Library" URL="../Thermometer/Virt Instrs Thermometer.lvlib"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
+		<Item Name="PXI Scope FGen Test.vi" Type="VI" URL="../Tests/PXI Scope FGen Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
