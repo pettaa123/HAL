@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Devices" Type="Folder"/>
 		<Item Name="FGen" Type="Folder">
+			<Item Name="FGen Base CFG.lvclass" Type="LVClass" URL="../FGen/FGen Base CFG/FGen Base CFG.lvclass"/>
 			<Item Name="FGen PXI Base CFG.lvlib" Type="Library" URL="../FGen/FGen PXI/FGen PXI Base CFG.lvlib"/>
 			<Item Name="FGen PXI Std Waveform CFG.lvlib" Type="Library" URL="../FGen/FGen PXI/FGen PXI Std Waveform CFG.lvlib"/>
 			<Item Name="FGen Simulated CFGs.lvlib" Type="Library" URL="../FGen/FGen Simulated CFGs.lvlib"/>
@@ -22,12 +23,13 @@
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
 		<Item Name="Scope" Type="Folder">
-			<Item Name="Scope PXI Base CFG.lvlib" Type="Library" URL="../Scope/Scope PXI Base CFG.lvlib"/>
+			<Item Name="Scope Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope Base CFG/Scope Base CFG.lvclass"/>
+			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Run Tests.vi" Type="VI" URL="../Tests/Run Tests.vi"/>
+			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
 			<Item Name="simulated_scope_mss_test1.vi" Type="VI" URL="../Scope/Tests/simulated_scope_mss_test1.vi"/>
 			<Item Name="SimulatedScope SimulatedFGen Test on MSS ref in parallel.vi" Type="VI" URL="../Tests/SimulatedScope SimulatedFGen Test on MSS ref in parallel.vi"/>
 			<Item Name="SimulatedScope SimulatedFGen Test.vi" Type="VI" URL="../Tests/SimulatedScope SimulatedFGen Test.vi"/>

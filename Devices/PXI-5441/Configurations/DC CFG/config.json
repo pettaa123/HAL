@@ -3,7 +3,7 @@
 	"Attributes": {
 		"Channels": [
 			{
-				"Name": "CH0",
+				"Name": "0",
 				"Enabled": true,
 				"Waveform": "DC",
 				"Frequency": 0, //DC
