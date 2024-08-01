@@ -20,6 +20,9 @@
 			"Trigger Type": "No Trigger"
 		},
 		"Acquisition": {
+			"ReadAllAvailSamp": True,
+			"Relative To": "Current Read Position",
+			"Overwrite": "Do Not Overwrite Unread Samples",
 			"Samples per Fetch": 10,
 			"Timeout": 3.0
 		}
