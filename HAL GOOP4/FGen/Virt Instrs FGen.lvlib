@@ -4,6 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Virt Std Waveform Generator.lvclass" Type="LVClass" URL="../Virtual FGens/Virt Waveform Generator/Virt Std Waveform Generator.lvclass"/>
 	<Item Name="Virt Voltage Generator.lvclass" Type="LVClass" URL="../Virtual FGens/Virt Voltage Generator/Virt Voltage Generator.lvclass"/>
-	<Item Name="Virt Waveform Generator.lvclass" Type="LVClass" URL="../Virtual FGens/Virt Waveform Generator/Virt Waveform Generator.lvclass"/>
 </Library>
