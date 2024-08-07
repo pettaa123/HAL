@@ -30,16 +30,17 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
-			<Item Name="simulated_scope_mss_test1.vi" Type="VI" URL="../Scope/Tests/simulated_scope_mss_test1.vi"/>
-			<Item Name="SimulatedScope SimulatedFGen Test on MSS ref in parallel.vi" Type="VI" URL="../Tests/SimulatedScope SimulatedFGen Test on MSS ref in parallel.vi"/>
-			<Item Name="SimulatedScope SimulatedFGen Test.vi" Type="VI" URL="../Tests/SimulatedScope SimulatedFGen Test.vi"/>
+			<Item Name="test_simulated scope mss.vi" Type="VI" URL="../Scope/Tests/test_simulated scope mss.vi"/>
+			<Item Name="test_simulated temperature waveform and scalar readings_mss.vi" Type="VI" URL="../Thermometer/Tests/test_simulated temperature waveform and scalar readings_mss.vi"/>
+			<Item Name="test_SimulatedScope SimulatedFGen on MSS ref in parallel.vi" Type="VI" URL="../Tests/test_SimulatedScope SimulatedFGen on MSS ref in parallel.vi"/>
+			<Item Name="test_SimulatedScope SimulatedFGen.vi" Type="VI" URL="../Tests/test_SimulatedScope SimulatedFGen.vi"/>
 		</Item>
 		<Item Name="Thermometer" Type="Folder">
 			<Item Name="Thermometer DAQmx Base CFG.lvclass" Type="LVClass" URL="../Thermometer/Thermometer DAQmx Base CFG/Thermometer DAQmx Base CFG.lvclass"/>
-			<Item Name="Thermometer Simulated CFG.lvlib" Type="Library" URL="../Thermometer/Thermometer Simulated CFG.lvlib"/>
+			<Item Name="Thermometer Simulated CFGs.lvlib" Type="Library" URL="../Thermometer/Thermometer Simulated CFGs.lvlib"/>
+			<Item Name="Virt Instrs Thermometer.lvlib" Type="Library" URL="../Tests/PXI Tests/Virt Instrs Thermometer.lvlib"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
-		<Item Name="PXI Scope FGen Test.vi" Type="VI" URL="../Tests/PXI Scope FGen Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
