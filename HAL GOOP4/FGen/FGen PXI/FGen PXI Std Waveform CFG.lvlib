@@ -5,5 +5,4 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="FGen PXI Std Waveform CFG.lvclass" Type="LVClass" URL="../FGen PXI Std Waveform CFG/FGen PXI Std Waveform CFG.lvclass"/>
-	<Item Name="Std Waveform Action Pams.ctl" Type="VI" URL="../FGen PXI Std Waveform CFG/Std Waveform Action Pams.ctl"/>
 </Library>
