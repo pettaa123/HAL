@@ -6,7 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Set Instr CFG_Msg.lvclass" Type="LVClass" URL="../Messages/Set Instr CFG_Msg/Set Instr CFG_Msg.lvclass"/>
-		<Item Name="Set Virtual Instr Configuration_Msg.lvclass" Type="LVClass" URL="../Messages/Set Virtual Instr Configuration_Msg/Set Virtual Instr Configuration_Msg.lvclass"/>
 	</Item>
 	<Item Name="Configuration UI Actor.lvclass" Type="LVClass" URL="../Configuration UI Actor/Configuration UI Actor.lvclass"/>
+	<Item Name="Worker Cases.ctl" Type="VI" URL="../Configuration UI Actor/Worker Cases.ctl"/>
 </Library>
