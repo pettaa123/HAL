@@ -39,7 +39,6 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
-			<Item Name="test_Configurator.vi" Type="VI" URL="../Tests/test_Configurator.vi"/>
 			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
 			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
 			<Item Name="test_MSS multiple start stop mismatch2.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch2.vi"/>
@@ -450,13 +449,13 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
+			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niScope_32.dll" Type="Document" URL="niScope_32.dll">
+			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

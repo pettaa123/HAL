@@ -109,6 +109,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574610</Property>
 	</Item>
+	<Item Name="Load Virt Instrs.vi" Type="VI" URL="../Load Virt Instrs.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,S!!!!&amp;1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````]-6'&amp;S:W6U)%FE:7ZU!!")1(!!(A!!+1^)15QA2U^05$1O&lt;(:M;7)86GFS&gt;#"*&lt;H.U=C"#98.F,GRW9WRB=X-!&amp;&amp;:J=H1A37ZT&gt;(*V&lt;76O&gt;#"#98.F!!!71(1!!A!&amp;!!9+6GFS&gt;#"*&lt;H.U=A!!&amp;%!Q`````QN*&lt;H.U=C"*:'6O&gt;!![1(!!(A!!*!^)15QA2U^05$1O&lt;(:M;7)337ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!!!+37ZT&gt;(*V&lt;76O&gt;!!!$U!&amp;!!F3:79A1W^V&lt;H1!&amp;E"1!!)!#1!+#F"I?8-A37ZT&gt;()!!":!&gt;!!#!!A!#QJ1;(FT)%FO=X2S!!"N!0%!!!!!!!!!!Q^)15QA2U^05$1O&lt;(:M;7)H476B=X6S:3"B&lt;G1A5X2J&lt;86M&gt;8-A5X6C=XFT&gt;'6N=SZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!"B!5!!#!!=!$!B.98"T)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!;1$$`````%5.P&lt;H.U)%&amp;D&gt;'FP&lt;C"%982B!!Z!-0````]&amp;1WRB=X-!'E"1!!1!"1!)!!]!%!J7;8*U)%FO=X2S!!!?1%!!!@````]!%2"+5U^/)&amp;:J=H1A37ZT&gt;(*T!!"L!0%!!!!!!!!!!Q^)15QA2U^05$1O&lt;(:M;7)H476B=X6S:3"B&lt;G1A5X2J&lt;86M&gt;8-A5X6C=XFT&gt;'6N=SZM&gt;G.M98.T&amp;%^C;G6D&gt;%&amp;U&gt;(*J9H6U:8-O9X2M!":!5!!#!!=!$!&gt;.98"T)'FO!&amp;1!]!!-!!-!"!!%!!U!"!!%!!1!"!!/!")!"!!4!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!##!!!!!!!!!!+!!!!!!%!&amp;!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
+	</Item>
 	<Item Name="Destroy.vi" Type="VI" URL="../Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;A!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!&amp;"!=!!?!!!Z$UB"4#"(4U^1.#ZM&gt;GRJ9C&gt;.:7&amp;T&gt;8*F)'&amp;O:#"4&gt;'FN&gt;7RV=S"4&gt;7*T?8.U:7VT,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!!!"!!))28*S&lt;X)A37Y!!&amp;"!=!!?!!!Z$UB"4#"(4U^1.#ZM&gt;GRJ9C&gt;.:7&amp;T&gt;8*F)'&amp;O:#"4&gt;'FN&gt;7RV=S"4&gt;7*T?8.U:7VT,GRW9WRB=X-!$(*F:G6S:7ZD:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
