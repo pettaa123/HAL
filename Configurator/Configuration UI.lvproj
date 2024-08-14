@@ -19,6 +19,24 @@
 		<Item Name="Panel Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Panel Manager/Panel Actor/Panel Actor.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
+				<Item Name="niFgen Configure Output Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Output Impedance.vi"/>
+				<Item Name="niFgen Configure Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Output Mode.vi"/>
+				<Item Name="niFgen Configure Standard Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Standard Waveform.vi"/>
+				<Item Name="niFgen Configure Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Trigger Mode.vi"/>
+				<Item Name="niFgen Export Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Export Signal.vi"/>
+				<Item Name="niFgen Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initialize.vi"/>
+				<Item Name="niFgen Initiate Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Initiate Generation.vi"/>
+				<Item Name="niFgen Is Done.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Is Done.vi"/>
+				<Item Name="niFgen IVI Error Converter.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen IVI Error Converter.vi"/>
+				<Item Name="niFgen Output Enable.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Enable.vi"/>
+				<Item Name="niFgen Output Impedance.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Impedance.ctl"/>
+				<Item Name="niFgen Output Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Output Mode.ctl"/>
+				<Item Name="niFgen Trigger Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Trigger Mode.ctl"/>
+				<Item Name="niFgen Waveform Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Waveform Type.ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Desination Values (ComboBox).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Desination Values (ComboBox).ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Identifiers (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Identifiers (Ring).ctl"/>
+				<Item Name="niFgen_ctl Exported Signal Name Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Name Values (Ring).ctl"/>
 				<Item Name="niScope export destinations.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope export destinations.ctl"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -76,15 +94,23 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="FGen Base CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/FGen/FGen Base CFG/FGen Base CFG.lvclass"/>
+			<Item Name="FGen PXI Base CFG.lvlib" Type="Library" URL="../../HAL GOOP4/FGen/FGen PXI/FGen PXI Base CFG.lvlib"/>
+			<Item Name="FGen PXI Std Waveform CFG.lvlib" Type="Library" URL="../../HAL GOOP4/FGen/FGen PXI/FGen PXI Std Waveform CFG.lvlib"/>
+			<Item Name="FGen Simulated CFGs.lvlib" Type="Library" URL="../../HAL GOOP4/FGen/FGen Simulated CFGs.lvlib"/>
 			<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../../HAL GOOP4/HAL GOOP4.lvlib"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../../HAL GOOP4/Interfaces/IConfigure/IConfigure.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Scope Base CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/Scope/Scope Base CFG/Scope Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../../HAL GOOP4/Scope/Scope Simulated CFGs.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Virt Instrs FGen.lvlib" Type="Library" URL="../../HAL GOOP4/FGen/Virt Instrs FGen.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../../HAL GOOP4/Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
