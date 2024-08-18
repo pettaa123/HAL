@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="PWM CFG.lvclass" Type="LVClass" URL="../DIO Simulated/PWM CFG.lvclass"/>
+	<Item Name="Simulated DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO Simulated/Simulated DAQmx PWM CFG.lvclass"/>
 </Library>
