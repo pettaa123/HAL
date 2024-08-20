@@ -38,9 +38,6 @@
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
-		<Item Name="Sample Studies" Type="Folder">
-			<Item Name="Sample Study PID.lvclass" Type="LVClass" URL="../Studies/Sample Study/Sample Study PID.lvclass"/>
-		</Item>
 		<Item Name="Sample Tasks" Type="Folder">
 			<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
 		</Item>

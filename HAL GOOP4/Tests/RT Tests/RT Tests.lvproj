@@ -853,9 +853,7 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="does not work.vi" Type="VI" URL="/C/Users/tupp_js/Desktop/does not work.vi"/>
 		<Item Name="test_CRIO daqmx PWM.vi" Type="VI" URL="../test_CRIO daqmx PWM.vi"/>
-		<Item Name="works.vi" Type="VI" URL="/C/Users/tupp_js/Desktop/works.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
