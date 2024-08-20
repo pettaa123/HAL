@@ -1,0 +1,32 @@
+{
+	"Instr Ident": "CAN1",
+	"Instr CFG Class": "NEO480HTA.lvlib:Read All CFG.lvclass",
+	"Attributes": {
+		"Database": ":memory:",
+		"Baudrate": 500000,
+		"Termination": "On",
+		"CAN Frames": [
+			{
+				"Frame name": "Dew Point",
+				"Identifier": 1152,
+				"Extended Identifier": false,
+				"Payload Length":8,
+				"Timing Type":"Event Data",
+				"Transmit Time":0,
+				"Comment":""
+			},
+			{
+				"Frame name": "Dew Point Raw",
+				"Identifier": 1153,
+				"Extended Identifier": false,
+				"Payload Length":8,
+				"Timing Type":"Event Data",
+				"Transmit Time":0,
+				"Comment":""
+			}
+		],
+		"Acquire": {
+			"Type": "Read Frame"
+		}
+	}
+}
