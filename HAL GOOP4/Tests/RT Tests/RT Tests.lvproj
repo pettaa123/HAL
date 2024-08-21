@@ -855,6 +855,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="test_CRIO daqmx PWM.vi" Type="VI" URL="../test_CRIO daqmx PWM.vi"/>
 		<Item Name="test_NEO480HTA get all data.vi" Type="VI" URL="../../../Devices/NEO480HTA/Tests/test_NEO480HTA get all data.vi"/>
+		<Item Name="works.vi" Type="VI" URL="/C/Users/tupp_js/Downloads/works.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
