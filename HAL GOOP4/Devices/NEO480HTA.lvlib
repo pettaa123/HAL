@@ -4,5 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="NI-XNET Create CAN Cluster.vi" Type="VI" URL="../../XNET/XNET Base CFG/Helper/NI-XNET Create CAN Cluster.vi"/>
+	<Item Name="NI-XNET Create CAN Frame.vi" Type="VI" URL="../../XNET/XNET Base CFG/Helper/NI-XNET Create CAN Frame.vi"/>
 	<Item Name="Read All CFG.lvclass" Type="LVClass" URL="../NEO480HTA/Real All CFG/Read All CFG.lvclass"/>
 </Library>

@@ -574,10 +574,6 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="NI-XNET Example Control - CAN Cluster.ctl" Type="VI" URL="/C/Program Files/NI/LVAddons/nixnet/1/examples/nixnet/examples.llb/NI-XNET Example Control - CAN Cluster.ctl"/>
-			<Item Name="NI-XNET Example Control - CAN Frame.ctl" Type="VI" URL="/C/Program Files/NI/LVAddons/nixnet/1/examples/nixnet/examples.llb/NI-XNET Example Control - CAN Frame.ctl"/>
-			<Item Name="NI-XNET Example subVI - Create CAN Cluster.vi" Type="VI" URL="/C/Program Files/NI/LVAddons/nixnet/1/examples/nixnet/examples.llb/NI-XNET Example subVI - Create CAN Cluster.vi"/>
-			<Item Name="NI-XNET Example subVI - Create CAN Frame.vi" Type="VI" URL="/C/Program Files/NI/LVAddons/nixnet/1/examples/nixnet/examples.llb/NI-XNET Example subVI - Create CAN Frame.vi"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
