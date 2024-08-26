@@ -5,5 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder"/>
-	<Item Name="Study Actor.lvclass" Type="LVClass" URL="../Study Actor/Study Actor.lvclass"/>
+	<Item Name="Series Actor.lvclass" Type="LVClass" URL="../Series Actor/Series Actor.lvclass"/>
 </Library>

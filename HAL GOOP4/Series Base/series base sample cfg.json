@@ -1,0 +1,15 @@
+{
+    "Name": "",
+    "GUID": "",
+    "Instr Idents": [
+        {"Instr Ident": "SimulatedScope","Instr CFG Class": "Scope Simulated CFGs.lvlib:Fetch Waveforms CFG.lvclass","Attributes": {"Channels": [{"Name": 0,"Enabled": true}]}}
+    ],
+    "Virt Instrs": [
+	{"Target Ident": "Photosensor","Instr Ident": "SimulatedScope","Const Action Data": 0,"Class": "HAL GOOP4.lvlib:Virt Instr Base.lvclass"},
+	{"Target Ident": "Powersensor","Instr Ident": "SimulatedScope","Const Action Data": 1,"Class": "Virt Instrs Scope.lvlib:Virt Voltage Reader.lvclass"},
+	{"Target Ident": "Excitation","Instr Ident": "SimulatedFGen","Const Action Data": 0,"Class": "Virt Instrs FGen.lvlib:Virt Voltage Generator.lvclass"}
+	],
+    "Tasks": [
+	{"Name":"Light Control","Class": "Sample Pi Control.lvclass"}
+	]
+}

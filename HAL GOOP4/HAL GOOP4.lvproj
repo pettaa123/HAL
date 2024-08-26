@@ -1,6 +1,62 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
+	<Property Name="CCSymbols" Type="Str">AF_Debug_Trace,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">)Q#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">false</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">false</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">)Q#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">test status log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -47,8 +103,15 @@
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
-		<Item Name="Study Actor" Type="Folder">
-			<Item Name="Study Actor.lvlib" Type="Library" URL="../Study Actor/Study Actor.lvlib"/>
+		<Item Name="Series Actor" Type="Folder">
+			<Item Name="Series Actor.lvlib" Type="Library" URL="../Series Actor/Series Actor.lvlib"/>
+		</Item>
+		<Item Name="Task Actor" Type="Folder">
+			<Item Name="Tests" Type="Folder">
+				<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
+			</Item>
+			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task Actor/ITask Actor/ITask Actor.lvlib"/>
+			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task Actor/Task Actor/Task Actor.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
@@ -59,8 +122,8 @@
 			<Item Name="test_MSS simulated temperature waveform and scalar readings.vi" Type="VI" URL="../Thermometer/Tests/test_MSS simulated temperature waveform and scalar readings.vi"/>
 			<Item Name="test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi"/>
 			<Item Name="test_MSS SimulatedScope SimulatedFGen.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen.vi"/>
-			<Item Name="test_Study Actor PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Study Actor PID Simulated Scope Simualted FGen.vi"/>
-			<Item Name="test_Study PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Study PID Simulated Scope Simualted FGen.vi"/>
+			<Item Name="test_Series Actor PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series Actor PID Simulated Scope Simualted FGen.vi"/>
+			<Item Name="test_Series PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series PID Simulated Scope Simualted FGen.vi"/>
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
 		</Item>
 		<Item Name="Thermometer" Type="Folder">
@@ -216,6 +279,7 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Caraya Interactive Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/menu/Caraya Interactive Menu.rtm"/>
 				<Item Name="Caraya.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/Caraya.lvlib"/>
+				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
