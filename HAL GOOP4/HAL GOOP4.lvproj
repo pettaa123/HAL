@@ -68,7 +68,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DAQmx" Type="Folder">
-			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG.lvclass"/>
+			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="NEO480HTA" Type="Folder">
@@ -94,9 +94,6 @@
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
-		<Item Name="Sample Tasks" Type="Folder">
-			<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
-		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope Base CFG/Scope Base CFG.lvclass"/>
 			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
@@ -104,16 +101,18 @@
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
 		<Item Name="Series Actor" Type="Folder">
-			<Item Name="Series Actor.lvlib" Type="Library" URL="../Series Actor/Series Actor.lvlib"/>
+			<Item Name="Series Actor.lvlib" Type="Library" URL="../Series/Series Actor/Series Actor.lvlib"/>
 		</Item>
 		<Item Name="Task Actor" Type="Folder">
-			<Item Name="Tests" Type="Folder">
-				<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
-			</Item>
-			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task Actor/ITask Actor/ITask Actor.lvlib"/>
-			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task Actor/Task Actor/Task Actor.lvlib"/>
+			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task/Task Actor/ITask Actor/ITask Actor.lvlib"/>
+			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor/Task Actor.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="Sample Tasks" Type="Folder">
+				<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
+				<Item Name="Sample PID Light.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Light/Sample PID Light.lvclass"/>
+				<Item Name="Sample PID Watervalve.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Watervalve/Sample PID Watervalve.lvclass"/>
+			</Item>
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
 			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
 			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
@@ -124,6 +123,7 @@
 			<Item Name="test_MSS SimulatedScope SimulatedFGen.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen.vi"/>
 			<Item Name="test_Series Actor PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series Actor PID Simulated Scope Simualted FGen.vi"/>
 			<Item Name="test_Series PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series PID Simulated Scope Simualted FGen.vi"/>
+			<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task/Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
 		</Item>
 		<Item Name="Thermometer" Type="Folder">
@@ -135,6 +135,7 @@
 			<Item Name="XNET Base CFG.lvclass" Type="LVClass" URL="../XNET/XNET Base CFG/XNET Base CFG.lvclass"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
+		<Item Name="test_MSS simulated daqmx pwm.vi" Type="VI" URL="../Scope/Tests/test_MSS simulated daqmx pwm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>

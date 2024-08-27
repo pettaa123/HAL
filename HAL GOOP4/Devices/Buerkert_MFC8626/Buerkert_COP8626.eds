@@ -1,0 +1,1449 @@
+;===========================================================
+; Firma Buerkert
+; CANopen ESD-File  for Typ MFC/MFM
+; CANopen - Standard          : DS301  V4.02
+; Stand   : 2011-05-06                                      
+; File    : Buerkert_COP8626.eds  
+; History :
+;	    2011-05-06
+;			  Version=1, Revision=4
+;			  - set Mapping objects to RO 
+;			  - set Number of subs of Object 3000 to 47
+;	    2009-06-29
+;			  Version=1, Revision=2
+;                         changed names of [3000sub2C]
+;                           from "the controllers manipulated variable y2"
+;                           to   "control output y2"
+;	    2009-02-09
+;			  Add objects 3000,2E and 3000,2F. Map Object 3000,2E for cyclic transmission.
+;	    2008-01-29
+;			  Set default values of objects 100C and 100D to 0 (specified in DS301).
+;           2008-01-21 
+;                         Version=1, Revision=0
+;                         Datatype bug fixed ( objects from 2000 to ... )
+;           2007-12-05
+;                         first version
+;                         Default values of object 100C and 100D differs from the value 0 specified in DS301 
+
+[FileInfo]
+CreatedBy=Ralf Schmoetzer, Buerkert
+ModifiedBy=Ralf Schmoetzer, Buerkert
+Description=EDS file for Type MFC/MFM CANopen
+CreationTime=03:16PM
+CreationDate=05-06-2011
+ModificationTime=03:16PM
+ModificationDate=05-06-2011
+FileName=Buerkert_COP8626.eds
+FileVersion=0x01
+FileRevision=0x04
+EDSVersion=4.0
+;date format MM-DD-YYYY 
+;date format     MM-DD-YYYY 
+
+[DeviceInfo]
+VendorName=Buerkert
+VendorNumber=0x00000039
+ProductName=MFC/MFM
+ProductNumber=8626
+RevisionNumber=0x00010001
+OrderCode=0
+BaudRate_10=1
+BaudRate_20=1
+BaudRate_50=1
+BaudRate_125=1
+BaudRate_250=1
+BaudRate_500=1
+BaudRate_800=1
+BaudRate_1000=1
+SimpleBootUpMaster=0
+SimpleBootUpSlave=1
+Granularity=8
+DynamicChannelsSupported=0
+CompactPDO=0
+GroupMessaging=0
+NrOfRXPDO=1
+NrOfTXPDO=4
+LSS_Supported=0
+
+[DummyUsage]
+Dummy0001=0
+Dummy0002=0
+Dummy0003=0
+Dummy0004=0
+Dummy0005=1
+Dummy0006=1
+Dummy0007=1
+
+[Comments]
+Lines=0
+
+[MandatoryObjects]
+SupportedObjects=3
+1=0x1000
+2=0x1001
+3=0x1018
+
+[1000]
+ParameterName=Device type
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x0
+PDOMapping=0
+
+[1001]
+ParameterName=Error register
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[1018]
+ParameterName=Identity Object
+ObjectType=0x9
+SubNumber=5
+ObjFlags=0x0
+
+[1018sub0]
+ParameterName=number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+LowLimit=1
+HighLimit=4
+ObjFlags=0
+
+[1018sub1]
+ParameterName=Vendor ID
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x00000039
+PDOMapping=0
+ObjFlags=0
+
+[1018sub2]
+ParameterName=Product code
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=8626
+PDOMapping=0
+ObjFlags=0
+
+[1018sub3]
+ParameterName=Revision number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x00010001
+PDOMapping=0
+ObjFlags=0
+
+[1018sub4]
+ParameterName=Serial number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+ObjFlags=0
+
+[OptionalObjects]
+SupportedObjects=22
+1=0x1003
+2=0x1005
+3=0x1008
+4=0x1009
+5=0x100A
+6=0x100C
+7=0x100D
+8=0x1014
+9=0x1015
+10=0x1016
+11=0x1017
+12=0x1200
+13=0x1400
+14=0x1600
+15=0x1800
+16=0x1801
+17=0x1802
+18=0x1803
+19=0x1A00
+20=0x1A01
+21=0x1A02
+22=0x1A03
+
+[1003]
+ParameterName=Pre-defined Error Field
+ObjectType=0x8
+SubNumber=6
+ObjFlags=0x0
+
+[1003sub0]
+ParameterName=Number of Errors
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1003sub1]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1003sub2]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1003sub3]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1003sub4]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1003sub5]
+ParameterName=Standard Error Field
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1005]
+ParameterName=COB-ID SYNC
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x80
+PDOMapping=0
+
+[1008]
+ParameterName=manufacturer device name
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+PDOMapping=0
+
+[1009]
+ParameterName=manufacturer hardware version
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+PDOMapping=0
+
+[100A]
+ParameterName=manufacturer software version
+ObjectType=0x7
+DataType=0x0009
+AccessType=const
+PDOMapping=0
+
+[100C]
+ParameterName=guard time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[100D]
+ParameterName=life time factor
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[1014]
+ParameterName=COB-ID Emergency
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x80
+PDOMapping=0
+
+[1015]
+ParameterName=inhibit time emergency
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1016]
+ParameterName=Consumer Heartbeat Time
+ObjectType=0x8
+SubNumber=4
+ObjFlags=0x0
+
+[1016sub0]
+ParameterName=Number of Entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=3
+PDOMapping=0
+LowLimit=1
+HighLimit=127
+ObjFlags=0
+
+[1016sub1]
+ParameterName=Consumer Heartbeat Time of Node-ID 1
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1016sub2]
+ParameterName=Consumer Heartbeat Time of Node-ID 2
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1016sub3]
+ParameterName=Consumer Heartbeat Time of Node-ID 3
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+ObjFlags=0
+
+[1017]
+ParameterName=Producer heartbeat time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x00000000
+PDOMapping=0
+LowLimit=0
+HighLimit=32767
+ObjFlags=0x0
+
+[1200]
+ParameterName=server SDO parameter
+ObjectType=0x9
+SubNumber=3
+
+[1200sub0]
+ParameterName=number of entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=0x02
+PDOMapping=0
+
+[1200sub1]
+ParameterName=COB_ID Client->Server (rx)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x600
+PDOMapping=0
+;DefaultValue=
+
+[1200sub2]
+ParameterName=COB_ID Server ->Client (tx)
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=$NODEID+0x580
+PDOMapping=0
+;DefaultValue=
+
+[1400]
+ParameterName=1. receive PDO communication parameter
+ObjectType=0x9
+SubNumber=3
+
+[1400sub0]
+ParameterName=number of supported entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1400sub1]
+ParameterName=COB-ID used by PDO
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x200
+PDOMapping=0
+
+[1400sub2]
+ParameterName=transmission type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0xFF
+PDOMapping=0
+
+[1600]
+ParameterName=1. receive PDO mapping parameter
+ObjectType=0x9
+SubNumber=4
+
+[1600sub0]
+ParameterName=number of mapped objects
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=3
+PDOMapping=0
+
+[1600sub1]
+ParameterName=1. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x50000310
+PDOMapping=0
+
+[1600sub2]
+ParameterName=2. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x30000C10
+PDOMapping=0
+
+[1600sub3]
+ParameterName=3. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=0x50000420
+PDOMapping=0
+
+[1800]
+ParameterName=1. Transmit PDO Parameter
+ObjectType=0x9
+SubNumber=5
+
+[1800sub0]
+ParameterName=number of supported entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1800sub1]
+ParameterName=COB-ID used by PDO
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x180
+PDOMapping=0
+
+[1800sub2]
+ParameterName=transmission type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0xFF
+PDOMapping=0
+
+[1800sub3]
+ParameterName=inhibit time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1800sub5]
+ParameterName=event timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1801]
+ParameterName=2. Transmit PDO Parameter
+ObjectType=0x9
+SubNumber=5
+
+[1801sub0]
+ParameterName=number of supported entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1801sub1]
+ParameterName=COB-ID used by PDO
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x280
+PDOMapping=0
+
+[1801sub2]
+ParameterName=transmission type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0xFF
+PDOMapping=0
+
+[1801sub3]
+ParameterName=inhibit time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1801sub5]
+ParameterName=event timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1802]
+ParameterName=3. Transmit PDO Parameter
+ObjectType=0x9
+SubNumber=5
+
+[1802sub0]
+ParameterName=number of supported entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1802sub1]
+ParameterName=COB-ID used by PDO
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x380
+PDOMapping=0
+
+[1802sub2]
+ParameterName=transmission type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0xFF
+PDOMapping=0
+
+[1802sub3]
+ParameterName=inhibit time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1802sub5]
+ParameterName=event timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1803]
+ParameterName=4. Transmit PDO Parameter
+ObjectType=0x9
+SubNumber=5
+
+[1803sub0]
+ParameterName=number of supported entries
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[1803sub1]
+ParameterName=COB-ID used by PDO
+ObjectType=0x7
+DataType=0x0007
+AccessType=rw
+DefaultValue=$NODEID+0x480
+PDOMapping=0
+
+[1803sub2]
+ParameterName=transmission type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0xFF
+PDOMapping=0
+
+[1803sub3]
+ParameterName=inhibit time
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1803sub5]
+ParameterName=event timer
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0x0000
+PDOMapping=0
+
+[1A00]
+ParameterName=1. transmit PDO mapping parameter
+ObjectType=0x9
+SubNumber=5
+
+[1A00sub0]
+ParameterName=number of mapped objects
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+
+[1A00sub1]
+ParameterName=1. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000110
+PDOMapping=0
+
+[1A00sub2]
+ParameterName=2. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000210
+PDOMapping=0
+
+[1A00sub3]
+ParameterName=3. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000310
+PDOMapping=0
+
+[1A00sub4]
+ParameterName=4. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000710
+PDOMapping=0
+
+[1A01]
+ParameterName=2. transmit PDO mapping parameter
+ObjectType=0x9
+SubNumber=4
+
+[1A01sub0]
+ParameterName=number of mapped objects
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1A01sub1]
+ParameterName=1. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000610
+PDOMapping=0
+
+[1A01sub2]
+ParameterName=2. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000810
+PDOMapping=0
+
+[1A01sub3]
+ParameterName=3. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30002E20
+PDOMapping=0
+
+[1A02]
+ParameterName=3. transmit PDO mapping parameter
+ObjectType=0x9
+SubNumber=3
+
+[1A02sub0]
+ParameterName=number of mapped objects
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1A02sub1]
+ParameterName=1. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000D20
+PDOMapping=0
+
+[1A02sub2]
+ParameterName=2. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x30000420
+PDOMapping=0
+
+[1A03]
+ParameterName=4. transmit PDO mapping parameter
+ObjectType=0x9
+SubNumber=3
+
+[1A03sub0]
+ParameterName=number of mapped objects
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[1A03sub1]
+ParameterName=1. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x50000120
+PDOMapping=0
+
+[1A03sub2]
+ParameterName=2. mapped object
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+DefaultValue=0x50000220
+PDOMapping=0
+
+[ManufacturerObjects]
+SupportedObjects=8
+1=0x2000
+2=0x2100
+3=0x2200
+4=0x2300
+5=0x3000
+6=0x4000
+7=0x4200
+8=0x5000
+
+[2000]
+ParameterName=Buerkert General Description Object
+ObjectType=0x9
+SubNumber=6
+
+[2000sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[2000sub1]
+ParameterName=Device Ident Number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+
+[2000sub2]
+ParameterName=Device Serial Number
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+
+[2000sub3]
+ParameterName=Device Type
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[2000sub4]
+ParameterName=Ident Number printed circuit
+ObjectType=0x7
+DataType=0x0007
+AccessType=ro
+PDOMapping=0
+
+[2000sub5]
+ParameterName=Revision Number Hardware
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[2100]
+ParameterName=S-Analog Sensor Object
+ObjectType=0x9
+SubNumber=8
+
+[2100sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=7
+PDOMapping=0
+
+[2100sub1]
+ParameterName=Data Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[2100sub2]
+ParameterName=Data Units
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[2100sub3]
+ParameterName=Reading Valid
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[2100sub4]
+ParameterName=Actual Value As INTEGER16
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=0
+
+[2100sub5]
+ParameterName=Actual Value As REAL32
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+PDOMapping=0
+
+[2100sub6]
+ParameterName=Status
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[2100sub7]
+ParameterName=Flow Full Scale
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=0
+
+[2200]
+ParameterName=S-Analog Actuator Object
+ObjectType=0x9
+SubNumber=7
+
+[2200sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=6
+PDOMapping=0
+
+[2200sub1]
+ParameterName=Data Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[2200sub2]
+ParameterName=Data Units
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[2200sub3]
+ParameterName=Actuator Override
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[2200sub4]
+ParameterName=Valve Value As INTEGER16
+ObjectType=0x7
+DataType=0x0003
+AccessType=ro
+PDOMapping=0
+
+[2200sub5]
+ParameterName=Valve Value As REAL32
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+PDOMapping=0
+
+[2200sub6]
+ParameterName=Status
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[2300]
+ParameterName=S-Single Stage Controller Object
+ObjectType=0x9
+SubNumber=6
+
+[2300sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=5
+PDOMapping=0
+
+[2300sub1]
+ParameterName=Data Type
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+PDOMapping=0
+
+[2300sub2]
+ParameterName=Data Units
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[2300sub3]
+ParameterName=Setpoint As INTEGER16
+ObjectType=0x7
+DataType=0x0003
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[2300sub4]
+ParameterName=Setpoint As REAL32
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[2300sub5]
+ParameterName=Status
+ObjectType=0x7
+DataType=0x0005
+AccessType=ro
+PDOMapping=0
+
+[3000]
+ParameterName=Buerkert MFC Family Object
+ObjectType=0x9
+SubNumber=48
+
+[3000sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=47
+PDOMapping=0
+
+[3000sub1]
+ParameterName=actual value
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[3000sub2]
+ParameterName=setpoint
+ObjectType=0x7
+DataType=0x0006
+AccessType=rwr
+DefaultValue=0
+PDOMapping=1
+
+[3000sub3]
+ParameterName=active gas
+ObjectType=0x7
+DataType=0x0006
+AccessType=rwr
+DefaultValue=0
+PDOMapping=1
+
+[3000sub4]
+ParameterName=flow rate gas 1
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+PDOMapping=1
+
+[3000sub5]
+ParameterName=flow rate gas 2
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+PDOMapping=0
+
+[3000sub6]
+ParameterName=status limits
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=1
+
+[3000sub7]
+ParameterName=status errors
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=1
+
+[3000sub8]
+ParameterName=status others
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=1
+
+[3000sub9]
+ParameterName=status LEDs
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[3000subA]
+ParameterName=status binary outputs
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[3000subB]
+ParameterName=status hardware
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[3000subC]
+ParameterName=set BinOut via Bus
+ObjectType=0x7
+DataType=0x0006
+AccessType=rww
+PDOMapping=1
+
+[3000subD]
+ParameterName=totalizer gas 1
+ObjectType=0x7
+DataType=0x0008
+AccessType=rwr
+DefaultValue=0
+PDOMapping=1
+
+[3000subE]
+ParameterName=totalizer gas 2
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[3000subF]
+ParameterName=max ramp time up
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[3000sub10]
+ParameterName=max ramp time down
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[3000sub11]
+ParameterName=controller dynamics
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+DefaultValue=1
+PDOMapping=0
+
+[3000sub12]
+ParameterName=x_Limit1
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub13]
+ParameterName=x_Limit1 Hyst
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub14]
+ParameterName=x_Limit2
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub15]
+ParameterName=x_Limit2 Hyst
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub16]
+ParameterName=y2_Limit1
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub17]
+ParameterName=y2_Limit1 Hyst
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub18]
+ParameterName=y2_Limit2
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub19]
+ParameterName=y2_Limit2 Hyst
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub1A]
+ParameterName=Gas1 totalizer Limit1
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+PDOMapping=0
+
+[3000sub1B]
+ParameterName=Gas1 totalizer Limit2
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+PDOMapping=0
+
+[3000sub1C]
+ParameterName=Gas2 totalizer Limit1
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+PDOMapping=0
+
+[3000sub1D]
+ParameterName=Gas2 totalizer Limit2
+ObjectType=0x7
+DataType=0x0008
+AccessType=rw
+PDOMapping=0
+
+[3000sub1E]
+ParameterName=Gas1 safe value
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub1F]
+ParameterName=Gas2 safe value
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub20]
+ParameterName=binary output 1 function - limits
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub21]
+ParameterName=binary output 1 function - errors
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub22]
+ParameterName=binary output 1 function - others
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub23]
+ParameterName=binary output 1 function - mode of operation
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub24]
+ParameterName=binary output 2 function - limits
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub25]
+ParameterName=binary output 2 function - errors
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub26]
+ParameterName=binary output 2 function - others
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub27]
+ParameterName=binary output 2 function - mode of operation
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub28]
+ParameterName=binary input 1 function
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub29]
+ParameterName=binary input 2 function
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub2A]
+ParameterName=binary input 3 function
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub2B]
+ParameterName=error processing at sensor-fault
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub2C]
+ParameterName=control output y2
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[3000sub2D]
+ParameterName=Modus MFC
+ObjectType=0x7
+DataType=0x0006
+AccessType=rw
+PDOMapping=0
+
+[3000sub2E]
+ParameterName=Add Measure Value
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+PDOMapping=1
+
+[3000sub2F]
+ParameterName=Xp
+ObjectType=0x7
+DataType=0x0006
+AccessType=ro
+PDOMapping=0
+
+[4000]
+ParameterName=CANopen - Communication Object
+ObjectType=0x8
+SubNumber=3
+
+[4000sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[4000sub1]
+ParameterName=Note ID
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[4000sub2]
+ParameterName=Baudrate
+ObjectType=0x7
+DataType=0x0005
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[4200]
+ParameterName=CANopen - Process-Data-Selection
+ObjectType=0x8
+SubNumber=3
+
+[4200sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=2
+PDOMapping=0
+
+[4200sub1]
+ParameterName=Receive PDO
+ObjectType=0x7
+DataType=0x0003
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[4200sub2]
+ParameterName=Transmit PDO
+ObjectType=0x7
+DataType=0x0003
+AccessType=rw
+DefaultValue=0
+PDOMapping=0
+
+[5000]
+ParameterName=Dummy Object
+ObjectType=0x9
+SubNumber=5
+
+[5000sub0]
+ParameterName=number of objects
+ObjectType=0x5
+DataType=0x0005
+AccessType=ro
+DefaultValue=4
+PDOMapping=0
+
+[5000sub1]
+ParameterName=Totalizer of active gas
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[5000sub2]
+ParameterName=Nominal Flow of active gas
+ObjectType=0x7
+DataType=0x0008
+AccessType=ro
+DefaultValue=0
+PDOMapping=1
+
+[5000sub3]
+ParameterName=Setpoint Rx
+ObjectType=0x7
+DataType=0x0006
+AccessType=rww
+DefaultValue=0
+PDOMapping=1
+
+[5000sub4]
+ParameterName=Setpoint as float Rx
+ObjectType=0x7
+DataType=0x0008
+AccessType=rww
+DefaultValue=0
+PDOMapping=1

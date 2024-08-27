@@ -7,7 +7,7 @@
 	<Item Name="CFG JSON Base.lvclass" Type="LVClass" URL="../Configuration JSON Base/CFG JSON Base.lvclass"/>
 	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 	<Item Name="Measure and Stimulus Subsystems.lvclass" Type="LVClass" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems.lvclass"/>
-	<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series Base/Series Base.lvclass"/>
-	<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task Base/Task Base.lvclass"/>
+	<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
+	<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task/Task Base/Task Base.lvclass"/>
 	<Item Name="Virt Instr Base.lvclass" Type="LVClass" URL="../Virtual Instrument Base/Virt Instr Base.lvclass"/>
 </Library>

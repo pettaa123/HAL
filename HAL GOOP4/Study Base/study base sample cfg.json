@@ -1,0 +1,154 @@
+{
+    "Name": "",
+    "GUID": "",
+    "Instr Idents": [
+        {
+            "Instr Ident": "SimulatedScope",
+            "Instr CFG Class": "Scope Simulated CFGs.lvlib:Fetch Waveforms CFG.lvclass",
+            "Attributes": {
+                "Channels": [
+                    {
+                        "Name": "0",
+                        "Enabled": true,
+                        "Impedance": "1 megaohm",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "1",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "2",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "3",
+                        "Enabled": true,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 1.4,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "4",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "5",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "6",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    },
+                    {
+                        "Name": "7",
+                        "Enabled": false,
+                        "Impedance": "50 ohms",
+                        "Max Frequency": 50000000,
+                        "Vertical Coupling": "DC",
+                        "Probe Attenuation": 1,
+                        "Vertical Range": 5,
+                        "Vertical Offset": 0
+                    }
+                ],
+                "Horizontal": {
+                    "Enforce Realtime": true,
+                    "Number of Records": 1,
+                    "Min Sample Rate": 100000,
+                    "Reference Position": 50,
+                    "Min Record Length": 1000
+                },
+                "Acquire": {
+                    "Type": "Normal",
+                    "NumSamples": 1000,
+                    "Fetch Relative To": "Read Pointer"
+                },
+                "Export Signal": {
+                    "Signal Identifier": "None",
+                    "Signal": "None",
+                    "Output Terminal": "None"
+                },
+                "Trigger": {
+                    "Type": "Immediate",
+                    "Slope": "Positive",
+                    "Source": "RTSI 0",
+                    "Holdoff": 0,
+                    "Delay": 0
+                }
+            }
+        }
+    ],
+    "Virt Instrs": [
+        {
+            "Target Ident": "Photosensor",
+            "Instr Ident": "SimulatedScope",
+            "Const Action Data": 0,
+            "Class": "Virt Instrs Scope.lvlib:Virt Voltage Reader.lvclass"
+        },
+        {
+            "Target Ident": "Flowsensor",
+            "Instr Ident": "SimulatedScope",
+            "Const Action Data": 1,
+            "Class": "Virt Instrs Scope.lvlib:Virt Voltage Reader.lvclass"
+        },
+        {
+            "Target Ident": "PWM Lamp",
+            "Instr Ident": "SimulatedFGen",
+            "Const Action Data": 0,
+            "Class": "Virt Instrs FGen.lvlib:Virt Voltage Generator.lvclass"
+        },
+        {
+            "Target Ident": "PWM Flow",
+            "Instr Ident": "SimulatedDO",
+            "Const Action Data": 1,
+            "Class": "Virt Instrs DO.lvlib:Virt PWM Generator.lvclass"
+        }
+    ],
+    "Tasks": [
+        {
+            "Name": "Light Control",
+            "Class": "Sample PID Light.lvclass"
+        },
+        {
+            "Name": "Flow Control",
+            "Class": "Sample PID Flow.lvclass"
+        }
+    ]
+}
