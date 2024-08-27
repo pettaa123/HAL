@@ -80,6 +80,7 @@
 			</Item>
 		</Item>
 		<Item Name="DIO" Type="Folder">
+			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DIO DAQmx Base CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Base CFG/DIO DAQmx Base CFG.lvclass"/>
 			<Item Name="DIO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx PWM CFG/DIO DAQmx PWM CFG.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
@@ -110,13 +111,14 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Sample Tasks" Type="Folder">
 				<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
+				<Item Name="Sample PID Flow.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Flow/Sample PID Flow.lvclass"/>
 				<Item Name="Sample PID Light.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Light/Sample PID Light.lvclass"/>
-				<Item Name="Sample PID Watervalve.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Watervalve/Sample PID Watervalve.lvclass"/>
 			</Item>
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
 			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
 			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
 			<Item Name="test_MSS multiple start stop mismatch2.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch2.vi"/>
+			<Item Name="test_MSS simulated daqmx do.vi" Type="VI" URL="../DIO/Tests/test_MSS simulated daqmx do.vi"/>
 			<Item Name="test_MSS simulated scope.vi" Type="VI" URL="../Scope/Tests/test_MSS simulated scope.vi"/>
 			<Item Name="test_MSS simulated temperature waveform and scalar readings.vi" Type="VI" URL="../Thermometer/Tests/test_MSS simulated temperature waveform and scalar readings.vi"/>
 			<Item Name="test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi"/>
@@ -135,7 +137,6 @@
 			<Item Name="XNET Base CFG.lvclass" Type="LVClass" URL="../XNET/XNET Base CFG/XNET Base CFG.lvclass"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
-		<Item Name="test_MSS simulated daqmx pwm.vi" Type="VI" URL="../Scope/Tests/test_MSS simulated daqmx pwm.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
@@ -651,6 +652,7 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PWM Action Pams.ctl" Type="VI" URL="../DIO/DIO DAQmx PWM CFG/PWM Action Pams.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
