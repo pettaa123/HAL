@@ -4,5 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Virt PWM Fixed Freq Generator.lvclass" Type="LVClass" URL="../Virtual DIO/Virt PWM Fixed Freq Generator/Virt PWM Fixed Freq Generator.lvclass"/>
 	<Item Name="Virt PWM Generator.lvclass" Type="LVClass" URL="../Virtual DIO/Virt PWM Generator/Virt PWM Generator.lvclass"/>
 </Library>

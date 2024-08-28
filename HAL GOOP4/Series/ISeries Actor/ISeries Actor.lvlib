@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Start Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Start Msg/Start Msg.lvclass"/>
-		<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Stop Msg/Stop Msg.lvclass"/>
+		<Item Name="Start Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Start Tasks Msg/Start Tasks Msg.lvclass"/>
+		<Item Name="Stop Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Stop Tasks Msg/Stop Tasks Msg.lvclass"/>
 	</Item>
 	<Item Name="ISeries Actor.lvclass" Type="LVClass" URL="../ISeries Actor/ISeries Actor.lvclass"/>
 </Library>

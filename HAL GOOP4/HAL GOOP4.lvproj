@@ -82,6 +82,7 @@
 		<Item Name="DIO" Type="Folder">
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DIO DAQmx Base CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Base CFG/DIO DAQmx Base CFG.lvclass"/>
+			<Item Name="DIO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Fixed Freq PWM CFG/DIO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="DIO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx PWM CFG/DIO DAQmx PWM CFG.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 		</Item>
