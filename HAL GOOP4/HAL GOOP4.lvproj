@@ -102,6 +102,7 @@
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
 		<Item Name="Series Actor" Type="Folder">
+			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../Series/ISeries Actor/ISeries Actor.lvlib"/>
 			<Item Name="Series Actor.lvlib" Type="Library" URL="../Series/Series Actor/Series Actor.lvlib"/>
 		</Item>
 		<Item Name="Task Actor" Type="Folder">
@@ -652,7 +653,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PWM Action Pams.ctl" Type="VI" URL="../DIO/DIO DAQmx PWM CFG/PWM Action Pams.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
