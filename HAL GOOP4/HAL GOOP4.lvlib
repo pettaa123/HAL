@@ -4,8 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="CFG Base.lvclass" Type="LVClass" URL="../Configuration/Configuration Base/CFG Base.lvclass"/>
 	<Item Name="CFG JSON.lvclass" Type="LVClass" URL="../Configuration/Configuration JSON/Configuration JSON Base/CFG JSON.lvclass"/>
+	<Item Name="CFG Semaphore.lvclass" Type="LVClass" URL="../Configuration/Configuration Semaphore/CFG Semaphore.lvclass"/>
 	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 	<Item Name="Measure and Stimulus Subsystems.lvclass" Type="LVClass" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems.lvclass"/>
 	<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
