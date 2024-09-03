@@ -82,8 +82,8 @@
 		<Item Name="DIO" Type="Folder">
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DI DAQmx CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx CFG/DI DAQmx CFG.lvclass"/>
-			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
-			<Item Name="DO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx PWM CFG/DO DAQmx PWM CFG.lvclass"/>
+			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
+			<Item Name="DO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx PWM CFG/DO DAQmx PWM CFG.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 		</Item>
 		<Item Name="FGen" Type="Folder">
@@ -109,6 +109,11 @@
 		<Item Name="Task Actor" Type="Folder">
 			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task/Task Actor/ITask Actor/ITask Actor.lvlib"/>
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor/Task Actor.lvlib"/>
+		</Item>
+		<Item Name="Tests RT" Type="Folder">
+			<Item Name="Sample Tasks" Type="Folder">
+				<Item Name="Sample Temp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Temp PWM Control/Sample Temp PWM Control.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Tests Simulated" Type="Folder">
 			<Item Name="Sample Tasks" Type="Folder">
