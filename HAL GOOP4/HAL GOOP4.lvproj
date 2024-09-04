@@ -131,6 +131,7 @@
 			<Item Name="test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi"/>
 			<Item Name="test_MSS SimulatedScope SimulatedFGen.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen.vi"/>
 			<Item Name="test_Series Actor PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series Actor PID Simulated Scope Simualted FGen.vi"/>
+			<Item Name="test_Series Configure.vi" Type="VI" URL="../Tests/test_Series Configure.vi"/>
 			<Item Name="test_Series PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series PID Simulated Scope Simualted FGen.vi"/>
 			<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task/Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
