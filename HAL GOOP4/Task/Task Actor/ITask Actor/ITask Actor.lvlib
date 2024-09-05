@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Perform Action Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Perform Action Msg/Perform Action Msg.lvclass"/>
+		<Item Name="Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Do Msg/Do Msg.lvclass"/>
 	</Item>
 	<Item Name="ITask Actor.lvclass" Type="LVClass" URL="../ITask Actor/ITask Actor.lvclass"/>
 </Library>

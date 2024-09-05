@@ -27,7 +27,7 @@
 	<Item Name="Sample PI Control.ctl" Type="Class Private Data" URL="Sample PI Control.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Perform Action.vi" Type="VI" URL="../Perform Action.vi">
+	<Item Name="Do.vi" Type="VI" URL="../Do.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;(!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!5Q:0&gt;82Q&gt;81!!$J!=!!?!!!&lt;'6.B&lt;8"M:3"133"$&lt;WZU=G^M,GRW9WRB=X-!&amp;6.B&lt;8"M:3"133"$&lt;WZU=G^M)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q6*&lt;H"V&gt;!![1(!!(A!!'RF497VQ&lt;'5A5%EA1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!"2497VQ&lt;'5A5%EA1W^O&gt;(*P&lt;#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
@@ -35,5 +35,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082393104</Property>
+	</Item>
+	<Item Name="Init.vi" Type="VI" URL="../Init.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(D!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'6.B&lt;8"M:3"133"$&lt;WZU=G^M,GRW9WRB=X-!&amp;6.B&lt;8"M:3"133"$&lt;WZU=G^M)'^V&gt;!!11$$`````"U22)%ZB&lt;75!(E"!!!(`````!!912'&amp;U93"2&gt;76V:3"/97VF=Q!!%%!Q`````Q&gt;%4C"/97VF!#"!1!!"`````Q!)%U2B&gt;'%A4G^U;7:J:8)A4G&amp;N:8-!$E!Q`````Q2/97VF!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%:!=!!?!!!Z$UB"4#"(4U^1.#ZM&gt;GRJ9C&gt;.:7&amp;T&gt;8*F)'&amp;O:#"4&gt;'FN&gt;7RV=S"4&gt;7*T?8.U:7VT,GRW9WRB=X-!!UV45Q![1(!!(A!!'RF497VQ&lt;'5A5%EA1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!"2497VQ&lt;'5A5%EA1W^O&gt;(*P&lt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!(!!1!#1!+!!M!"!!-!!U$!!"Y!!!*!!!!!!!!!!!!!!#.#Q!##!!!!!!!!!))!!!#%!!!!!I!!!!!!!!!#A!!!*)!!!!!!1!/!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>
