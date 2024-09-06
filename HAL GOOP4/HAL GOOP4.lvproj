@@ -112,7 +112,9 @@
 		</Item>
 		<Item Name="Tests RT" Type="Folder">
 			<Item Name="Sample Tasks" Type="Folder">
-				<Item Name="Sample Temp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Temp PWM Control/Sample Temp PWM Control.lvclass"/>
+				<Item Name="DAQmx PWM PID.vi" Type="VI" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/DAQmx PWM PID.vi"/>
+				<Item Name="Sample Airtemp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/Sample Airtemp PWM Control.lvclass"/>
+				<Item Name="Sample Watertemp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Watertemp PWM Control/Sample Watertemp PWM Control.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Tests Simulated" Type="Folder">
@@ -137,6 +139,9 @@
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
 		</Item>
 		<Item Name="Thermometer" Type="Folder">
+			<Item Name="FPGA" Type="Folder">
+				<Item Name="Thermometer FPGA Base CFG.lvclass" Type="LVClass" URL="../Thermometer/Thermometer FPGA Base CFG/Thermometer FPGA Base CFG.lvclass"/>
+			</Item>
 			<Item Name="Thermometer DAQmx Base CFG.lvclass" Type="LVClass" URL="../Thermometer/Thermometer DAQmx Base CFG/Thermometer DAQmx Base CFG.lvclass"/>
 			<Item Name="Thermometer Simulated CFGs.lvlib" Type="Library" URL="../Thermometer/Thermometer Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs Thermometer.lvlib" Type="Library" URL="../Thermometer/Virt Instrs Thermometer.lvlib"/>
