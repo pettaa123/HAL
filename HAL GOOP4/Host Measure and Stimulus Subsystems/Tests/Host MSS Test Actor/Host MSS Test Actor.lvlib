@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Init Instrs Msg.lvclass" Type="LVClass" URL="../Host MSS Test Actor Messages/Init Instrs Msg/Init Instrs Msg.lvclass"/>
+		<Item Name="Init Series Msg.lvclass" Type="LVClass" URL="../Host MSS Test Actor Messages/Init Series Msg/Init Series Msg.lvclass"/>
+		<Item Name="Start Series Msg.lvclass" Type="LVClass" URL="../Host MSS Test Actor Messages/Start Series Msg/Start Series Msg.lvclass"/>
 	</Item>
 	<Item Name="Host MSS Test Actor.lvclass" Type="LVClass" URL="../Host MSS Test Actor/Host MSS Test Actor.lvclass"/>
 </Library>
