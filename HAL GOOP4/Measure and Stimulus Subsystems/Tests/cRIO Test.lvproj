@@ -233,6 +233,7 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../../../CFG Target/CFG Target.lvclass"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../../../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
+			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../../../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="DO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../../../DIO/DO DAQmx PWM CFG/DO DAQmx PWM CFG.lvclass"/>
 			<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../../../HAL GOOP4.lvlib"/>
@@ -245,6 +246,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Thermometer DAQmx Base CFG.lvclass" Type="LVClass" URL="../../../Thermometer/Thermometer DAQmx Base CFG/Thermometer DAQmx Base CFG.lvclass"/>
+			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../../../DIO/Virt Instrs DIO.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

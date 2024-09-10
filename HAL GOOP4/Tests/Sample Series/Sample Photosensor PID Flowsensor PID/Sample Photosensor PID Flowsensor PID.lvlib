@@ -4,10 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
-		<Item Name="Start Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Start Tasks Msg/Start Tasks Msg.lvclass"/>
-		<Item Name="Stop Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Stop Tasks Msg/Stop Tasks Msg.lvclass"/>
-	</Item>
-	<Item Name="ISeries Actor.lvclass" Type="LVClass" URL="../ISeries Actor/ISeries Actor.lvclass"/>
+	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Sample Photosensor PID Flowsensor PID.lvclass" Type="LVClass" URL="../Sample Photosensor PID Flowsensor PID/Sample Photosensor PID Flowsensor PID.lvclass"/>
 </Library>

@@ -220,6 +220,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../../../Task/Task Actor/Task Actor/Task Actor.lvlib"/>
+			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../../../DIO/Virt Instrs DIO.lvlib"/>
 			<Item Name="Virt Instrs FGen.lvlib" Type="Library" URL="../../../FGen/Virt Instrs FGen.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../../../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
