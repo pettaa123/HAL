@@ -4,6 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Series Actor" Type="Folder">
+		<Item Name="ISeries Actor.lvlib" Type="Library" URL="../Series/ISeries Actor/ISeries Actor.lvlib"/>
+		<Item Name="Series Actor.lvlib" Type="Library" URL="../Series/Series Actor/Series Actor.lvlib"/>
+	</Item>
+	<Item Name="Task Actor" Type="Folder">
+		<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task/ITask Actor/ITask Actor.lvlib"/>
+		<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor.lvlib"/>
+	</Item>
 	<Item Name="CFG JSON.lvclass" Type="LVClass" URL="../Configuration/Configuration JSON/Configuration JSON Base/CFG JSON.lvclass"/>
 	<Item Name="CFG Semaphore.lvclass" Type="LVClass" URL="../Configuration/Configuration Semaphore/CFG Semaphore.lvclass"/>
 	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
