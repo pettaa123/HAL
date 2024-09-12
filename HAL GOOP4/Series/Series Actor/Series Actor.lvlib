@@ -6,6 +6,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Update Task Point Data Msg.lvclass" Type="LVClass" URL="../Series Actor Messages/Update Task Point Data Msg/Update Task Point Data Msg.lvclass"/>
+	</Item>
 	<Item Name="Series Actor.lvclass" Type="LVClass" URL="../Series Actor/Series Actor.lvclass"/>
 </Library>
