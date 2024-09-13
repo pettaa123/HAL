@@ -80,10 +80,11 @@
 			</Item>
 		</Item>
 		<Item Name="DIO" Type="Folder">
+			<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
+			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DI DAQmx CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx CFG/DI DAQmx CFG.lvclass"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
-			<Item Name="DO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx PWM CFG/DO DAQmx PWM CFG.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 		</Item>
 		<Item Name="FGen" Type="Folder">
