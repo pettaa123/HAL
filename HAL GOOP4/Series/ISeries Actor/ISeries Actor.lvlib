@@ -10,6 +10,7 @@
 		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
 		<Item Name="Start Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Start Tasks Msg/Start Tasks Msg.lvclass"/>
 		<Item Name="Stop Tasks Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Stop Tasks Msg/Stop Tasks Msg.lvclass"/>
+		<Item Name="Do Task Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Do Task Msg/Do Task Msg.lvclass"/>
 	</Item>
 	<Item Name="ISeries Actor.lvclass" Type="LVClass" URL="../ISeries Actor/ISeries Actor.lvclass"/>
 </Library>

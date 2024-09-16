@@ -10,7 +10,7 @@
 		<Item Name="Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Do Msg/Do Msg.lvclass"/>
 		<Item Name="Start Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Start Do Msg/Start Do Msg.lvclass"/>
 		<Item Name="Stop Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Stop Do Msg/Stop Do Msg.lvclass"/>
-		<Item Name="Position Data Updated Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Position Data Updated Msg/Position Data Updated Msg.lvclass"/>
+		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
 	</Item>
 	<Item Name="ITask Actor.lvclass" Type="LVClass" URL="../ITask Actor/ITask Actor.lvclass"/>
 </Library>
