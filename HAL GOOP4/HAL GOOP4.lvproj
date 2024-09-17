@@ -85,6 +85,7 @@
 			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx CFG/DI DAQmx Meas Freq CFG.lvclass"/>
+			<Item Name="DIO DO PWM DI Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DIO DO PWM DI Meas Freq CFG/DIO DO PWM DI Meas Freq CFG.lvclass"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
