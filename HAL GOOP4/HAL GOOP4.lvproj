@@ -84,7 +84,7 @@
 			<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
-			<Item Name="DI DAQmx CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx CFG/DI DAQmx CFG.lvclass"/>
+			<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx CFG/DI DAQmx Meas Freq CFG.lvclass"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
@@ -116,12 +116,14 @@
 			<Item Name="Sample Series Actors" Type="Folder">
 				<Item Name="Sample Photosensor PID Flowsensor PID.lvlib" Type="Library" URL="../Tests/Sample Series/Sample Photosensor PID Flowsensor PID/Sample Photosensor PID Flowsensor PID.lvlib"/>
 				<Item Name="Sample PWM Fans.lvlib" Type="Library" URL="../Tests/Sample Series/Sample PWM Fans/Sample PWM Fans.lvlib"/>
+				<Item Name="Sample PWM Tacho Fans.lvlib" Type="Library" URL="../Tests/Sample Series/Sample PWM Tacho Fans/Sample PWM Tacho Fans.lvlib"/>
 			</Item>
 			<Item Name="Sample Tasks" Type="Folder">
 				<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
 				<Item Name="Sample PID Flow.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Flow/Sample PID Flow.lvclass"/>
 				<Item Name="Sample PID Light.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Light/Sample PID Light.lvclass"/>
 				<Item Name="Sample PWM Fan.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PWM Fan/Sample PWM Fan.lvclass"/>
+				<Item Name="Sample Tacho Fan.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample Tacho Fan/Sample Tacho Fan.lvclass"/>
 			</Item>
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
 			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
@@ -136,6 +138,7 @@
 			<Item Name="test_Series Configure.vi" Type="VI" URL="../Tests/test_Series Configure.vi"/>
 			<Item Name="test_Series PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series PID Simulated Scope Simualted FGen.vi"/>
 			<Item Name="test_Series Simluated DO PWM Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Fans.vi"/>
+			<Item Name="test_Series Simluated DO PWM Tacho Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Tacho Fans.vi"/>
 			<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task/Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
 		</Item>
