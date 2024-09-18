@@ -101,10 +101,26 @@
 			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
+		<Item Name="MSS Target Actor" Type="Folder">
+			<Item Name="IMSS Target Actor.lvlib" Type="Library" URL="../MSS Target/IMSS Target Actor.lvlib"/>
+			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
+		</Item>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
+		</Item>
+		<Item Name="Series Actor" Type="Folder">
+			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../Series/ISeries Actor/ISeries Actor.lvlib"/>
+			<Item Name="Series Actor.lvlib" Type="Library" URL="../Series/Series Actor/Series Actor.lvlib"/>
+		</Item>
+		<Item Name="Study Actor" Type="Folder">
+			<Item Name="IStudy Actor.lvlib" Type="Library" URL="../Study/Study Actor/IStudy Actor.lvlib"/>
+			<Item Name="Study Actor.lvlib" Type="Library" URL="../Study/Study Actor/Study Actor.lvlib"/>
+		</Item>
+		<Item Name="Task Actor" Type="Folder">
+			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task/ITask Actor/ITask Actor.lvlib"/>
+			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor.lvlib"/>
 		</Item>
 		<Item Name="Tests RT" Type="Folder">
 			<Item Name="Sample Tasks" Type="Folder">
@@ -746,7 +762,6 @@
 			<Item Name="Get Data Notifier.vi" Type="VI" URL="../Task/Task Base/Get Data Notifier.vi"/>
 			<Item Name="Get Data Queue.vi" Type="VI" URL="../Task/Task Base/Get Data Queue.vi"/>
 			<Item Name="Get Stop Do Notifier.vi" Type="VI" URL="../Task/Task Base/Get Stop Do Notifier.vi"/>
-			<Item Name="IMSS Target Actor.lvlib" Type="Library" URL="../MSS Target/IMSS Target Actor.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Measure and Stimulus Subsystems_Create.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems_Create.vi"/>
