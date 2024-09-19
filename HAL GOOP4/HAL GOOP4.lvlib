@@ -10,6 +10,6 @@
 	<Item Name="Instrument.lvclass" Type="LVClass" URL="../Instrument/Instrument.lvclass"/>
 	<Item Name="Measure and Stimulus Subsystems.lvclass" Type="LVClass" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems.lvclass"/>
 	<Item Name="Virt Instr Base.lvclass" Type="LVClass" URL="../Virt Instr Base/Virt Instr Base.lvclass"/>
-	<Item Name="Virt Instr Host.lvclass" Type="LVClass" URL="../Virt Instr Host/Virt Instr Host.lvclass"/>
+	<Item Name="Virt Instr Local.lvclass" Type="LVClass" URL="../Virt Instr Host/Virt Instr Local.lvclass"/>
 	<Item Name="Virt Instr Target.lvclass" Type="LVClass" URL="../Virt Instr Target/Virt Instr Target.lvclass"/>
 </Library>
