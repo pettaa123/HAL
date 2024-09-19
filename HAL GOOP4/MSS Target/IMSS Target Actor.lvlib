@@ -8,6 +8,8 @@
 		<Item Name="Init Instruments Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Init Instruments Msg/Init Instruments Msg.lvclass"/>
 		<Item Name="Init Virtual Instruments Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Init Virtual Instruments Msg/Init Virtual Instruments Msg.lvclass"/>
 		<Item Name="Perform Action Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Perform Action Msg/Perform Action Msg.lvclass"/>
+		<Item Name="Start Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Start Point Msg/Start Point Msg.lvclass"/>
+		<Item Name="Stop Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Stop Point Msg/Stop Point Msg.lvclass"/>
 	</Item>
 	<Item Name="IMSS Target Actor.lvclass" Type="LVClass" URL="../IMSS Target Actor/IMSS Target Actor.lvclass"/>
 </Library>

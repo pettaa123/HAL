@@ -6,7 +6,10 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Launch Series Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Launch Series Msg/Launch Series Msg.lvclass"/>
+		<Item Name="Log Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Log Target Msg/Log Target Msg.lvclass"/>
 		<Item Name="Perform Action on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Perform Action on Target Msg/Perform Action on Target Msg.lvclass"/>
+		<Item Name="Start Point on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Start Point on Target Msg/Start Point on Target Msg.lvclass"/>
+		<Item Name="Stop Point on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Stop Point on Target Msg/Stop Point on Target Msg.lvclass"/>
 	</Item>
 	<Item Name="IStudy Actor.lvclass" Type="LVClass" URL="../IStudy Actor/IStudy Actor.lvclass"/>
 </Library>
