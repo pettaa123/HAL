@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
+	<Property Name="varPersistentID:{8769DC11-7296-4520-9D01-3878530D4737}" Type="Ref">/My Computer/Untitled Library 1.lvlib/PWM</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -14,6 +15,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="control pwm host.vi" Type="VI" URL="../control pwm host.vi"/>
 		<Item Name="test_CRIO daqmx PWM.vi" Type="VI" URL="../test_CRIO daqmx PWM.vi"/>
 		<Item Name="test_cRIO daqmx Temp MSS.vi" Type="VI" URL="../test_cRIO daqmx Temp MSS.vi"/>
 		<Item Name="test_cRIO daqmx Temp pure.vi" Type="VI" URL="../test_cRIO daqmx Temp pure.vi"/>
@@ -23,6 +25,7 @@
 		<Item Name="test_Series cRIO PWM CAN Temp.vi" Type="VI" URL="../test_Series cRIO PWM CAN Temp.vi"/>
 		<Item Name="test_Series cRIO PWM TC Temp.vi" Type="VI" URL="../test_Series cRIO PWM TC Temp.vi"/>
 		<Item Name="test_Study.vi" Type="VI" URL="../test_Study.vi"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -421,11 +424,13 @@
 			<Item Name="Sample PWM Fans.lvlib" Type="Library" URL="../../Sample Series/Sample PWM Fans/Sample PWM Fans.lvlib"/>
 			<Item Name="Sample Watertemp PWM Control.lvclass" Type="LVClass" URL="../Sample Tasks/Sample Watertemp PWM Control/Sample Watertemp PWM Control.lvclass"/>
 			<Item Name="Series Actor.lvlib" Type="Library" URL="../../../Series/Series Actor/Series Actor.lvlib"/>
+			<Item Name="Series Base.lvclass" Type="LVClass" URL="../../../Series/Series Base/Series Base.lvclass"/>
 			<Item Name="Study Actor.lvlib" Type="Library" URL="../../../Study/Study Actor/Study Actor.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../../../Task/Task Actor/Task Actor.lvlib"/>
+			<Item Name="Task Base.lvclass" Type="LVClass" URL="../../../Task/Task Base/Task Base.lvclass"/>
 			<Item Name="Thermometer DAQmx Base CFG.lvclass" Type="LVClass" URL="../../../Thermometer/Thermometer DAQmx Base CFG/Thermometer DAQmx Base CFG.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../../../DIO/Virt Instrs DIO.lvlib"/>
 			<Item Name="Virt Instrs Thermometer.lvlib" Type="Library" URL="../../../Thermometer/Virt Instrs Thermometer.lvlib"/>
@@ -813,7 +818,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi"/>
@@ -988,9 +992,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../../../CFG Target/CFG Target.lvclass"/>
-			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../../../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../../../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
-			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../../../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="Generate PWM.vi" Type="VI" URL="../../../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 			<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../../../HAL GOOP4.lvlib"/>
@@ -1003,9 +1005,11 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Sample PWM Fan.lvclass" Type="LVClass" URL="../../Sample Tasks/Sample PWM Fan/Sample PWM Fan.lvclass"/>
+			<Item Name="Series Base.lvclass" Type="LVClass" URL="../../../Series/Series Base/Series Base.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Task Base.lvclass" Type="LVClass" URL="../../../Task/Task Base/Task Base.lvclass"/>
 			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../../../DIO/Virt Instrs DIO.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
