@@ -10,6 +10,7 @@
 		<Item Name="Perform Action Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Perform Action Msg/Perform Action Msg.lvclass"/>
 		<Item Name="Start Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Start Point Msg/Start Point Msg.lvclass"/>
 		<Item Name="Stop Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Stop Point Msg/Stop Point Msg.lvclass"/>
+		<Item Name="Stop Target Actor Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Stop Target Actor Msg/Stop Target Actor Msg.lvclass"/>
 	</Item>
 	<Item Name="IMSS Target Actor.lvclass" Type="LVClass" URL="../IMSS Target Actor/IMSS Target Actor.lvclass"/>
 </Library>
