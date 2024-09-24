@@ -97,6 +97,9 @@
 			<Item Name="FGen Simulated CFGs.lvlib" Type="Library" URL="../FGen/FGen Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs FGen.lvlib" Type="Library" URL="../FGen/Virt Instrs FGen.lvlib"/>
 		</Item>
+		<Item Name="Helper" Type="Folder">
+			<Item Name="Enum from Ring String.vi" Type="VI" URL="../Helper/Enum from Ring String.vi"/>
+		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
@@ -514,6 +517,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_I32.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_I32.ctl"/>
 				<Item Name="Message Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Abstract Classes/Message Stream/Message Stream.lvclass"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
