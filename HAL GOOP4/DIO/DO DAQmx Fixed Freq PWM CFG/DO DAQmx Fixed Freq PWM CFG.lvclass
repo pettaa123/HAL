@@ -55,22 +55,22 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Create PWM Waveform.vi" Type="VI" URL="../Create PWM Waveform.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!':!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!6!!)$&amp;"843"898:F:G^S&lt;1!!4E"Q!"Y!!#5D2%]A2%&amp;2&lt;8AA2GFY:71A2H*F=3"16UUA1U:(,GRW9WRB=X-!(U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2S"P&gt;81!&amp;E!Q`````QV$;'&amp;O&lt;G6M)%FE:7ZU!":!5!!$!!!!!1!##'6S=G^S)'FO!!!21!I!#E2V&gt;(EA1XFD&lt;'5!!!^!#A!*2H*F=86F&lt;G.Z!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"Z%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!=!"!!)!!E!#A!,!Q!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!%A!!!!!!!!!+!!!!%A!!!")!!!#3!!!!!!%!$!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'T!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&amp;%"5!!A-5&amp;&gt;.)&amp;&gt;B&gt;G6G&lt;X*N!!!;1$$`````%5.I97ZO:7QA372F&lt;H1A&lt;X6U!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"^%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A&lt;X6U!!1!!!!71$$`````$5.I97ZO:7QA372F&lt;H1!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"&amp;!#A!+2(6U?3"$?7.M:1!!$U!+!!F'=G6R&gt;76O9XE!4E"Q!"Y!!#5D2%]A2%&amp;2&lt;8AA2GFY:71A2H*F=3"16UUA1U:(,GRW9WRB=X-!(E20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!(!!=!#!!(!!E!#A!,!!Q$!!"Y!!!.#!!!#1!!!!U'!!#.#Q!!!!!!!!!!!!)1!!!!!!!!!!I!!!!3!!!!%A!!!*)!!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 	<Item Name="Init PWM Waveform DVRs.vi" Type="VI" URL="../Init PWM Waveform DVRs.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"^%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"/1(!!(A!!*3.%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=O&lt;(:D&lt;'&amp;T=Q!?2%]A2%&amp;2&lt;8AA2GFY:71A2H*F=3"16UUA1U:()'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;=!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"^%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!"/1(!!(A!!*3.%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=O&lt;(:D&lt;'&amp;T=Q!?2%]A2%&amp;2&lt;8AA2GFY:71A2H*F=3"16UUA1U:()'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
 	<Item Name="Perform Action.vi" Type="VI" URL="../Perform Action.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;F!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!5Q:0&gt;82Q&gt;81!!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"^%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A&lt;X6U!":!5!!$!!!!!1!##'6S=G^S)'FO!!!+1&amp;-&amp;37ZQ&gt;81!4E"Q!"Y!!#5D2%]A2%&amp;2&lt;8AA2GFY:71A2H*F=3"16UUA1U:(,GRW9WRB=X-!(E20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#A!!!*!!!!!!!1!+!!!!!!</Property>
@@ -80,5 +80,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
+	<Item Name="Populate PWM Waveforms Entry.vi" Type="VI" URL="../Populate PWM Waveforms Entry.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!#"%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A;7YA-A!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!"2!6!!)$&amp;"843"898:F:G^S&lt;1!!&amp;E!Q`````QV$;'&amp;O&lt;G6M)%FE:7ZU!%Z!=!!?!!!F)U20)%2"57VY)%:J?'6E)%:S:8%A5&amp;&gt;.)%.'2SZM&gt;G.M98.T!"Z%4S"%16&amp;N?#"';8BF:#"'=G6R)&amp;"843"$2E=A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115684880</Property>
 	</Item>
 </LVClass>
