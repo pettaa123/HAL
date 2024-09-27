@@ -30,6 +30,15 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
+	<Item Name="Set Series CFG.vi" Type="VI" URL="../Set Series CFG.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'0!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'2!=!!?!!!`(5F$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW&lt;'FC(UF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW9WRB=X-!'UF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!&amp;%!Q`````QJ4:8*J:8-A1U:(!!"E1(!!(A!!0RV*1W^O:GFH&gt;8*B&gt;'FP&lt;C"633""9X2P=CZM&gt;GRJ9B^*1W^O:GFH&gt;8*B&gt;'FP&lt;C"633""9X2P=CZM&gt;G.M98.T!"J*1W^O:GFH&gt;8*B&gt;'FP&lt;C"633""9X2P=C"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 	<Item Name="Set Virt Instr CFG.vi" Type="VI" URL="../Set Virt Instr CFG.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&gt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'2!=!!?!!!`(5F$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW&lt;'FC(UF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW9WRB=X-!'UF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"B!-0````]/6GFS&gt;#"*&lt;H.U=C"$2E=!!'2!=!!?!!!`(5F$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW&lt;'FC(UF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S,GRW9WRB=X-!'EF$&lt;WZG;7&gt;V=G&amp;U;7^O)&amp;6*)%&amp;D&gt;'^S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!))!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

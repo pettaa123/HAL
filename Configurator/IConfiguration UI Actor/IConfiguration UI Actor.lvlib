@@ -7,6 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Add Instr CFG Msg.lvclass" Type="LVClass" URL="../IConfiguration UI Actor Messages/Add Instr CFG Msg/Add Instr CFG Msg.lvclass"/>
 		<Item Name="Display Msg.lvclass" Type="LVClass" URL="../IConfiguration UI Actor Messages/Display Msg/Display Msg.lvclass"/>
+		<Item Name="Set Series CFG Msg.lvclass" Type="LVClass" URL="../IConfiguration UI Actor Messages/Set Series CFG Msg/Set Series CFG Msg.lvclass"/>
 		<Item Name="Set Virt Instr CFG Msg.lvclass" Type="LVClass" URL="../IConfiguration UI Actor Messages/Set Virt Instr CFG Msg/Set Virt Instr CFG Msg.lvclass"/>
 	</Item>
 	<Item Name="IConfiguration UI Actor.lvclass" Type="LVClass" URL="../IConfiguration UI Actor/IConfiguration UI Actor.lvclass"/>
