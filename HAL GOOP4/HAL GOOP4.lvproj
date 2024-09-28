@@ -69,6 +69,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="DAQmx" Type="Folder">
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
+			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="NEO480HTA" Type="Folder">
@@ -83,7 +84,6 @@
 		<Item Name="DIO" Type="Folder">
 			<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
-			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DIO/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx Meas Freq CFG/DI DAQmx Meas Freq CFG.lvclass"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
@@ -551,6 +551,7 @@
 				<Item Name="DWDT Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Boolean Array to Digital.vi"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -619,6 +620,7 @@
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Notifying Nested Endpoint.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Notifying Nested Endpoint/Notifying Nested Endpoint.lvclass"/>
+				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
 				<Item Name="OffsetRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/OffsetRect.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
@@ -681,6 +683,13 @@
 				<Item Name="WDT Append Waveforms I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I16.vi"/>
 				<Item Name="WDT Append Waveforms I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I32.vi"/>
 				<Item Name="WDT Append Waveforms I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I64.vi"/>
+				<Item Name="WDT Number of Waveform Samples CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples CDB.vi"/>
+				<Item Name="WDT Number of Waveform Samples DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples DBL.vi"/>
+				<Item Name="WDT Number of Waveform Samples EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples EXT.vi"/>
+				<Item Name="WDT Number of Waveform Samples I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I8.vi"/>
+				<Item Name="WDT Number of Waveform Samples I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I16.vi"/>
+				<Item Name="WDT Number of Waveform Samples I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples I32.vi"/>
+				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
