@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Read Database Msg.lvclass" Type="LVClass" URL="../../Database UI Messages/Read Database Msg/Read Database Msg.lvclass"/>
+		<Item Name="Read Instr CFGs Msg.lvclass" Type="LVClass" URL="../../Database UI Messages/Read Instr CFGs Msg/Read Instr CFGs Msg.lvclass"/>
 	</Item>
 	<Item Name="Database UI.lvclass" Type="LVClass" URL="../Database UI.lvclass"/>
 </Library>

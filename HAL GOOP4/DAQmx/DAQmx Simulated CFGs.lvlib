@@ -7,5 +7,5 @@
 	<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/CO DAQmx PWM Fixed Freq CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
 	<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 	<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/DO DAQmx PWM Fixed Freq CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
-	<Item Name="Thermometer DAQmx RTD Cont CFG.lvclass" Type="LVClass" URL="../../Thermometer/Thermometer Simulated CFGs/DAQmx RTD Cont CFG/RTD Cont CFG/Thermometer DAQmx RTD Cont CFG.lvclass"/>
+	<Item Name="Thermometer DAQmx RTD Cont CFG.lvclass" Type="LVClass" URL="../../Thermometer/Thermometer Simulated CFGs/RTD Cont CFG/Thermometer DAQmx RTD Cont CFG.lvclass"/>
 </Library>
