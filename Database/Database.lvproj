@@ -15,6 +15,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Database UI.lvlib" Type="Library" URL="../Database UI/Database UI.lvlib"/>
+		<Item Name="IDatabase UI.lvlib" Type="Library" URL="../IDatabase UI/IDatabase UI.lvlib"/>
 		<Item Name="Launch Database.vi" Type="VI" URL="../Launch Database.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Launch Series Msg.lvclass" Type="LVClass" URL="../Configuration UI Actor Messages/Launch Series Msg/Launch Series Msg.lvclass"/>
 		<Item Name="Set Instr CFG_Msg.lvclass" Type="LVClass" URL="../Messages/Set Instr CFG_Msg/Set Instr CFG_Msg.lvclass"/>
 	</Item>
 	<Item Name="Configuration UI Actor.lvclass" Type="LVClass" URL="../Configuration UI Actor/Configuration UI Actor.lvclass"/>
