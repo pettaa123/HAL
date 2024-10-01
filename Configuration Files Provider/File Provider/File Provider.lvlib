@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Read and Add Instr CFGs Msg.lvclass" Type="LVClass" URL="../File Provider Messages/Read and Add Instr CFGs Msg/Read and Add Instr CFGs Msg.lvclass"/>
+		<Item Name="Read Series CFG Msg.lvclass" Type="LVClass" URL="../File Provider Messages/Read Series CFG Msg/Read Series CFG Msg.lvclass"/>
+		<Item Name="Read Virt Instr CFG Msg.lvclass" Type="LVClass" URL="../File Provider Messages/Read Virt Instr CFG Msg/Read Virt Instr CFG Msg.lvclass"/>
+	</Item>
 	<Item Name="File Provider.lvclass" Type="LVClass" URL="../File Provider/File Provider.lvclass"/>
 </Library>

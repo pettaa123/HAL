@@ -1,2 +1,0 @@
-Virt Instrs JSON is seperated from Series since Virt Instrs link a exchangeable Instrument to the Task. So a Task configuration can remain unchanged, while an Instrument changes.
-A task actor releases it's member Task's Stop Do Notifier
