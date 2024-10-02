@@ -4,8 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Display Msg.lvclass" Type="LVClass" URL="../IDatabase UI Messages/Display Msg/Display Msg.lvclass"/>
-	</Item>
+	<Item Name="Messages for this Actor" Type="Folder"/>
 	<Item Name="IDatabase UI.lvclass" Type="LVClass" URL="../IDatabase UI/IDatabase UI.lvclass"/>
 </Library>
