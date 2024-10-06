@@ -33,7 +33,7 @@
 	<Item Name="Perform Action on Target.vi" Type="VI" URL="../Perform Action on Target.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;J!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%"4"E^V&gt;("V&gt;!!!"!!!!%2!=!!?!!!J%EF4&gt;(6E?3""9X2P=CZM&gt;GRJ9B2*5X2V:(EA17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!136.U&gt;72Z)%&amp;D&gt;'^S)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!J!5Q6*&lt;H"V&gt;!!;1$$`````%&amp;2B=WMN5'^J&lt;H1A372F&lt;H1!!%*!=!!?!!!J%EF4&gt;(6E?3""9X2P=CZM&gt;GRJ9B2*5X2V:(EA17.U&lt;X)O&lt;(:D&lt;'&amp;T=Q!036.U&gt;72Z)%&amp;D&gt;'^S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!A!#1!+!Q!!?!!!$1A!!!E!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!AA!!!#1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
