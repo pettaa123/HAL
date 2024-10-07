@@ -67,7 +67,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="AI" Type="Folder">
+			<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
+		</Item>
 		<Item Name="DAQmx" Type="Folder">
+			<Item Name="BufferLastReadings DBL.lvclass" Type="LVClass" URL="../DAQmx/BufferLastReadingsDBL/BufferLastReadings DBL.lvclass"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
@@ -97,6 +101,7 @@
 		</Item>
 		<Item Name="Helper" Type="Folder">
 			<Item Name="Enum from Ring String.vi" Type="VI" URL="../Helper/Enum from Ring String.vi"/>
+			<Item Name="Look in Map.vi" Type="VI" URL="../Helper/Look in Map.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>

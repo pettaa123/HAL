@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">587235328</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="AI DAQmx Cont CFG Simulated.lvclass" Type="LVClass" URL="../../AI/AI Simulated CFGs/AI DAQmx Cont CFG Simulated.lvclass"/>
 	<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/CO DAQmx PWM Fixed Freq CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
 	<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 	<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../DIO/DIO DAQmx Simulated CFGs/DO DAQmx PWM Fixed Freq CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
