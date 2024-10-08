@@ -70,8 +70,12 @@
 		<Item Name="AI" Type="Folder">
 			<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
 		</Item>
+		<Item Name="AO" Type="Folder">
+			<Item Name="AO DAQmx DC CFG.lvclass" Type="LVClass" URL="../AO/AO DAQmx DC CFG/AO DAQmx DC CFG.lvclass"/>
+		</Item>
 		<Item Name="DAQmx" Type="Folder">
 			<Item Name="BufferLastReadings DBL.lvclass" Type="LVClass" URL="../DAQmx/BufferLastReadingsDBL/BufferLastReadings DBL.lvclass"/>
+			<Item Name="BufferWritesDBL.lvclass" Type="LVClass" URL="../DAQmx/BufferWritesDBL/BufferWritesDBL.lvclass"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
@@ -130,6 +134,9 @@
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor.lvlib"/>
 		</Item>
 		<Item Name="Tests RT" Type="Folder">
+			<Item Name="No Op DAQmx Instrument" Type="Folder">
+				<Item Name="DAQmx No Op.lvclass" Type="LVClass" URL="../Tests/No Op DAQmx Instrument/DAQmx No Op.lvclass"/>
+			</Item>
 			<Item Name="Sample Tasks" Type="Folder">
 				<Item Name="DAQmx PWM PID.vi" Type="VI" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/DAQmx PWM PID.vi"/>
 				<Item Name="Sample Airtemp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/Sample Airtemp PWM Control.lvclass"/>
@@ -259,6 +266,9 @@
 				<Item Name="niScope tv event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope tv event.ctl"/>
 				<Item Name="niScope vertical coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope vertical coupling.ctl"/>
 				<Item Name="niScope which signal.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope which signal.ctl"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
