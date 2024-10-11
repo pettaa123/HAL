@@ -24,11 +24,11 @@
 	<Item Name="Perform Action on Target.vi" Type="VI" URL="../Perform Action on Target.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%"4"E^V&gt;("V&gt;!!!"!!!!%:!=!!?!!!L%UF4:8*J:8-A17.U&lt;X)O&lt;(:M;7)636.F=GFF=S""9X2P=CZM&gt;G.M98.T!"&amp;*5W6S;76T)%&amp;D&gt;'^S)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!#E"4"5FO=(6U!"J!-0````]16'&amp;T;SV1&lt;WFO&gt;#"*:'6O&gt;!!!2E"Q!"Y!!#M436.F=GFF=S""9X2P=CZM&gt;GRJ9B6*5W6S;76T)%&amp;D&gt;'^S,GRW9WRB=X-!%%F4:8*J:8-A17.U&lt;X)A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"1!&amp;!!5!"1!(!!A!#1!+!Q!!?!!!$1A!!!E!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!AA!!!#1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="Point Data Updated.vi" Type="VI" URL="../Point Data Updated.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;D!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!L%UF4:8*J:8-A17.U&lt;X)O&lt;(:M;7)636.F=GFF=S""9X2P=CZM&gt;G.M98.T!"&amp;*5W6S;76T)%&amp;D&gt;'^S)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!#E"4"%2B&gt;'%!!"J!-0````]16'&amp;T;SV1&lt;WFO&gt;#"*:'6O&gt;!!!2E"Q!"Y!!#M436.F=GFF=S""9X2P=CZM&gt;GRJ9B6*5W6S;76T)%&amp;D&gt;'^S,GRW9WRB=X-!%%F4:8*J:8-A17.U&lt;X)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!AA!!!#1!!!!!!%!#A!!!!!</Property>
