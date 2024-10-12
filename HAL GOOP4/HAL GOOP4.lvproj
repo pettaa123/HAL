@@ -67,13 +67,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="AI" Type="Folder">
-			<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
-		</Item>
-		<Item Name="AO" Type="Folder">
-			<Item Name="AO DAQmx DC CFG.lvclass" Type="LVClass" URL="../AO/AO DAQmx DC CFG/AO DAQmx DC CFG.lvclass"/>
-			<Item Name="Virt Instrs AO.lvlib" Type="Library" URL="../AO/AO Virt Instrs/Virt Instrs AO.lvlib"/>
-		</Item>
 		<Item Name="DAQmx" Type="Folder">
 			<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../DAQmx/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
 			<Item Name="BufferWrites1SamDBL.lvclass" Type="LVClass" URL="../DAQmx/BufferWrites1SamDBL/BufferWrites1SamDBL.lvclass"/>
@@ -81,6 +74,21 @@
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
+			<Item Name="AI" Type="Folder">
+				<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
+			</Item>
+			<Item Name="AO" Type="Folder">
+				<Item Name="AO DAQmx DC CFG.lvclass" Type="LVClass" URL="../AO/AO DAQmx DC CFG/AO DAQmx DC CFG.lvclass"/>
+				<Item Name="Virt Instrs AO.lvlib" Type="Library" URL="../AO/AO Virt Instrs/Virt Instrs AO.lvlib"/>
+			</Item>
+			<Item Name="DIO" Type="Folder">
+				<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
+				<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
+				<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx Meas Freq CFG/DI DAQmx Meas Freq CFG.lvclass"/>
+				<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
+				<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
+				<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
+			</Item>
 			<Item Name="NEO480HTA" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tests" Type="Folder">
@@ -88,14 +96,14 @@
 				</Item>
 				<Item Name="NEO480HTA.lvlib" Type="Library" URL="../Devices/NEO480HTA.lvlib"/>
 			</Item>
-		</Item>
-		<Item Name="DIO" Type="Folder">
-			<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
-			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
-			<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../DIO/DI DAQmx Meas Freq CFG/DI DAQmx Meas Freq CFG.lvclass"/>
-			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
-			<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
-			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
+			<Item Name="Red-y" Type="Folder">
+				<Item Name="Read Write PE Input.ctl" Type="VI" URL="../Red-y/Configurations/Read Write CFG/Read Write PE Input.ctl"/>
+				<Item Name="Red-y Read Write CFG Simulated.lvclass" Type="LVClass" URL="../Red-y/Configurations/Red-y Read Write CFG Simulated/Red-y Read Write CFG Simulated.lvclass"/>
+				<Item Name="Red-y Read Write CFG.lvclass" Type="LVClass" URL="../Red-y/Configurations/Read Write CFG/Red-y Read Write CFG.lvclass"/>
+				<Item Name="test MSS.vi" Type="VI" URL="../Red-y/test MSS.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../Red-y/test.vi"/>
+				<Item Name="Virt Red-y Read Write.lvclass" Type="LVClass" URL="../Red-y/Virtual Instrs/Virt Red-y Read Write/Virt Red-y Read Write.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="FGen" Type="Folder">
 			<Item Name="FGen Base CFG.lvclass" Type="LVClass" URL="../FGen/FGen Base CFG/FGen Base CFG.lvclass"/>
@@ -118,12 +126,7 @@
 			<Item Name="IMSS Target Actor.lvlib" Type="Library" URL="../MSS Target/IMSS Target Actor.lvlib"/>
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
 		</Item>
-		<Item Name="Red-y" Type="Folder">
-			<Item Name="Red-y Read Write CFG Simulated.lvclass" Type="LVClass" URL="../Red-y/Configurations/Red-y Read Write CFG Simulated/Red-y Read Write CFG Simulated.lvclass"/>
-			<Item Name="Red-y Read Write CFG.lvclass" Type="LVClass" URL="../Red-y/Configurations/Read Write CFG/Red-y Read Write CFG.lvclass"/>
-			<Item Name="test.vi" Type="VI" URL="../Red-y/test.vi"/>
-			<Item Name="Virt Red-y Read.lvclass" Type="LVClass" URL="../Red-y/Virtual Instrs/Virt Red-y Read/Virt Red-y Read.lvclass"/>
-		</Item>
+		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
@@ -193,7 +196,6 @@
 			<Item Name="XNET Base CFG.lvclass" Type="LVClass" URL="../XNET/XNET Base CFG/XNET Base CFG.lvclass"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
-		<Item Name="Read Write PE Input.ctl" Type="VI" URL="../Red-y/Configurations/Read Write CFG/Read Write PE Input.ctl"/>
 		<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
 		<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task/Task Base/Task Base.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
