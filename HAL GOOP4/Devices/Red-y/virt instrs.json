@@ -1,0 +1,74 @@
+{
+    "Virt Instrs": [
+        {
+            "Point Ident": "Device Address",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "13",
+                "Type": "U16"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+        {
+            "Point Ident": "Main Flow",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "0",
+                "Type": "SGL"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+        {
+            "Point Ident": "Main Temperature",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "2",
+                "Type": "SGL"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+        {
+            "Point Ident": "Main Pressure",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "5F00",
+                "Type": "SGL"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+        {
+            "Point Ident": "Main Pressure Setpoint",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Write",
+                "Register": "5F06",
+                "Type": "SGL"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+        {
+            "Point Ident": "Signal Type AI",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "4085",
+                "Type": "U16"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        },
+		        {
+            "Point Ident": "Pressure Scaling Max",
+            "Instr Ident": "ASRL11::INSTR",
+            "Const Action Data": {
+                "Action": "Read",
+                "Register": "5F04",
+                "Type": "SGL"
+            },
+            "Class": "Virt Red-y Read Write.lvclass"
+        }
+    ]
+}

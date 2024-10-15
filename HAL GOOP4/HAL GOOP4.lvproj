@@ -97,12 +97,14 @@
 				<Item Name="NEO480HTA.lvlib" Type="Library" URL="../Devices/NEO480HTA.lvlib"/>
 			</Item>
 			<Item Name="Red-y" Type="Folder">
-				<Item Name="Read Write PE Input.ctl" Type="VI" URL="../Red-y/Configurations/Read Write CFG/Read Write PE Input.ctl"/>
-				<Item Name="Red-y Read Write CFG Simulated.lvclass" Type="LVClass" URL="../Red-y/Configurations/Red-y Read Write CFG Simulated/Red-y Read Write CFG Simulated.lvclass"/>
-				<Item Name="Red-y Read Write CFG.lvclass" Type="LVClass" URL="../Red-y/Configurations/Read Write CFG/Red-y Read Write CFG.lvclass"/>
-				<Item Name="test MSS.vi" Type="VI" URL="../Red-y/test MSS.vi"/>
-				<Item Name="test.vi" Type="VI" URL="../Red-y/test.vi"/>
-				<Item Name="Virt Red-y Read Write.lvclass" Type="LVClass" URL="../Red-y/Virtual Instrs/Virt Red-y Read Write/Virt Red-y Read Write.lvclass"/>
+				<Item Name="329-3042_en_manualsmart_digicom.pdf" Type="Document" URL="../Devices/Red-y/329-3042_en_manualsmart_digicom.pdf"/>
+				<Item Name="Read Write PE Input.ctl" Type="VI" URL="../Devices/Red-y/Configurations/Pressure Control CFG/Read Write PE Input.ctl"/>
+				<Item Name="Red-y Pressure Control CFG Simulated.lvclass" Type="LVClass" URL="../Devices/Red-y/Configurations/Pressure Control CFG Simulated/Red-y Pressure Control CFG Simulated.lvclass"/>
+				<Item Name="Red-y Pressure Control CFG.lvclass" Type="LVClass" URL="../Devices/Red-y/Configurations/Pressure Control CFG/Red-y Pressure Control CFG.lvclass"/>
+				<Item Name="test MSS.vi" Type="VI" URL="../Devices/Red-y/test MSS.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../Devices/Red-y/test.vi"/>
+				<Item Name="virt instrs.json" Type="Document" URL="../Devices/Red-y/virt instrs.json"/>
+				<Item Name="Virt Red-y Read Write.lvclass" Type="LVClass" URL="../Devices/Red-y/Virtual Instrs/Virt Red-y Read Write/Virt Red-y Read Write.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="FGen" Type="Folder">
@@ -195,9 +197,11 @@
 		<Item Name="XNET" Type="Folder">
 			<Item Name="XNET Base CFG.lvclass" Type="LVClass" URL="../XNET/XNET Base CFG/XNET Base CFG.lvclass"/>
 		</Item>
+		<Item Name="Create Schema from Cluster.vi" Type="VI" URL="../Devices/Red-y/Create Schema from Cluster.vi"/>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
 		<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
 		<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task/Task Base/Task Base.lvclass"/>
+		<Item Name="Validate Attributes JSON.vi" Type="VI" URL="../Helper/Validate Attributes JSON.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
@@ -805,6 +809,7 @@
 			<Item Name="Create and Add Instrument.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Create and Add Instrument.vi"/>
 			<Item Name="Destroy.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Destroy.vi"/>
 			<Item Name="Emergency Stop all Instruments.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Emergency Stop all Instruments.vi"/>
+			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
 			<Item Name="Get Data Notifier.vi" Type="VI" URL="../Task/Task Base/Get Data Notifier.vi"/>
 			<Item Name="Get Data Queue.vi" Type="VI" URL="../Task/Task Base/Get Data Queue.vi"/>
 			<Item Name="Get Stop Do Notifier.vi" Type="VI" URL="../Task/Task Base/Get Stop Do Notifier.vi"/>
@@ -826,7 +831,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
+			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
