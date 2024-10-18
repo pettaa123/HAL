@@ -2,7 +2,7 @@
 *.lvlibp
 *.llb
 !support.llb
-
+!NI Modbus.llb
 
 # Shared objects (inc. Windows DLLs)
 *.dll
