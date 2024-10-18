@@ -89,6 +89,7 @@
 				<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 				<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 			</Item>
+			<Item Name="Electronic Load 9080" Type="Folder"/>
 			<Item Name="NEO480HTA" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tests" Type="Folder">
@@ -134,9 +135,9 @@
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
 		<Item Name="MSS Target Actor" Type="Folder">
-			<Item Name="DS Reply Msg.lvclass" Type="LVClass" URL="../../../DS-Reply-Msg/DS Reply Msg/DS Reply Msg.lvclass"/>
 			<Item Name="IMSS Target Actor.lvlib" Type="Library" URL="../MSS Target/IMSS Target Actor.lvlib"/>
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
+			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
 		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="Scope" Type="Folder">
@@ -180,9 +181,6 @@
 				<Item Name="Sample Tacho Fan.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample Tacho Fan/Sample Tacho Fan.lvclass"/>
 			</Item>
 			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
-			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
-			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
-			<Item Name="test_MSS multiple start stop mismatch2.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch2.vi"/>
 			<Item Name="test_MSS simulated daqmx do.vi" Type="VI" URL="../DIO/Tests/test_MSS simulated daqmx do.vi"/>
 			<Item Name="test_MSS simulated scope.vi" Type="VI" URL="../Scope/Tests/test_MSS simulated scope.vi"/>
 			<Item Name="test_MSS simulated temperature waveform and scalar readings.vi" Type="VI" URL="../Thermometer/Tests/test_MSS simulated temperature waveform and scalar readings.vi"/>
@@ -194,7 +192,6 @@
 			<Item Name="test_Series Simluated DO PWM Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Fans.vi"/>
 			<Item Name="test_Series Simluated DO PWM Tacho Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Tacho Fans.vi"/>
 			<Item Name="test_Study.vi" Type="VI" URL="../Tests/test_Study.vi"/>
-			<Item Name="test_Task Actor1.vi" Type="VI" URL="../Task/Task Actor/Task Actor/Tests/test_Task Actor1.vi"/>
 			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
 		</Item>
 		<Item Name="Thermometer" Type="Folder">
@@ -739,16 +736,12 @@
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../CFG Target/CFG Target.lvclass"/>
-			<Item Name="Create and Add Instrument.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Create and Add Instrument.vi"/>
-			<Item Name="Destroy.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Destroy.vi"/>
-			<Item Name="Emergency Stop all Instruments.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Emergency Stop all Instruments.vi"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
 			<Item Name="Get Data Notifier.vi" Type="VI" URL="../Task/Task Base/Get Data Notifier.vi"/>
 			<Item Name="Get Data Queue.vi" Type="VI" URL="../Task/Task Base/Get Data Queue.vi"/>
 			<Item Name="Get Stop Do Notifier.vi" Type="VI" URL="../Task/Task Base/Get Stop Do Notifier.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Measure and Stimulus Subsystems_Create.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Measure and Stimulus Subsystems_Create.vi"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -764,6 +757,9 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
+			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
+			<Item Name="test_MSS multiple start stop mismatch2.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch2.vi"/>
 			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
