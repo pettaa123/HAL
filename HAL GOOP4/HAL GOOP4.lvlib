@@ -12,7 +12,4 @@
 	<Item Name="Virt Instr Base.lvclass" Type="LVClass" URL="../Virt Instr Base/Virt Instr Base.lvclass"/>
 	<Item Name="Virt Instr Local.lvclass" Type="LVClass" URL="../Virt Instr Host/Virt Instr Local.lvclass"/>
 	<Item Name="Virt Instr Target.lvclass" Type="LVClass" URL="../Virt Instr Target/Virt Instr Target.lvclass"/>
-	<Item Name="Reply Protocol Manager.lvclass" Type="LVClass" URL="../Reply Protocol Manager/Reply Protocol Manager.lvclass"/>
-	<Item Name="Reply Protocol Base.lvclass" Type="LVClass" URL="../Reply Protocol/Reply Protocol Base/Reply Protocol Base.lvclass"/>
-	<Item Name="Reply Protocol DataSocket.lvclass" Type="LVClass" URL="../Reply Protocol/Reply Protocol DataSocket/Reply Protocol DataSocket.lvclass"/>
 </Library>

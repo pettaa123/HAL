@@ -89,7 +89,23 @@
 				<Item Name="Generate PWM.vi" Type="VI" URL="../DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 				<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 			</Item>
-			<Item Name="Electronic Load 9080" Type="Folder"/>
+			<Item Name="Electronic Load 9080" Type="Folder">
+				<Item Name="Configurations" Type="Folder">
+					<Item Name="EL Control Load CFG.lvclass" Type="LVClass" URL="../Devices/Eletronic Load 9080/Configurations/Control Load/EL Control Load CFG.lvclass"/>
+					<Item Name="EL STB Byte.ctl" Type="VI" URL="../Devices/Eletronic Load 9080/Configurations/EL STB Byte.ctl"/>
+					<Item Name="SCPI PE Input.ctl" Type="VI" URL="../Devices/Eletronic Load 9080/Configurations/SCPI PE Input.ctl"/>
+					<Item Name="Virt EL Measure Power DC CFG.lvclass" Type="LVClass" URL="../Devices/Eletronic Load 9080/Configurations/Virtual Instruments/Virt EL Measure Power/Virt EL Measure Power DC CFG.lvclass"/>
+					<Item Name="VISA Query.vi" Type="VI" URL="../Devices/Eletronic Load 9080/VISA Query.vi"/>
+				</Item>
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Resources" Type="Folder">
+						<Item Name="TEST EL Instr CFG.json" Type="Document" URL="../Devices/Eletronic Load 9080/Tests/Resources/TEST EL Instr CFG.json"/>
+						<Item Name="TEST EL Virt Instrs.json" Type="Document" URL="../Devices/Eletronic Load 9080/Tests/Resources/TEST EL Virt Instrs.json"/>
+					</Item>
+					<Item Name="Test MSS Simple.vi" Type="VI" URL="../Devices/Eletronic Load 9080/Tests/Test MSS Simple.vi"/>
+				</Item>
+				<Item Name="command_list_scpi_electronic_loads_de_en.pdf" Type="Document" URL="../Devices/Eletronic Load 9080/command_list_scpi_electronic_loads_de_en.pdf"/>
+			</Item>
 			<Item Name="NEO480HTA" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tests" Type="Folder">
@@ -139,7 +155,6 @@
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
 			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
-		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
@@ -206,7 +221,6 @@
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
 		<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
-		<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/State Actor/State Actor/State Actor.lvclass"/>
 		<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task/Task Base/Task Base.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -304,9 +318,6 @@
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Assert Error.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert Error.vi"/>
-				<Item Name="Assert Not Error.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert Not Error.vi"/>
-				<Item Name="Assert.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert.vi"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -523,7 +534,6 @@
 				<Item Name="DAQmx Write (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U16).vi"/>
 				<Item Name="DAQmx Write (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U32).vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
-				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -736,7 +746,7 @@
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../CFG Target/CFG Target.lvclass"/>
-			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
+			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="Get Data Notifier.vi" Type="VI" URL="../Task/Task Base/Get Data Notifier.vi"/>
 			<Item Name="Get Data Queue.vi" Type="VI" URL="../Task/Task Base/Get Data Queue.vi"/>
 			<Item Name="Get Stop Do Notifier.vi" Type="VI" URL="../Task/Task Base/Get Stop Do Notifier.vi"/>
