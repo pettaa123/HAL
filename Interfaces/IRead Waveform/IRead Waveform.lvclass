@@ -57,13 +57,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 	</Item>
 	<Item Name="Init.vi" Type="VI" URL="../Init.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%*!=!!?!!!N&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC&amp;EF3:7&amp;E)&amp;&gt;B&gt;G6G&lt;X*N,GRW9WRB=X-!#EF49W^Q:3"P&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!_1(!!(A!!+22)15QA37ZU:8*G97.F=SZM&gt;GRJ9B**1W^O:GFH&gt;8*F,GRW9WRB=X-!#EF$&lt;WZG;7&gt;V=G5!!%"!=!!?!!!N&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC&amp;EF3:7&amp;E)&amp;&gt;B&gt;G6G&lt;X*N,GRW9WRB=X-!#5F49W^Q:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AF&amp;=H*P=C"0&gt;81!"!!!!%*!=!!?!!!N&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC&amp;EF3:7&amp;E)&amp;&gt;B&gt;G6G&lt;X*N,GRW9WRB=X-!#EF49W^Q:3"P&gt;81!!":!5!!$!!!!!1!##%6S=G^S)%FO!!!_1(!!(A!!+22)15QA37ZU:8*G97.F=SZM&gt;GRJ9B**1W^O:GFH&gt;8*F,GRW9WRB=X-!#EF$&lt;WZG;7&gt;V=G5!!%"!=!!?!!!N&amp;%B"4#"*&lt;H2F=G:B9W6T,GRW&lt;'FC&amp;EF3:7&amp;E)&amp;&gt;B&gt;G6G&lt;X*N,GRW9WRB=X-!#5F49W^Q:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Read Last Waveform.vi" Type="VI" URL="../Read Last Waveform.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;7!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!6!!$$5RB=X1A6W&amp;W:7:P=GU!1E"Q!"Y!!#U53%&amp;-)%FO&gt;'6S:G&amp;D:8-O&lt;(:M;7)736*F971A6W&amp;W:7:P=GUO&lt;(:D&lt;'&amp;T=Q!+36.D&lt;X"F)'^V&gt;!!!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!!V!"1!(1WBB&lt;GZF&lt;!"!1(!!(A!!,22)15QA37ZU:8*G97.F=SZM&gt;GRJ9B:*5G6B:#"898:F:G^S&lt;3ZM&gt;G.M98.T!!F*5W.P='5A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!+!!!!!!</Property>

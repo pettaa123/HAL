@@ -345,7 +345,7 @@
 			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="FGEN PXI CFG.lvclass" Type="LVClass" URL="../FGEN/FGen PXI/FGen PXI CFG/FGEN PXI CFG.lvclass"/>
+			<Item Name="FGen PXI CFG.lvclass" Type="LVClass" URL="../FGEN/FGen PXI/FGen PXI CFG/FGen PXI CFG.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
