@@ -1,0 +1,13 @@
+{
+    "Virt Instrs": [
+        {
+            "Point Ident": "Load Power",
+            "Instr Ident": "LOAD",
+            "Const Action Data": {
+                "Action": "Query",
+                "SCPI": "MEAS:SCAL:POW:DC?"
+            },
+            "Class": "Virt EL Measure Power DC CFG.lvclass"
+        }
+    ]
+}
