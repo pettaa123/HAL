@@ -139,7 +139,6 @@
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
 			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
-		<Item Name="New Folder" Type="Folder"/>
 		<Item Name="Scope" Type="Folder">
 			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
 			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
@@ -157,43 +156,6 @@
 			<Item Name="ITask Actor.lvlib" Type="Library" URL="../Task/ITask Actor/ITask Actor.lvlib"/>
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../Task/Task Actor/Task Actor.lvlib"/>
 		</Item>
-		<Item Name="Tests RT" Type="Folder">
-			<Item Name="No Op DAQmx Instrument" Type="Folder">
-				<Item Name="DAQmx No Op.lvclass" Type="LVClass" URL="../Tests/No Op DAQmx Instrument/DAQmx No Op.lvclass"/>
-			</Item>
-			<Item Name="Sample Tasks" Type="Folder">
-				<Item Name="DAQmx PWM PID.vi" Type="VI" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/DAQmx PWM PID.vi"/>
-				<Item Name="Sample Airtemp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Airtemp PWM Control/Sample Airtemp PWM Control.lvclass"/>
-				<Item Name="Sample Watertemp PWM Control.lvclass" Type="LVClass" URL="../Tests/RT Tests/Sample Tasks/Sample Watertemp PWM Control/Sample Watertemp PWM Control.lvclass"/>
-			</Item>
-		</Item>
-		<Item Name="Tests Simulated" Type="Folder">
-			<Item Name="Sample Series Actors" Type="Folder">
-				<Item Name="Sample Photosensor PID Flowsensor PID.lvlib" Type="Library" URL="../Tests/Sample Series/Sample Photosensor PID Flowsensor PID/Sample Photosensor PID Flowsensor PID.lvlib"/>
-				<Item Name="Sample PWM Fans.lvlib" Type="Library" URL="../Tests/Sample Series/Sample PWM Fans/Sample PWM Fans.lvlib"/>
-				<Item Name="Sample PWM Tacho Fans.lvlib" Type="Library" URL="../Tests/Sample Series/Sample PWM Tacho Fans/Sample PWM Tacho Fans.lvlib"/>
-			</Item>
-			<Item Name="Sample Tasks" Type="Folder">
-				<Item Name="Sample PI Control.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PI Control/Sample PI Control.lvclass"/>
-				<Item Name="Sample PID Flow.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Flow/Sample PID Flow.lvclass"/>
-				<Item Name="Sample PID Light.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PID Light/Sample PID Light.lvclass"/>
-				<Item Name="Sample PWM Fan.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample PWM Fan/Sample PWM Fan.lvclass"/>
-				<Item Name="Sample Tacho Fan.lvclass" Type="LVClass" URL="../Tests/Sample Tasks/Sample Tacho Fan/Sample Tacho Fan.lvclass"/>
-			</Item>
-			<Item Name="Run Tests with Simulated Devices.vi" Type="VI" URL="../Tests/Run Tests with Simulated Devices.vi"/>
-			<Item Name="test_MSS simulated daqmx do.vi" Type="VI" URL="../DIO/Tests/test_MSS simulated daqmx do.vi"/>
-			<Item Name="test_MSS simulated scope.vi" Type="VI" URL="../Scope/Tests/test_MSS simulated scope.vi"/>
-			<Item Name="test_MSS simulated temperature waveform and scalar readings.vi" Type="VI" URL="../Thermometer/Tests/test_MSS simulated temperature waveform and scalar readings.vi"/>
-			<Item Name="test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen on ref in parallel.vi"/>
-			<Item Name="test_MSS SimulatedScope SimulatedFGen.vi" Type="VI" URL="../Tests/test_MSS SimulatedScope SimulatedFGen.vi"/>
-			<Item Name="test_Series Actor PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series Actor PID Simulated Scope Simualted FGen.vi"/>
-			<Item Name="test_Series Configure.vi" Type="VI" URL="../Tests/test_Series Configure.vi"/>
-			<Item Name="test_Series PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Series PID Simulated Scope Simualted FGen.vi"/>
-			<Item Name="test_Series Simluated DO PWM Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Fans.vi"/>
-			<Item Name="test_Series Simluated DO PWM Tacho Fans.vi" Type="VI" URL="../Tests/test_Series Simluated DO PWM Tacho Fans.vi"/>
-			<Item Name="test_Study.vi" Type="VI" URL="../Tests/test_Study.vi"/>
-			<Item Name="test_Task PID Simulated Scope Simualted FGen.vi" Type="VI" URL="../Tests/test_Task PID Simulated Scope Simualted FGen.vi"/>
-		</Item>
 		<Item Name="Thermometer" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Thermometer DAQmx RTD Cont CFG.lvclass" Type="LVClass" URL="../Thermometer/Thermometer DAQmx RTD Cont CFG/Thermometer DAQmx RTD Cont CFG.lvclass"/>
@@ -205,9 +167,6 @@
 			<Item Name="XNET Base CFG.lvclass" Type="LVClass" URL="../XNET/XNET Base CFG/XNET Base CFG.lvclass"/>
 		</Item>
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
-		<Item Name="Series Base.lvclass" Type="LVClass" URL="../Series/Series Base/Series Base.lvclass"/>
-		<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/State Actor/State Actor/State Actor.lvclass"/>
-		<Item Name="Task Base.lvclass" Type="LVClass" URL="../Task/Task Base/Task Base.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
@@ -304,9 +263,6 @@
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Assert Error.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert Error.vi"/>
-				<Item Name="Assert Not Error.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert Not Error.vi"/>
-				<Item Name="Assert.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Assert/Assert.vi"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -523,7 +479,6 @@
 				<Item Name="DAQmx Write (Raw 1D U16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U16).vi"/>
 				<Item Name="DAQmx Write (Raw 1D U32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Raw 1D U32).vi"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
-				<Item Name="Define Test.vi" Type="VI" URL="/&lt;vilib&gt;/Addons/_JKI Toolkits/Caraya/classes/Test/Define Test.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -576,7 +531,6 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_I32.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_I32.ctl"/>
 				<Item Name="Message Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Abstract Classes/Message Stream/Message Stream.lvclass"/>
@@ -585,7 +539,6 @@
 				<Item Name="Nested Endpoint Caller.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Nested Endpoint Caller/Nested Endpoint Caller.lvlib"/>
 				<Item Name="Nested Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Nested Endpoint/Nested Endpoint.lvlib"/>
 				<Item Name="Network Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Network Endpoint/Network Endpoint.lvlib"/>
-				<Item Name="Network Stream Initiator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Protocols/Network Stream Strategy/Network Stream Initiator/Network Stream Initiator.lvclass"/>
 				<Item Name="Network Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Protocols/Network Stream Strategy/Network Stream/Network Stream.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -593,8 +546,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -635,8 +586,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
-				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
-				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
@@ -737,9 +686,6 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../CFG Target/CFG Target.lvclass"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
-			<Item Name="Get Data Notifier.vi" Type="VI" URL="../Task/Task Base/Get Data Notifier.vi"/>
-			<Item Name="Get Data Queue.vi" Type="VI" URL="../Task/Task Base/Get Data Queue.vi"/>
-			<Item Name="Get Stop Do Notifier.vi" Type="VI" URL="../Task/Task Base/Get Stop Do Notifier.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
@@ -757,9 +703,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="test_MSS emergency Stop.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS emergency Stop.vi"/>
-			<Item Name="test_MSS multiple start stop mismatch1.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch1.vi"/>
-			<Item Name="test_MSS multiple start stop mismatch2.vi" Type="VI" URL="../Measure and Stimulus Subsystems/Tests/test_MSS multiple start stop mismatch2.vi"/>
 			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

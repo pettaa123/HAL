@@ -6,9 +6,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Do Msg/Do Msg.lvclass"/>
-		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
 		<Item Name="Start Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Start Msg/Start Msg.lvclass"/>
 		<Item Name="Stop Do Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Stop Do Msg/Stop Do Msg.lvclass"/>
+		<Item Name="Update Point Data Msg.lvclass" Type="LVClass" URL="../ITask Actor Messages/Update Point Data Msg/Update Point Data Msg.lvclass"/>
 	</Item>
 	<Item Name="ITask Actor.lvclass" Type="LVClass" URL="../ITask Actor/ITask Actor.lvclass"/>
 </Library>
