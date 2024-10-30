@@ -5,6 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Start Task-Points Msg.lvclass" Type="LVClass" URL="../Series Actor Messages/Start Task-Points Msg/Start Task-Points Msg.lvclass"/>
+		<Item Name="Stop Task Msg.lvclass" Type="LVClass" URL="../Series Actor Messages/Stop Task Msg/Stop Task Msg.lvclass"/>
 		<Item Name="Update Task Point Data Msg.lvclass" Type="LVClass" URL="../Series Actor Messages/Update Task Point Data Msg/Update Task Point Data Msg.lvclass"/>
 	</Item>
 	<Item Name="Series Actor.lvclass" Type="LVClass" URL="../Series Actor/Series Actor.lvclass"/>

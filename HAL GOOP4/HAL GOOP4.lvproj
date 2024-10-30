@@ -685,7 +685,7 @@
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../CFG Target/CFG Target.lvclass"/>
-			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
+			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
