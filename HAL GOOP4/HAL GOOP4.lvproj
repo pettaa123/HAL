@@ -71,15 +71,25 @@
 			<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../DAQmx/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
 			<Item Name="BufferWrites1SamDBL.lvclass" Type="LVClass" URL="../DAQmx/BufferWrites1SamDBL/BufferWrites1SamDBL.lvclass"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
+			<Item Name="DAQmx BufferLastReadsDBL.lvclass" Type="LVClass" URL="../DAQmx/DAQmx BufferLastReadsDBL/DAQmx BufferLastReadsDBL.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="AI" Type="Folder">
-				<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
+				<Item Name="AI Current DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Current DAQmx Cont CFG/AI Current DAQmx Cont CFG.lvclass"/>
+				<Item Name="AI Voltage DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Voltage DAQmx Cont CFG/AI Voltage DAQmx Cont CFG.lvclass"/>
 			</Item>
 			<Item Name="AO" Type="Folder">
 				<Item Name="AO DAQmx DC CFG.lvclass" Type="LVClass" URL="../AO/AO DAQmx DC CFG/AO DAQmx DC CFG.lvclass"/>
 				<Item Name="Virt Instrs AO.lvlib" Type="Library" URL="../AO/AO Virt Instrs/Virt Instrs AO.lvlib"/>
+			</Item>
+			<Item Name="CAN Interfaces" Type="Folder">
+				<Item Name="PCAN" Type="Folder">
+					<Item Name="Tests" Type="Folder">
+						<Item Name="Test PCAN.lvclass" Type="LVClass" URL="../Devices/CAN Interfaces/PCAN/Tests/Test PCAN.lvclass"/>
+					</Item>
+					<Item Name="PCAN.lvclass" Type="LVClass" URL="../Devices/CAN Interfaces/PCAN/PCAN.lvclass"/>
+				</Item>
 			</Item>
 			<Item Name="DIO" Type="Folder">
 				<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../DIO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
@@ -90,6 +100,12 @@
 				<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../DIO/Virt Instrs DIO.lvlib"/>
 			</Item>
 			<Item Name="Electronic Load 9080" Type="Folder"/>
+			<Item Name="HSU MCU V2" Type="Folder">
+				<Item Name="Tests" Type="Folder">
+					<Item Name="Test HSU MCU V2.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 Monitor CFG/Tests/Test HSU MCU V2/Test HSU MCU V2.lvclass"/>
+				</Item>
+				<Item Name="HSU MCU V2 Monitor CFG.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 Monitor CFG/HSU MCU V2 Monitor CFG.lvclass"/>
+			</Item>
 			<Item Name="NEO480HTA" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Tests" Type="Folder">
@@ -131,7 +147,7 @@
 			<Item Name="Validate Attributes JSON.vi" Type="VI" URL="../Helper/Validate Attributes JSON.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
-			<Item Name="IConfigure Scope.lvclass" Type="LVClass" URL="../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
+			<Item Name="ICAN.lvclass" Type="LVClass" URL="../Protocols/ICAN/ICAN.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 		</Item>
 		<Item Name="MSS Target Actor" Type="Folder">
@@ -139,9 +155,17 @@
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target/MSS Target Actor.lvlib"/>
 			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
+		<Item Name="Protocols" Type="Folder">
+			<Item Name="CAN" Type="Folder">
+				<Item Name="Tests" Type="Folder">
+					<Item Name="test CAN Frame.lvclass" Type="LVClass" URL="../Protocols/CAN/Tests/test CAN Frame/test CAN Frame.lvclass"/>
+				</Item>
+				<Item Name="CAN Frame.ctl" Type="VI" URL="../Protocols/CAN/CAN Frame.ctl"/>
+				<Item Name="CAN Frame.lvclass" Type="LVClass" URL="../Protocols/CAN/CAN Frame/CAN Frame.lvclass"/>
+				<Item Name="CAN Signal.lvclass" Type="LVClass" URL="../Protocols/CAN/CAN Signal/CAN Signal.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Scope" Type="Folder">
-			<Item Name="Scope PXI Base CFG.lvclass" Type="LVClass" URL="../Scope/Scope PXI/Base CFG/Scope PXI Base CFG.lvclass"/>
-			<Item Name="Scope Simulated CFGs.lvlib" Type="Library" URL="../Scope/Scope Simulated CFGs.lvlib"/>
 			<Item Name="Virt Instrs Scope.lvlib" Type="Library" URL="../Scope/Virt Instrs Scope.lvlib"/>
 		</Item>
 		<Item Name="Series Actor" Type="Folder">
@@ -169,6 +193,16 @@
 		<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../HAL GOOP4.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="CAN Get Error Text.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Error Text.vi"/>
+				<Item Name="CAN Get Status.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Status.vi"/>
+				<Item Name="CAN Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Initialize.vi"/>
+				<Item Name="CAN MSG Cluster.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN MSG Cluster.ctl"/>
+				<Item Name="CAN Read.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Read.vi"/>
+				<Item Name="CAN Uninitialize.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Uninitialize.vi"/>
+				<Item Name="Channel Availability.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Channel Availability.ctl"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error language selector.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Error language selector.ctl"/>
+				<Item Name="HW_Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/HW_Type.ctl"/>
 				<Item Name="niFgen Abort Generation.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Abort Generation.vi"/>
 				<Item Name="niFgen Configure Output Impedance.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Output Impedance.vi"/>
 				<Item Name="niFgen Configure Output Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Output Mode.vi"/>
@@ -187,65 +221,13 @@
 				<Item Name="niFgen_ctl Exported Signal Desination Values (ComboBox).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Desination Values (ComboBox).ctl"/>
 				<Item Name="niFgen_ctl Exported Signal Identifiers (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Identifiers (Ring).ctl"/>
 				<Item Name="niFgen_ctl Exported Signal Name Values (Ring).ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen_ctl Exported Signal Name Values (Ring).ctl"/>
-				<Item Name="niScope Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Abort.vi"/>
-				<Item Name="niScope Acquisition Status.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Acquisition Status.vi"/>
-				<Item Name="niScope acquisition type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope acquisition type.ctl"/>
-				<Item Name="niScope Close.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Close.vi"/>
-				<Item Name="niScope Configure Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/niScope Configure Acquisition.vi"/>
-				<Item Name="niScope Configure Chan Characteristics.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Chan Characteristics.vi"/>
-				<Item Name="niScope Configure Horizontal Timing.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Horizontal/niScope Configure Horizontal Timing.vi"/>
-				<Item Name="niScope Configure Trigger (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger (poly).vi"/>
-				<Item Name="niScope Configure Trigger Digital.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Digital.vi"/>
-				<Item Name="niScope Configure Trigger Edge.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Edge.vi"/>
-				<Item Name="niScope Configure Trigger Glitch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Glitch.vi"/>
-				<Item Name="niScope Configure Trigger Hysteresis.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Hysteresis.vi"/>
-				<Item Name="niScope Configure Trigger Immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Immediate.vi"/>
-				<Item Name="niScope Configure Trigger Runt.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Runt.vi"/>
-				<Item Name="niScope Configure Trigger Software.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Software.vi"/>
-				<Item Name="niScope Configure Trigger Width.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Width.vi"/>
-				<Item Name="niScope Configure Trigger Window.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Trigger Window.vi"/>
-				<Item Name="niScope Configure Vertical.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Vertical/niScope Configure Vertical.vi"/>
-				<Item Name="niScope Configure Video Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Configure Video Trigger.vi"/>
-				<Item Name="niScope export destinations.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope export destinations.ctl"/>
-				<Item Name="niScope Export Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Configure/Trigger/niScope Export Signal.vi"/>
-				<Item Name="niScope exportable signals.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope exportable signals.ctl"/>
-				<Item Name="niScope Fetch (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch (poly).vi"/>
-				<Item Name="niScope Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 8.vi"/>
-				<Item Name="niScope Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 16.vi"/>
-				<Item Name="niScope Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Binary 32.vi"/>
-				<Item Name="niScope Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Cluster.vi"/>
-				<Item Name="niScope Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex Double.vi"/>
-				<Item Name="niScope Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Complex WDT.vi"/>
-				<Item Name="niScope Fetch Error Chain.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch Error Chain.vi"/>
-				<Item Name="niScope Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch WDT.vi"/>
-				<Item Name="niScope Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Fetch.vi"/>
-				<Item Name="niScope Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope Get Session Reference.vi"/>
-				<Item Name="niScope glitch condition.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope glitch condition.ctl"/>
-				<Item Name="niScope Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/niScope Initialize.vi"/>
-				<Item Name="niScope Initiate Acquisition.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Initiate Acquisition.vi"/>
-				<Item Name="niScope LabVIEW Error.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Utility/niScope LabVIEW Error.vi"/>
-				<Item Name="niScope Multi Fetch Binary 8.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 8.vi"/>
-				<Item Name="niScope Multi Fetch Binary 16.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 16.vi"/>
-				<Item Name="niScope Multi Fetch Binary 32.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Binary 32.vi"/>
-				<Item Name="niScope Multi Fetch Cluster Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Cluster.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Cluster.vi"/>
-				<Item Name="niScope Multi Fetch Complex Double.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex Double.vi"/>
-				<Item Name="niScope Multi Fetch Complex WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch Complex WDT.vi"/>
-				<Item Name="niScope Multi Fetch WDT.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch WDT.vi"/>
-				<Item Name="niScope Multi Fetch.vi" Type="VI" URL="/&lt;instrlib&gt;/niScope/Acquire/Fetch/niScope Multi Fetch.vi"/>
-				<Item Name="niScope polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope polarity.ctl"/>
-				<Item Name="niScope signal format.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope signal format.ctl"/>
-				<Item Name="niScope timestamp type.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope timestamp type.ctl"/>
-				<Item Name="niScope trigger coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger coupling.ctl"/>
-				<Item Name="niScope trigger polarity.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger polarity.ctl"/>
-				<Item Name="niScope trigger slope.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger slope.ctl"/>
-				<Item Name="niScope trigger source digital.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source digital.ctl"/>
-				<Item Name="niScope trigger source.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger source.ctl"/>
-				<Item Name="niScope trigger window mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope trigger window mode.ctl"/>
-				<Item Name="niScope tv event.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope tv event.ctl"/>
-				<Item Name="niScope vertical coupling.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope vertical coupling.ctl"/>
-				<Item Name="niScope which signal.ctl" Type="VI" URL="/&lt;instrlib&gt;/niScope/Controls/niScope which signal.ctl"/>
+				<Item Name="PCAN Get CHANNEL CONDITION.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/PCAN Get CHANNEL CONDITION.vi"/>
+				<Item Name="TPCANBaudrate.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANBaudrate.ctl"/>
+				<Item Name="TPCANHandle.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANHandle.ctl"/>
+				<Item Name="TPCANParameter.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANParameter.ctl"/>
+				<Item Name="TPCANTimestamp.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANTimestamp.ctl"/>
+				<Item Name="Wrap_Baudrate.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Wrap_Baudrate.vi"/>
+				<Item Name="Wrap_TPCANHandle.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Wrap_TPCANHandle.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
@@ -524,6 +506,9 @@
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LUnit Runnable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Astemes/LUnit/LUnit Runnable.lvclass"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
@@ -561,6 +546,7 @@
 				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -590,6 +576,7 @@
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -611,6 +598,23 @@
 				<Item Name="XNET CAN Last Err.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Last Err.ctl"/>
 				<Item Name="XNET Clear.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Clear.vi"/>
 				<Item Name="XNET Control Scope.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Control Scope.ctl"/>
+				<Item Name="XNET Convert (Byte Array to Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame CAN).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame FlexRay).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame FlexRay).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame LIN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame LIN).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame Raw).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame Raw).vi"/>
+				<Item Name="XNET Convert (Frame CAN to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame CAN to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame CAN to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame CAN to Signal).vi"/>
+				<Item Name="XNET Convert (Frame FlexRay to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame FlexRay to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame FlexRay to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame FlexRay to Signal).vi"/>
+				<Item Name="XNET Convert (Frame LIN to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame LIN to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame LIN to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame LIN to Signal).vi"/>
+				<Item Name="XNET Convert (Frame Raw to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame Raw to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame Raw to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame Raw to Signal).vi"/>
+				<Item Name="XNET Convert (Signal to Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame CAN).vi"/>
+				<Item Name="XNET Convert (Signal to Frame FlexRay).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame FlexRay).vi"/>
+				<Item Name="XNET Convert (Signal to Frame LIN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame LIN).vi"/>
+				<Item Name="XNET Convert (Signal to Frame Raw).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame Raw).vi"/>
+				<Item Name="XNET Convert.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert.vi"/>
 				<Item Name="XNET Create Session (Conversion).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Conversion).vi"/>
 				<Item Name="XNET Create Session (Frame Input Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Queued).vi"/>
 				<Item Name="XNET Create Session (Frame Input Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Single-point).vi"/>
@@ -694,10 +698,10 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niScope_64.dll" Type="Document" URL="niScope_64.dll">
+			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
+			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">

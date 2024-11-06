@@ -25,7 +25,6 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="HAL GOOP4.lvlib:CFG Semaphore.lvclass" Type="Parent" URL="../../../../../Configuration/Configuration Semaphore/CFG Semaphore.lvclass"/>
-		<Item Name="IConfigure Scope.lvclass" Type="Parent" URL="../../../../../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
 	</Item>
 	<Item Name="Fetch Waveforms CFG.ctl" Type="Class Private Data" URL="Fetch Waveforms CFG.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

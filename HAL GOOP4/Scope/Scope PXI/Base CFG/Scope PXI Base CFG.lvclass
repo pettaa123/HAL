@@ -23,7 +23,6 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="HAL GOOP4.lvlib:CFG JSON.lvclass" Type="Parent" URL="../../../../Configuration/Configuration JSON/Configuration JSON Base/CFG JSON.lvclass"/>
-		<Item Name="IConfigure Scope.lvclass" Type="Parent" URL="../../../../Interfaces/IConfigure Scope/IConfigure Scope.lvclass"/>
 	</Item>
 	<Item Name="Scope PXI Base CFG.ctl" Type="Class Private Data" URL="Scope PXI Base CFG.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
