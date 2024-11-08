@@ -1,5 +1,5 @@
 {
-    "Instr Ident": "ASRL12::INSTR",
+    "Instr Ident": "ASRL15::INSTR",
     "Instr CFG Class": "Red-y Pressure Control CFG.lvclass",
     "Attributes": {
         "Baudrate": 9600,

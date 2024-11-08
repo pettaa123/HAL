@@ -12,4 +12,6 @@
 	<Item Name="Virt Instr Base.lvclass" Type="LVClass" URL="../Virt Instr Base/Virt Instr Base.lvclass"/>
 	<Item Name="Virt Instr Local.lvclass" Type="LVClass" URL="../Virt Instr Host/Virt Instr Local.lvclass"/>
 	<Item Name="Virt Instr Target.lvclass" Type="LVClass" URL="../Virt Instr Target/Virt Instr Target.lvclass"/>
+	<Item Name="Virt Instr Target Linear Scale.lvclass" Type="LVClass" URL="../Virt Instr Target Linear Scale/Virt Instr Target Linear Scale.lvclass"/>
+	<Item Name="Virt Instr Target Gain.lvclass" Type="LVClass" URL="../Virt Instr Target Gain/Virt Instr Target Gain.lvclass"/>
 </Library>

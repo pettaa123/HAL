@@ -1,11 +1,11 @@
 {
-    "Instr Ident": "MCUS",
+    "Instr Ident": "MCUs",
     "Instr CFG Class": "HSU MCU V2 Monitor CFG.lvclass",
     "Attributes": {
         "CAN": {
             "Instr Ident": "PCAN_USBBUS1  0x51",
             "Class": "PCAN.lvclass",
-			"Baudrate": "PCAN_BAUD_1M 0x0014",
+            "Baudrate": "PCAN_BAUD_1M 0x0014",
             "DBC": "D:\\git\\HAL\\HAL GOOP4\\Devices\\HSU MCU V2 Monitor CFG\\CANdb_MCU_HSU_V1_3.dbc"
         }
     }

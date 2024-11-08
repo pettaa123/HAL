@@ -23,6 +23,25 @@
 		<Item Name="IProvide Configurations.lvclass" Type="LVClass" URL="../CFG Provider/IProvide Configurations/IProvide Configurations.lvclass"/>
 		<Item Name="Launch Configurator.vi" Type="VI" URL="../Launch Configurator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="CAN Get Error Text.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Error Text.vi"/>
+				<Item Name="CAN Get Status.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Status.vi"/>
+				<Item Name="CAN Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Initialize.vi"/>
+				<Item Name="CAN MSG Cluster.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN MSG Cluster.ctl"/>
+				<Item Name="CAN Read.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Read.vi"/>
+				<Item Name="CAN Uninitialize.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Uninitialize.vi"/>
+				<Item Name="Channel Availability.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Channel Availability.ctl"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Error Converter (ErrCode or Status).vi"/>
+				<Item Name="Error language selector.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Error language selector.ctl"/>
+				<Item Name="HW_Type.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/HW_Type.ctl"/>
+				<Item Name="PCAN Get CHANNEL CONDITION.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/PCAN Get CHANNEL CONDITION.vi"/>
+				<Item Name="TPCANBaudrate.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANBaudrate.ctl"/>
+				<Item Name="TPCANHandle.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANHandle.ctl"/>
+				<Item Name="TPCANParameter.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANParameter.ctl"/>
+				<Item Name="TPCANTimestamp.ctl" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/TPCANTimestamp.ctl"/>
+				<Item Name="Wrap_Baudrate.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Wrap_Baudrate.vi"/>
+				<Item Name="Wrap_TPCANHandle.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/Wrap_TPCANHandle.vi"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
 				<Item Name="openg_time.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/openg_time.lvlib"/>
@@ -30,6 +49,9 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
+				<Item Name="_XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Create Session.vi"/>
+				<Item Name="_XNET Split Database Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Split Database Cluster.vi"/>
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
@@ -292,6 +314,9 @@
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
 				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
+				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
+				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
+				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -324,6 +349,7 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -335,6 +361,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="SQLite.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQLite.lvlib"/>
+				<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/State Actor/State Actor/State Actor.lvclass"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
@@ -353,6 +380,7 @@
 				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
 				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
@@ -363,9 +391,54 @@
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="XNET Convert (Byte Array to Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame CAN).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame FlexRay).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame FlexRay).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame LIN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame LIN).vi"/>
+				<Item Name="XNET Convert (Byte Array to Frame Raw).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Byte Array to Frame Raw).vi"/>
+				<Item Name="XNET Convert (Frame CAN to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame CAN to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame CAN to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame CAN to Signal).vi"/>
+				<Item Name="XNET Convert (Frame FlexRay to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame FlexRay to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame FlexRay to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame FlexRay to Signal).vi"/>
+				<Item Name="XNET Convert (Frame LIN to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame LIN to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame LIN to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame LIN to Signal).vi"/>
+				<Item Name="XNET Convert (Frame Raw to Byte Array).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame Raw to Byte Array).vi"/>
+				<Item Name="XNET Convert (Frame Raw to Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Frame Raw to Signal).vi"/>
+				<Item Name="XNET Convert (Signal to Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame CAN).vi"/>
+				<Item Name="XNET Convert (Signal to Frame FlexRay).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame FlexRay).vi"/>
+				<Item Name="XNET Convert (Signal to Frame LIN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame LIN).vi"/>
+				<Item Name="XNET Convert (Signal to Frame Raw).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert (Signal to Frame Raw).vi"/>
+				<Item Name="XNET Convert.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Convert.vi"/>
+				<Item Name="XNET Create Session (Conversion).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Conversion).vi"/>
+				<Item Name="XNET Create Session (Frame Input Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Queued).vi"/>
+				<Item Name="XNET Create Session (Frame Input Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Single-point).vi"/>
+				<Item Name="XNET Create Session (Frame Input Stream).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Input Stream).vi"/>
+				<Item Name="XNET Create Session (Frame Output Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Output Queued).vi"/>
+				<Item Name="XNET Create Session (Frame Output Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Output Single-point).vi"/>
+				<Item Name="XNET Create Session (Frame Output Stream).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Frame Output Stream).vi"/>
+				<Item Name="XNET Create Session (Generic).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Generic).vi"/>
+				<Item Name="XNET Create Session (PDU Input Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (PDU Input Queued).vi"/>
+				<Item Name="XNET Create Session (PDU Input Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (PDU Input Single-point).vi"/>
+				<Item Name="XNET Create Session (PDU Output Queued).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (PDU Output Queued).vi"/>
+				<Item Name="XNET Create Session (PDU Output Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (PDU Output Single-point).vi"/>
+				<Item Name="XNET Create Session (Signal Input Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Input Single-point).vi"/>
+				<Item Name="XNET Create Session (Signal Input Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Input Waveform).vi"/>
+				<Item Name="XNET Create Session (Signal Input XY).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Input XY).vi"/>
+				<Item Name="XNET Create Session (Signal Output Single-point).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Output Single-point).vi"/>
+				<Item Name="XNET Create Session (Signal Output Waveform).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Output Waveform).vi"/>
+				<Item Name="XNET Create Session (Signal Output XY).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session (Signal Output XY).vi"/>
+				<Item Name="XNET Create Session.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Create Session.vi"/>
+				<Item Name="XNET Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Fill In Error Info.vi"/>
+				<Item Name="XNET Frame CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame CAN.ctl"/>
+				<Item Name="XNET Frame FlexRay.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame FlexRay.ctl"/>
+				<Item Name="XNET Frame LIN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame LIN.ctl"/>
+				<Item Name="XNET Frame Type CAN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type CAN.ctl"/>
+				<Item Name="XNET Frame Type FlexRay.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type FlexRay.ctl"/>
+				<Item Name="XNET Frame Type LIN.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Frame Type LIN.ctl"/>
+				<Item Name="XNET Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Mode.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="AI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/AI/AI Cont CFG/AI DAQmx Cont CFG.lvclass"/>
+			<Item Name="AI Current DAQmx Cont CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/AI/AI Current DAQmx Cont CFG/AI Current DAQmx Cont CFG.lvclass"/>
+			<Item Name="AI Voltage DAQmx Cont CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/AI/AI Voltage DAQmx Cont CFG/AI Voltage DAQmx Cont CFG.lvclass"/>
 			<Item Name="AO DAQmx DC CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/AO/AO DAQmx DC CFG/AO DAQmx DC CFG.lvclass"/>
 			<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../../HAL GOOP4/DAQmx/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
 			<Item Name="BufferWrites1SamDBL.lvclass" Type="LVClass" URL="../../HAL GOOP4/DAQmx/BufferWrites1SamDBL/BufferWrites1SamDBL.lvclass"/>
@@ -373,27 +446,51 @@
 			<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 			<Item Name="COM Port Selector.vi" Type="VI" URL="../../HAL GOOP4/Helper/COM Port Selector.vi"/>
 			<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
+			<Item Name="DAQmx BufferLastReadsDBL.lvclass" Type="LVClass" URL="../../HAL GOOP4/DAQmx/DAQmx BufferLastReadsDBL/DAQmx BufferLastReadsDBL.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../../HAL GOOP4/DAQmx/DAQmx Simulated CFGs.lvlib"/>
 			<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 			<Item Name="Enum from Ring String.vi" Type="VI" URL="../../HAL GOOP4/Helper/Enum from Ring String.vi"/>
-			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../../generate-json-schema-labview/source/Generate JSON Schema VCluster.vi"/>
+			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../../HAL GOOP4/Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="Generate PWM.vi" Type="VI" URL="../../HAL GOOP4/DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 			<Item Name="HAL GOOP4.lvlib" Type="Library" URL="../../HAL GOOP4/HAL GOOP4.lvlib"/>
+			<Item Name="HSU MCU V2 Monitor CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/Devices/HSU MCU V2 Monitor CFG/HSU MCU V2 Monitor CFG.lvclass"/>
+			<Item Name="ICAN.lvclass" Type="LVClass" URL="../../HAL GOOP4/Protocols/ICAN/ICAN.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../../HAL GOOP4/Interfaces/IConfigure/IConfigure.lvclass"/>
+			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../../HAL GOOP4/Interfaces/ILog Data/ILog Data.lvclass"/>
 			<Item Name="IMain Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-actor/IMain Actor/IMain Actor.lvlib"/>
+			<Item Name="IMCUs Monitoring Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-series-actor/IMCUs Monitoring Actor/IMCUs Monitoring Actor.lvlib"/>
+			<Item Name="Imponator Series States.lvlib" Type="Library" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series States.lvlib"/>
+			<Item Name="Imponator Series UI Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor.lvlib"/>
+			<Item Name="Imponator Wiring Test Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-series-actor/Imponator Wiring Test Actor/Imponator Wiring Test Actor.lvlib"/>
 			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../../HAL GOOP4/Series/ISeries Actor/ISeries Actor.lvlib"/>
 			<Item Name="IStudy Actor.lvlib" Type="Library" URL="../../HAL GOOP4/Study/Study Actor/IStudy Actor.lvlib"/>
 			<Item Name="ITask Actor.lvlib" Type="Library" URL="../../HAL GOOP4/Task/ITask Actor/ITask Actor.lvlib"/>
 			<Item Name="Look in Map.vi" Type="VI" URL="../../HAL GOOP4/Helper/Look in Map.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="MCU Monitoring Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-series-actor/MCU Monitoring Actor/MCU Monitoring Actor.lvlib"/>
+			<Item Name="MCU Signals.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/MCU Monitoring Actor/MCU Signals.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="PCAN.lvclass" Type="LVClass" URL="../../HAL GOOP4/Devices/CAN Interfaces/PCAN/PCAN.lvclass"/>
+			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Read Write PE Input.ctl" Type="VI" URL="../../HAL GOOP4/Devices/Red-y/Configurations/Pressure Control CFG/Read Write PE Input.ctl"/>
 			<Item Name="Red-y Pressure Control CFG Simulated.lvclass" Type="LVClass" URL="../../HAL GOOP4/Devices/Red-y/Configurations/Pressure Control CFG Simulated/Red-y Pressure Control CFG Simulated.lvclass"/>
 			<Item Name="Red-y Pressure Control CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/Devices/Red-y/Configurations/Pressure Control CFG/Red-y Pressure Control CFG.lvclass"/>
 			<Item Name="Series Actor.lvlib" Type="Library" URL="../../HAL GOOP4/Series/Series Actor/Series Actor.lvlib"/>
+			<Item Name="Stack Mirrored Wiring Test.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Wiring Test Actor/Stack Mirrored Wiring Test.ctl"/>
+			<Item Name="Stack Mirrored.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor/Stack Mirrored.ctl"/>
+			<Item Name="Stack Point Selector.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor/Stack Point Selector.ctl"/>
+			<Item Name="Stack Selector.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor/Stack Selector.ctl"/>
+			<Item Name="Stack Temp Selector.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor/Stack Temp Selector.ctl"/>
+			<Item Name="Stack Wiring Test.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Wiring Test Actor/Stack Wiring Test.ctl"/>
+			<Item Name="Stack.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series UI Actor/Stack.ctl"/>
 			<Item Name="Strict Find Items as LV Type.vim" Type="VI" URL="../../HAL GOOP4/Helper/Strict Find Items as LV Type.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -401,6 +498,11 @@
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../../HAL GOOP4/Task/Task Actor/Task Actor.lvlib"/>
 			<Item Name="Thermometer DAQmx RTD Cont CFG.lvclass" Type="LVClass" URL="../../HAL GOOP4/Thermometer/Thermometer DAQmx RTD Cont CFG/Thermometer DAQmx RTD Cont CFG.lvclass"/>
 			<Item Name="Validate Attributes JSON.vi" Type="VI" URL="../../HAL GOOP4/Helper/Validate Attributes JSON.vi"/>
+			<Item Name="Virt Convert 4-20mA -40-60C.lvclass" Type="LVClass" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Virt Instrs/4-20mA -40-60/Virt Convert 4-20mA -40-60C.lvclass"/>
+			<Item Name="Virt Convert 4-20mA 0-100.lvclass" Type="LVClass" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Virt Instrs/4-20mA 0-100/Virt Convert 4-20mA 0-100.lvclass"/>
+			<Item Name="Virt Instrs AO.lvlib" Type="Library" URL="../../HAL GOOP4/AO/AO Virt Instrs/Virt Instrs AO.lvlib"/>
+			<Item Name="Virt Instrs DIO.lvlib" Type="Library" URL="../../HAL GOOP4/DIO/Virt Instrs DIO.lvlib"/>
+			<Item Name="Virt Red-y Read Write.lvclass" Type="LVClass" URL="../../HAL GOOP4/Devices/Red-y/Virtual Instrs/Virt Red-y Read Write/Virt Red-y Read Write.lvclass"/>
 			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../../HAL GOOP4/Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

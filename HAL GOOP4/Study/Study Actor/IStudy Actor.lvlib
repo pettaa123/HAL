@@ -8,6 +8,7 @@
 		<Item Name="Launch Series Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Launch Series Msg/Launch Series Msg.lvclass"/>
 		<Item Name="Log Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Log Target Msg/Log Target Msg.lvclass"/>
 		<Item Name="Perform Action on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Perform Action on Target Msg/Perform Action on Target Msg.lvclass"/>
+		<Item Name="Show Data Logger Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Show Data Logger Msg/Show Data Logger Msg.lvclass"/>
 		<Item Name="Start Point on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Start Point on Target Msg/Start Point on Target Msg.lvclass"/>
 		<Item Name="Stop Point on Target Msg.lvclass" Type="LVClass" URL="../IStudy Actor Messages/Stop Point on Target Msg/Stop Point on Target Msg.lvclass"/>
 	</Item>

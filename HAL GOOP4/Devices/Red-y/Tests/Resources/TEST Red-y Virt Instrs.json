@@ -2,7 +2,7 @@
     "Virt Instrs": [
         {
             "Point Ident": "Device Address",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "13",
@@ -12,7 +12,7 @@
         },
         {
             "Point Ident": "Main Flow",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "0",
@@ -22,7 +22,7 @@
         },
         {
             "Point Ident": "Main Temperature",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "2",
@@ -32,7 +32,7 @@
         },
         {
             "Point Ident": "Main Pressure",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "5F00",
@@ -42,7 +42,7 @@
         },
         {
             "Point Ident": "Main Pressure Setpoint",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Write",
                 "Register": "5F06",
@@ -52,7 +52,7 @@
         },
         {
             "Point Ident": "Signal Type AI",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "4085",
@@ -62,7 +62,7 @@
         },
 		        {
             "Point Ident": "Pressure Scaling Max",
-            "Instr Ident": "ASRL12::INSTR",
+            "Instr Ident": "ASRL15::INSTR",
             "Const Action Data": {
                 "Action": "Read",
                 "Register": "5F04",

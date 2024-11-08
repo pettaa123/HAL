@@ -74,6 +74,10 @@
 			<Item Name="DAQmx BufferLastReadsDBL.lvclass" Type="LVClass" URL="../DAQmx/DAQmx BufferLastReadsDBL/DAQmx BufferLastReadsDBL.lvclass"/>
 			<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../DAQmx/DAQmx Simulated CFGs.lvlib"/>
 		</Item>
+		<Item Name="Data Logger Actor" Type="Folder">
+			<Item Name="Data Logger Actor.lvlib" Type="Library" URL="../Data Logger Actor/Data Logger Actor/Data Logger Actor.lvlib"/>
+			<Item Name="IData Logger Actor.lvlib" Type="Library" URL="../Data Logger Actor/Data Logger Actor/IData Logger Actor/IData Logger Actor.lvlib"/>
+		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="AI" Type="Folder">
 				<Item Name="AI Current DAQmx Cont CFG.lvclass" Type="LVClass" URL="../AI/AI Current DAQmx Cont CFG/AI Current DAQmx Cont CFG.lvclass"/>
@@ -104,7 +108,9 @@
 				<Item Name="Tests" Type="Folder">
 					<Item Name="Test HSU MCU V2.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 Monitor CFG/Tests/Test HSU MCU V2/Test HSU MCU V2.lvclass"/>
 				</Item>
+				<Item Name="Attribute Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 Monitor CFG/Attribute Selector.ctl"/>
 				<Item Name="HSU MCU V2 Monitor CFG.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 Monitor CFG/HSU MCU V2 Monitor CFG.lvclass"/>
+				<Item Name="MCU Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 Monitor CFG/MCU Selector.ctl"/>
 			</Item>
 			<Item Name="NEO480HTA" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -524,6 +530,7 @@
 				<Item Name="Nested Endpoint Caller.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Nested Endpoint Caller/Nested Endpoint Caller.lvlib"/>
 				<Item Name="Nested Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Nested Endpoint/Nested Endpoint.lvlib"/>
 				<Item Name="Network Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Network Endpoint/Network Endpoint.lvlib"/>
+				<Item Name="Network Stream Listener.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Protocols/Network Stream Strategy/Netowrk Stream Listener/Network Stream Listener.lvclass"/>
 				<Item Name="Network Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Protocols/Network Stream Strategy/Network Stream/Network Stream.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -690,6 +697,7 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="CFG Target.lvclass" Type="LVClass" URL="../CFG Target/CFG Target.lvclass"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
+			<Item Name="Launch Target Actor.vi" Type="VI" URL="../MSS Target/Launch Target Actor.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niFgen_64.dll" Type="Document" URL="niFgen_64.dll">
