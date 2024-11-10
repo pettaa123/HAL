@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Do Task Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Do Task Msg/Do Task Msg.lvclass"/>
-		<Item Name="Log Data DBL Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Log Data DBL Msg/Log Data DBL Msg.lvclass"/>
 		<Item Name="Log Event Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Log Event Msg/Log Event Msg.lvclass"/>
 		<Item Name="Perform Action on Target Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Perform Action on Target Msg/Perform Action on Target Msg.lvclass"/>
 		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
