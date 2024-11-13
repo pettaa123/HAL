@@ -1,19 +1,19 @@
 {
-    "Instr Ident": "ASRL15::INSTR",
+    "Instr Ident": "ASRL18::INSTR",
     "Instr CFG Class": "Red-y Pressure Control CFG.lvclass",
     "Attributes": {
         "Baudrate": 9600,
-        "Slave Address": 1,
+        "Slave Address": 2,
         "Pressure Control": {
             "Control Mode": "Pressure Control",
-            "Pressure Unit": "mbar",
-            "Scaling Pressure Max": 10000,
+            "Pressure Unit": "bar ü",
+            "Scaling Pressure Max": 3,
             "Scaling Pressure Min": 0,
             "Signal Type AI": "4-20 mA / 1..5 V",
             "Flow Limiting": 0,
             "Pressure Control Mode": "Digital Setpoint",
             "Flow Limiting Active": false,
-            "Pressure Setpoint": 800
+            "Pressure Setpoint": 0.8
         }
     }
 }

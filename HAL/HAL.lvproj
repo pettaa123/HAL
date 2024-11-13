@@ -121,9 +121,10 @@
 				<Item Name="Tests" Type="Folder">
 					<Item Name="Test HSU MCU V2.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/Tests/Test HSU MCU V2/Test HSU MCU V2.lvclass"/>
 				</Item>
-				<Item Name="Attribute Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 CFG/Attribute Selector.ctl"/>
-				<Item Name="HSU MCU V2 CFG.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG.lvclass"/>
-				<Item Name="MCU Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 CFG/MCU Selector.ctl"/>
+				<Item Name="Attribute Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG/Attribute Selector.ctl"/>
+				<Item Name="HSU MCU V2 CFG Simulated.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG Simulated/HSU MCU V2 CFG Simulated.lvclass"/>
+				<Item Name="HSU MCU V2 CFG.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG/HSU MCU V2 CFG.lvclass"/>
+				<Item Name="MCU Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG/MCU Selector.ctl"/>
 				<Item Name="Perform Action HSU MCU Strategy.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/Perform Action HSU MCU Strategy/Perform Action HSU MCU Strategy.lvclass"/>
 			</Item>
 			<Item Name="NEO480HTA" Type="Folder">
@@ -665,6 +666,7 @@
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="IConfiguration UI Actor.lvlib" Type="Library" URL="../../Configurator/IConfiguration UI Actor/IConfiguration UI Actor.lvlib"/>
+			<Item Name="IData Sink.lvclass" Type="LVClass" URL="../../MAL/Data Sink/IData Sink/IData Sink.lvclass"/>
 			<Item Name="IMain Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-actor/IMain Actor/IMain Actor.lvlib"/>
 			<Item Name="IProvide Configurations.lvclass" Type="LVClass" URL="../../Configurator/CFG Provider/IProvide Configurations/IProvide Configurations.lvclass"/>
 			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../../MAL/Series/ISeries Actor/ISeries Actor.lvlib"/>
