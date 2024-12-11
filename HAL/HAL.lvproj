@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="24008000">
 	<Property Name="CCSymbols" Type="Str">AF_Debug_Trace,TRUE;</Property>
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">Editor version</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
@@ -110,6 +110,7 @@
 				</Item>
 				<Item Name="Thermo" Type="Folder">
 					<Item Name="Thermometer DAQmx RTD Cont CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/Thermo/Thermometer DAQmx RTD Cont CFG/Thermometer DAQmx RTD Cont CFG.lvclass"/>
+					<Item Name="Thermometer DAQmx TC Cont CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/Thermo/Thermometer DAQmx TC Cont CFG/Thermometer DAQmx TC Cont CFG.lvclass"/>
 				</Item>
 				<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
 				<Item Name="DAQmx BufferLastReadsDBL.lvclass" Type="LVClass" URL="../Devices/DAQmx/DAQmx BufferLastReadsDBL/DAQmx BufferLastReadsDBL.lvclass"/>
@@ -158,6 +159,8 @@
 			<Item Name="Create Schema from Cluster.vi" Type="VI" URL="../Devices/Red-y/Create Schema from Cluster.vi"/>
 			<Item Name="Enum from Ring String.vi" Type="VI" URL="../Helper/Enum from Ring String.vi"/>
 			<Item Name="Look in Map.vi" Type="VI" URL="../Helper/Look in Map.vi"/>
+			<Item Name="Populate FP Control Refs Map.vi" Type="VI" URL="../Helper/Populate FP Control Refs Map.vi"/>
+			<Item Name="Tick Count ms.vi" Type="VI" URL="../Tick Count ms.vi"/>
 			<Item Name="Validate Attributes JSON.vi" Type="VI" URL="../Helper/Validate Attributes JSON.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
@@ -169,7 +172,12 @@
 			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
 		<Item Name="Series Actor" Type="Folder">
+			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../../MAL/Series/ISeries Actor/ISeries Actor.lvlib"/>
 			<Item Name="Series Actor.lvlib" Type="Library" URL="../../MAL/Series/Series Actor/Series Actor.lvlib"/>
+		</Item>
+		<Item Name="Series UI Actor" Type="Folder">
+			<Item Name="ISeries UI Actor.lvlib" Type="Library" URL="../../MAL/Series/ISeries UI Actor/ISeries UI Actor.lvlib"/>
+			<Item Name="Series UI Actor.lvlib" Type="Library" URL="../../MAL/Series/Series UI Actor/Series UI Actor.lvlib"/>
 		</Item>
 		<Item Name="Study Actor" Type="Folder">
 			<Item Name="Study Actor.lvlib" Type="Library" URL="../../MAL/Study/Study Actor/Study Actor.lvlib"/>
@@ -670,7 +678,6 @@
 			<Item Name="IData Sink.lvclass" Type="LVClass" URL="../../MAL/Data Sink/IData Sink/IData Sink.lvclass"/>
 			<Item Name="IMain Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-actor/IMain Actor/IMain Actor.lvlib"/>
 			<Item Name="IProvide Configurations.lvclass" Type="LVClass" URL="../../Configurator/CFG Provider/IProvide Configurations/IProvide Configurations.lvclass"/>
-			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../../MAL/Series/ISeries Actor/ISeries Actor.lvlib"/>
 			<Item Name="IStudy Actor.lvlib" Type="Library" URL="../../MAL/Study/Study Actor/IStudy Actor.lvlib"/>
 			<Item Name="Launch Target Actor.vi" Type="VI" URL="../MSS Target/Launch Target Actor.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -689,6 +696,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tick Count ms.vi" Type="VI" URL="../Helper/Tick Count ms.vi"/>
 			<Item Name="VISA Query.vi" Type="VI" URL="../Devices/Eletronic Load 9080/VISA Query.vi"/>
 			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>

@@ -11,4 +11,5 @@
 	<Item Name="CO DAQmx PWM CFG Simulated.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Simulated CFGs/CO DAQmx PWM CFG/CO DAQmx PWM CFG Simulated.lvclass"/>
 	<Item Name="DO DAQmx Fixed Freq PWM CFG Simulated.lvclass" Type="LVClass" URL="../DIO/DIO DAQmx Simulated CFGs/DO DAQmx PWM Fixed Freq CFG/DO DAQmx Fixed Freq PWM CFG Simulated.lvclass"/>
 	<Item Name="Thermometer DAQmx RTD Cont CFG Simulated.lvclass" Type="LVClass" URL="../Thermo/Thermometer Simulated CFGs/RTD Cont CFG/Thermometer DAQmx RTD Cont CFG Simulated.lvclass"/>
+	<Item Name="Thermometer DAQmx TC Cont CFG Simulated.lvclass" Type="LVClass" URL="../Thermo/Thermometer Simulated CFGs/TC Cont CFG/Thermometer DAQmx TC Cont CFG Simulated.lvclass"/>
 </Library>
