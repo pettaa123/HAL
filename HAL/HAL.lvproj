@@ -169,7 +169,6 @@
 		<Item Name="MSS Target Actor" Type="Folder">
 			<Item Name="IMSS Target Actor.lvlib" Type="Library" URL="../MSS Target Actor/IMSS Target Actor.lvlib"/>
 			<Item Name="MSS Target Actor.lvlib" Type="Library" URL="../MSS Target Actor/MSS Target Actor.lvlib"/>
-			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 		</Item>
 		<Item Name="Series Actor" Type="Folder">
 			<Item Name="ISeries Actor.lvlib" Type="Library" URL="../../MAL/Series/ISeries Actor/ISeries Actor.lvlib"/>
@@ -180,6 +179,7 @@
 			<Item Name="Series UI Actor.lvlib" Type="Library" URL="../../MAL/Series/Series UI Actor/Series UI Actor.lvlib"/>
 		</Item>
 		<Item Name="Study Actor" Type="Folder">
+			<Item Name="IStudy Actor.lvlib" Type="Library" URL="../../MAL/Study/Study Actor/IStudy Actor.lvlib"/>
 			<Item Name="Study Actor.lvlib" Type="Library" URL="../../MAL/Study/Study Actor/Study Actor.lvlib"/>
 		</Item>
 		<Item Name="Task Actor" Type="Folder">
@@ -534,7 +534,6 @@
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
@@ -678,7 +677,6 @@
 			<Item Name="IData Sink.lvclass" Type="LVClass" URL="../../MAL/Data Sink/IData Sink/IData Sink.lvclass"/>
 			<Item Name="IMain Actor.lvlib" Type="Library" URL="../../../../gitlab/imponator-actor/IMain Actor/IMain Actor.lvlib"/>
 			<Item Name="IProvide Configurations.lvclass" Type="LVClass" URL="../../Configurator/CFG Provider/IProvide Configurations/IProvide Configurations.lvclass"/>
-			<Item Name="IStudy Actor.lvlib" Type="Library" URL="../../MAL/Study/Study Actor/IStudy Actor.lvlib"/>
 			<Item Name="Launch Target Actor.vi" Type="VI" URL="../MSS Target/Launch Target Actor.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -691,12 +689,12 @@
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 			<Item Name="SCPI PE Input.ctl" Type="VI" URL="../Devices/Eletronic Load 9080/Configurations/SCPI PE Input.ctl"/>
 			<Item Name="Strict Find Items as LV Type.vim" Type="VI" URL="../Helper/Strict Find Items as LV Type.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Tick Count ms.vi" Type="VI" URL="../Helper/Tick Count ms.vi"/>
 			<Item Name="VISA Query.vi" Type="VI" URL="../Devices/Eletronic Load 9080/VISA Query.vi"/>
 			<Item Name="Voegtlin_NI_SMART_Modbus_Drivers.lvlib" Type="Library" URL="../Devices/Red-y/Voegtlin_NI_SMART_Modbus_Drivers/Voegtlin_NI_SMART_Modbus_Drivers.lvlib"/>
 		</Item>

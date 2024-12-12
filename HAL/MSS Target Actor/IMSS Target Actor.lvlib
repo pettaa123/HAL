@@ -7,7 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Init Instruments Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Init Instruments Msg/Init Instruments Msg.lvclass"/>
 		<Item Name="Init Virtual Instruments Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Init Virtual Instruments Msg/Init Virtual Instruments Msg.lvclass"/>
-		<Item Name="Perform Action Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Perform Action Msg/Perform Action Msg.lvclass"/>
+		<Item Name="Perform Action DataSocket Reply Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Perform Action DataSocket Reply Msg/Perform Action DataSocket Reply Msg.lvclass"/>
 		<Item Name="Start Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Start Point Msg/Start Point Msg.lvclass"/>
 		<Item Name="Stop Point Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Stop Point Msg/Stop Point Msg.lvclass"/>
 		<Item Name="Stop Target Actor Msg.lvclass" Type="LVClass" URL="../IMSS Target Actor Messages/Stop Target Actor Msg/Stop Target Actor Msg.lvclass"/>
