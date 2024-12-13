@@ -157,10 +157,12 @@
 			</Item>
 			<Item Name="COM Port Selector.vi" Type="VI" URL="../Helper/COM Port Selector.vi"/>
 			<Item Name="Create Schema from Cluster.vi" Type="VI" URL="../Devices/Red-y/Create Schema from Cluster.vi"/>
+			<Item Name="DataSocket Read Connections Manager.vi" Type="VI" URL="../MSS Target Actor/MSS Target Actor/DataSocket Read Connections Manager.vi"/>
+			<Item Name="DataSocket Write Connections Manager.vi" Type="VI" URL="../MSS Target Actor/MSS Target Actor/DataSocket Write Connections Manager.vi"/>
 			<Item Name="Enum from Ring String.vi" Type="VI" URL="../Helper/Enum from Ring String.vi"/>
 			<Item Name="Look in Map.vi" Type="VI" URL="../Helper/Look in Map.vi"/>
 			<Item Name="Populate FP Control Refs Map.vi" Type="VI" URL="../Helper/Populate FP Control Refs Map.vi"/>
-			<Item Name="Tick Count ms.vi" Type="VI" URL="../Tick Count ms.vi"/>
+			<Item Name="Tick Count ms.vi" Type="VI" URL="../Helper/Tick Count ms.vi"/>
 			<Item Name="Validate Attributes JSON.vi" Type="VI" URL="../Helper/Validate Attributes JSON.vi"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
@@ -689,7 +691,6 @@
 			<Item Name="PCANBasic.dll" Type="Document" URL="PCANBasic.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Reply Msg DataSocket.lvclass" Type="LVClass" URL="../../../Reply-Msg-DataSocket/Reply Msg DataSocket/Reply Msg DataSocket.lvclass"/>
 			<Item Name="SCPI PE Input.ctl" Type="VI" URL="../Devices/Eletronic Load 9080/Configurations/SCPI PE Input.ctl"/>
 			<Item Name="Strict Find Items as LV Type.vim" Type="VI" URL="../Helper/Strict Find Items as LV Type.vim"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
