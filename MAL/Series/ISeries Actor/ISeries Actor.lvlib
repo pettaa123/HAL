@@ -9,9 +9,12 @@
 		<Item Name="Log Event Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Log Event Msg/Log Event Msg.lvclass"/>
 		<Item Name="Perform Action on Target Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Perform Action on Target Msg/Perform Action on Target Msg.lvclass"/>
 		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
-		<Item Name="Show Data Logger Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Show Data Logger Msg/Show Data Logger Msg.lvclass"/>
+		<Item Name="Request Task Setpoint Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Request Task Setpoint Msg/Request Task Setpoint Msg.lvclass"/>
+		<Item Name="Set Task Setpoint Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Set Task Setpoint Msg/Set Task Setpoint Msg.lvclass"/>
+		<Item Name="Show Nested Panel Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Show Nested Panel Msg/Show Nested Panel Msg.lvclass"/>
 		<Item Name="Start Point on Target Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Start Point on Target Msg/Start Point on Target Msg.lvclass"/>
 		<Item Name="Stop Point on Target Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Stop Point on Target Msg/Stop Point on Target Msg.lvclass"/>
+		<Item Name="Task Setpoint Updated Msg.lvclass" Type="LVClass" URL="../ISeries Actor Messages/Task Setpoint Updated Msg/Task Setpoint Updated Msg.lvclass"/>
 	</Item>
 	<Item Name="ISeries Actor.lvclass" Type="LVClass" URL="../ISeries Actor/ISeries Actor.lvclass"/>
 </Library>

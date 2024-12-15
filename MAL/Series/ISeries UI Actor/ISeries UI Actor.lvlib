@@ -6,8 +6,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Log Event Msg.lvclass" Type="LVClass" URL="../ISeries UI Actor Messages/Log Event Msg/Log Event Msg.lvclass"/>
-		<Item Name="Point Data Updated Msg.lvclass" Type="LVClass" URL="../ISeries UI Actor Messages/Point Data Updated Msg/Point Data Updated Msg.lvclass"/>
+		<Item Name="Update Point Data Msg.lvclass" Type="LVClass" URL="../ISeries UI Actor Messages/Point Data Updated Msg/Update Point Data Msg.lvclass"/>
 		<Item Name="Update State Name Msg.lvclass" Type="LVClass" URL="../ISeries UI Actor Messages/Update State Name Msg/Update State Name Msg.lvclass"/>
+		<Item Name="Update Task Setpoint Msg.lvclass" Type="LVClass" URL="../ISeries UI Actor Messages/Update Task Setpoint Msg/Update Task Setpoint Msg.lvclass"/>
 	</Item>
 	<Item Name="ISeries UI Actor.lvclass" Type="LVClass" URL="../ISeries UI Actor/ISeries UI Actor.lvclass"/>
 </Library>
