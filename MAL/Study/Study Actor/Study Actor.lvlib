@@ -7,5 +7,7 @@
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Item Name="Stop Target Actor Msg.lvclass" Type="LVClass" URL="../Study Actor Messages/Stop Target Actor Msg/Stop Target Actor Msg.lvclass"/>
 	</Item>
+	<Item Name="Kill Target.ctl" Type="VI" URL="../Study Actor/Kill Target.ctl"/>
+	<Item Name="Launch Target.ctl" Type="VI" URL="../Study Actor/Launch Target.ctl"/>
 	<Item Name="Study Actor.lvclass" Type="LVClass" URL="../Study Actor/Study Actor.lvclass"/>
 </Library>
