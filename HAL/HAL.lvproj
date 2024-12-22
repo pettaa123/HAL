@@ -77,7 +77,8 @@
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="Buffers" Type="Folder">
-				<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
+				<Item Name="BufferLastReads.lvclass" Type="LVClass" URL="../BufferLastReads/BufferLastReads.lvclass"/>
+				<Item Name="BufferLossless.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferLossless/BufferLossless.lvclass"/>
 				<Item Name="BufferWrites1SamDBL.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferWrites1SamDBL/BufferWrites1SamDBL.lvclass"/>
 			</Item>
 			<Item Name="CAN Interfaces" Type="Folder">
@@ -120,9 +121,6 @@
 				<Item Name="EL Control Load CFG.lvclass" Type="LVClass" URL="../Devices/Eletronic Load 9080/Configurations/Control Load/EL Control Load CFG.lvclass"/>
 			</Item>
 			<Item Name="HSU MCU V2" Type="Folder">
-				<Item Name="Tests" Type="Folder">
-					<Item Name="Test HSU MCU V2.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/Tests/Test HSU MCU V2/Test HSU MCU V2.lvclass"/>
-				</Item>
 				<Item Name="Attribute Selector.ctl" Type="VI" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG/Attribute Selector.ctl"/>
 				<Item Name="HSU MCU V2 CFG Simulated.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG Simulated/HSU MCU V2 CFG Simulated.lvclass"/>
 				<Item Name="HSU MCU V2 CFG.lvclass" Type="LVClass" URL="../Devices/HSU MCU V2 CFG/HSU MCU V2 CFG/HSU MCU V2 CFG.lvclass"/>
@@ -137,13 +135,6 @@
 				<Item Name="NEO480HTA.lvlib" Type="Library" URL="../Devices/NEO480HTA/NEO480HTA.lvlib"/>
 			</Item>
 			<Item Name="Red-y" Type="Folder">
-				<Item Name="Tests" Type="Folder">
-					<Item Name="Resources" Type="Folder">
-						<Item Name="TEST Red-y Instr CFG Pressure Control.json" Type="Document" URL="../Devices/Red-y/Tests/Resources/TEST Red-y Instr CFG Pressure Control.json"/>
-						<Item Name="TEST Red-y Virt Instrs.json" Type="Document" URL="../Devices/Red-y/Tests/Resources/TEST Red-y Virt Instrs.json"/>
-					</Item>
-					<Item Name="Test Red-y Pressure Control CFG.lvclass" Type="LVClass" URL="../Devices/Red-y/Tests/Test Red-y Pressure Control CFG/Test Red-y Pressure Control CFG.lvclass"/>
-				</Item>
 				<Item Name="329-3042_en_manualsmart_digicom.pdf" Type="Document" URL="../Devices/Red-y/329-3042_en_manualsmart_digicom.pdf"/>
 				<Item Name="Perform Action Red-y Read Write Strategy.lvclass" Type="LVClass" URL="../Devices/Red-y/Strategies/Red-y Read Write/Perform Action Red-y Read Write Strategy.lvclass"/>
 				<Item Name="Read Write PE Input.ctl" Type="VI" URL="../Devices/Red-y/Configurations/Pressure Control CFG/Read Write PE Input.ctl"/>
@@ -189,6 +180,7 @@
 			<Item Name="Task Actor.lvlib" Type="Library" URL="../../MAL/Task/Task Actor/Task Actor.lvlib"/>
 		</Item>
 		<Item Name="HAL.lvlib" Type="Library" URL="../HAL.lvlib"/>
+		<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/State Actor/State Actor/State Actor.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="CAN Get Error Text.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Error Text.vi"/>
@@ -674,6 +666,7 @@
 				<Item Name="XNET Stop.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Stop.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="IConfiguration UI Actor.lvlib" Type="Library" URL="../../Configurator/IConfiguration UI Actor/IConfiguration UI Actor.lvlib"/>
 			<Item Name="IData Sink.lvclass" Type="LVClass" URL="../../MAL/Data Sink/IData Sink/IData Sink.lvclass"/>
@@ -682,6 +675,8 @@
 			<Item Name="Launch Target Actor.vi" Type="VI" URL="../MSS Target/Launch Target Actor.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Nested Actors Series.ctl" Type="VI" URL="../../../../gitlab/imponator-series-actor/Imponator Series Actor/Imponator Series Actor/Nested Actors Series.ctl"/>
+			<Item Name="Nested Actors Study.ctl" Type="VI" URL="../../MAL/Study/Study Actor/Study Actor/Nested Actors Study.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

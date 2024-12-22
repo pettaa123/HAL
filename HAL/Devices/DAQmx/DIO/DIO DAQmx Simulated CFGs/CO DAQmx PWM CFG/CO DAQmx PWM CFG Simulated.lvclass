@@ -32,11 +32,11 @@
 	<Item Name="Apply.vi" Type="VI" URL="../Apply.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!`'E2"57VY)&amp;.J&lt;86M982F:#"$2E&gt;T,GRW&lt;'FC)E.0)%2"57VY)&amp;"843"$2E=A5WFN&gt;7RB&gt;'6E,GRW9WRB=X-!&amp;52*4S"%16&amp;N?#"16UUA1U:()'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!8E"Q!"Y!!$];2%&amp;2&lt;8AA5WFN&gt;7RB&gt;'6E)%.'2X-O&lt;(:M;7)C1U]A2%&amp;2&lt;8AA5&amp;&gt;.)%.'2S"4;7VV&lt;'&amp;U:71O&lt;(:D&lt;'&amp;T=Q!52%F0)%2"57VY)&amp;"843"$2E=A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33554600</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082135056</Property>
 	</Item>
 	<Item Name="Perform Action.vi" Type="VI" URL="../Perform Action.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'0!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!5Q:0&gt;82Q&gt;81!!&amp;Z!=!!?!!!`'E2"57VY)&amp;.J&lt;86M982F:#"$2E&gt;T,GRW&lt;'FC)E.0)%2"57VY)&amp;"843"$2E=A5WFN&gt;7RB&gt;'6E,GRW9WRB=X-!&amp;52*4S"%16&amp;N?#"16UUA1U:()'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q6*&lt;H"V&gt;!"?1(!!(A!!0RJ%16&amp;N?#"4;7VV&lt;'&amp;U:71A1U:(=SZM&gt;GRJ9C*$4S"%16&amp;N?#"16UUA1U:()&amp;.J&lt;86M982F:#ZM&gt;G.M98.T!"2%35]A2%&amp;2&lt;8AA5&amp;&gt;.)%.'2S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E$!!"Y!!!*!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#A!!!*)!!!!!!1!+!!!!!!</Property>
