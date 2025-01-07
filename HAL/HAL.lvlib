@@ -6,11 +6,11 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Configurations" Type="Folder">
 		<Item Name="CFG Base.lvclass" Type="LVClass" URL="../Configurations/CFG Base/CFG Base.lvclass"/>
-		<Item Name="CFG JSON.lvclass" Type="LVClass" URL="../Configurations/CFG JSON/CFG JSON.lvclass"/>
 	</Item>
 	<Item Name="Strategies" Type="Folder">
 		<Item Name="Perform Action Strategies" Type="Folder">
 			<Item Name="Perform Action on Const Channel Strategy.lvclass" Type="LVClass" URL="../Virtual Instruments/PA on Const Channel Strategy/Perform Action on Const Channel Strategy.lvclass"/>
+			<Item Name="Perform Action on N Const Channels Strategy.lvclass" Type="LVClass" URL="../Virtual Instruments/PA on N Const Channels Strategy/Perform Action on N Const Channels Strategy.lvclass"/>
 			<Item Name="Perform Action Remote on Const Channel Strategy.lvclass" Type="LVClass" URL="../Virtual Instruments/Perform Action Remote on Const Channel Strategy/Perform Action Remote on Const Channel Strategy.lvclass"/>
 			<Item Name="Perform Action Remote on Const Channel with 2DBL Strategy.lvclass" Type="LVClass" URL="../Virtual Instruments/PA Remote on Const Channel with 2DBL Strategy/Perform Action Remote on Const Channel with 2DBL Strategy.lvclass"/>
 			<Item Name="Perform Action Remote on Const Channel with 3DBL Strategy.lvclass" Type="LVClass" URL="../Virtual Instruments/PA Remote on Const Channel with 3DBL Strategy/Perform Action Remote on Const Channel with 3DBL Strategy.lvclass"/>

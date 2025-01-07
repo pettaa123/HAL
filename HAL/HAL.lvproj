@@ -77,8 +77,9 @@
 		</Item>
 		<Item Name="Devices" Type="Folder">
 			<Item Name="Buffers" Type="Folder">
+				<Item Name="Buffer Lossless DBL.lvclass" Type="LVClass" URL="../Devices/Buffers/Buffer Lossless DBL/Buffer Lossless DBL.lvclass"/>
+				<Item Name="Buffer Lossless Digital.lvclass" Type="LVClass" URL="../Devices/Buffers/Buffer Lossless Digital/Buffer Lossless Digital.lvclass"/>
 				<Item Name="BufferLastReads.lvclass" Type="LVClass" URL="../BufferLastReads/BufferLastReads.lvclass"/>
-				<Item Name="BufferLossless.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferLossless/BufferLossless.lvclass"/>
 				<Item Name="BufferWrites1SamDBL.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferWrites1SamDBL/BufferWrites1SamDBL.lvclass"/>
 			</Item>
 			<Item Name="CAN Interfaces" Type="Folder">
@@ -104,8 +105,11 @@
 					<Item Name="CO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/CO/CO DAQmx Fixed Freq PWM CFG/CO DAQmx Fixed Freq PWM CFG.lvclass"/>
 					<Item Name="CO DAQmx PWM CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/DIO/CO DAQmx PWM CFG/CO DAQmx PWM CFG.lvclass"/>
 				</Item>
-				<Item Name="DIO" Type="Folder">
+				<Item Name="DI" Type="Folder">
+					<Item Name="DI DAQmx Cont CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/DIO/DI DAQmx Cont CFG/DI DAQmx Cont CFG.lvclass"/>
 					<Item Name="DI DAQmx Meas Freq CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/CO/DI DAQmx Meas Freq CFG/DI DAQmx Meas Freq CFG.lvclass"/>
+				</Item>
+				<Item Name="DO" Type="Folder">
 					<Item Name="DO DAQmx Fixed Freq PWM CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/DIO/DO DAQmx Fixed Freq PWM CFG/DO DAQmx Fixed Freq PWM CFG.lvclass"/>
 					<Item Name="Generate PWM.vi" Type="VI" URL="../Devices/DAQmx/DIO/DO DAQmx Fixed Freq PWM CFG/Generate PWM.vi"/>
 				</Item>
@@ -114,7 +118,6 @@
 					<Item Name="Thermometer DAQmx TC Cont CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/Thermo/Thermometer DAQmx TC Cont CFG/Thermometer DAQmx TC Cont CFG.lvclass"/>
 				</Item>
 				<Item Name="DAQmx Base CFG.lvclass" Type="LVClass" URL="../Devices/DAQmx/DAQmx Base CFG/DAQmx Base CFG.lvclass"/>
-				<Item Name="DAQmx BufferLastReadsDBL.lvclass" Type="LVClass" URL="../Devices/DAQmx/DAQmx BufferLastReadsDBL/DAQmx BufferLastReadsDBL.lvclass"/>
 				<Item Name="DAQmx Simulated CFGs.lvlib" Type="Library" URL="../Devices/DAQmx/DAQmx Simulated CFGs.lvlib"/>
 			</Item>
 			<Item Name="EL 9080 " Type="Folder">
@@ -150,6 +153,7 @@
 			<Item Name="Create Schema from Cluster.vi" Type="VI" URL="../Devices/Red-y/Create Schema from Cluster.vi"/>
 			<Item Name="DataSocket Read Connections Manager.vi" Type="VI" URL="../MSS Target Actor/MSS Target Actor/DataSocket Read Connections Manager.vi"/>
 			<Item Name="DataSocket Write Connections Manager.vi" Type="VI" URL="../MSS Target Actor/MSS Target Actor/DataSocket Write Connections Manager.vi"/>
+			<Item Name="Digital Waveform Chart.lvclass" Type="LVClass" URL="../Helper/Digital Waveform Chart/Digital Waveform Chart.lvclass"/>
 			<Item Name="Enum from Ring String.vi" Type="VI" URL="../Helper/Enum from Ring String.vi"/>
 			<Item Name="Look in Map.vi" Type="VI" URL="../Helper/Look in Map.vi"/>
 			<Item Name="Populate FP Control Refs Map.vi" Type="VI" URL="../Helper/Populate FP Control Refs Map.vi"/>
@@ -217,16 +221,25 @@
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="Adjust Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Adjust Data.vi"/>
+				<Item Name="Append Compressed Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Append Compressed Data.vi"/>
+				<Item Name="Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Samples.vi"/>
+				<Item Name="Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Signals.vi"/>
+				<Item Name="Append UnCompressed Data.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Append UnCompressed Data.vi"/>
+				<Item Name="Append Waveform Attributes.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Append Waveform Attributes.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Assert Array Dimension Count.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Array Dimension Count.vim"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Boolean Array to Digital.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
+				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Cipher.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Abstract Classes/Cipher/Cipher.lvclass"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Index.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/Create Index.vi"/>
 				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi"/>
@@ -436,13 +449,19 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="DTbl Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Samples.vi"/>
+				<Item Name="DTbl Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Append Digital Signals.vi"/>
 				<Item Name="DTbl Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Boolean Array to Digital.vi"/>
 				<Item Name="DTbl Compress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Compress Digital.vi"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
 				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="DWDT Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Samples.vi"/>
+				<Item Name="DWDT Append Digital Signals.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Append Digital Signals.vi"/>
 				<Item Name="DWDT Boolean Array to Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Boolean Array to Digital.vi"/>
+				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -502,6 +521,7 @@
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_I32.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_I32.ctl"/>
+				<Item Name="Malleable Buffer.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/Malleable Buffer/Circular Buffer/Malleable Buffer.lvlib"/>
 				<Item Name="Message Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ni/Actors/Network Endpoint Actors/Abstract Classes/Message Stream/Message Stream.lvclass"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
@@ -542,6 +562,7 @@
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
 				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
@@ -666,7 +687,6 @@
 				<Item Name="XNET Stop.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Stop.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="BufferLastReadsDBL.lvclass" Type="LVClass" URL="../Devices/Buffers/BufferLastReadingsDBL/BufferLastReadsDBL.lvclass"/>
 			<Item Name="Generate JSON Schema VCluster.vi" Type="VI" URL="../Helper/Generate JSON Schema VCluster.vi"/>
 			<Item Name="IConfiguration UI Actor.lvlib" Type="Library" URL="../../Configurator/IConfiguration UI Actor/IConfiguration UI Actor.lvlib"/>
 			<Item Name="IData Sink.lvclass" Type="LVClass" URL="../../MAL/Data Sink/IData Sink/IData Sink.lvclass"/>
