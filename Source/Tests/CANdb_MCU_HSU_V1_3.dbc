@@ -1,0 +1,382 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: MCU8 MCU7 MCU6 MCU5 MCU4 MCU3 MCU2 MCU1 MONITOR
+VAL_TABLE_ FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_TABLE_ STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+
+
+BO_ 424 MCU8_MONITORING: 8 MCU8
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 423 MCU7_MONITORING: 8 MCU7
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 440 MCU8_STATUS: 8 MCU8
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 439 MCU7_STATUS: 8 MCU7
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 438 MCU6_STATUS: 8 MCU6
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 437 MCU5_STATUS: 8 MCU5
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 436 MCU4_STATUS: 8 MCU4
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 435 MCU3_STATUS: 8 MCU3
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 434 MCU2_STATUS: 8 MCU2
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+BO_ 422 MCU6_MONITORING: 8 MCU6
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 421 MCU5_MONITORING: 8 MCU5
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 420 MCU4_MONITORING: 8 MCU4
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 419 MCU3_MONITORING: 8 MCU3
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 418 MCU2_MONITORING: 8 MCU2
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 273 ALL_TARGET: 8 MONITOR
+ SG_ MCU8_TARGET : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU7_TARGET : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU6_TARGET : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU5_TARGET : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU4_TARGET : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU3_TARGET : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU2_TARGET : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ MCU1_TARGET : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 417 MCU1_MONITORING: 8 MCU1
+ SG_ MCU_SENSORLESS : 62|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_nPowerGND : 61|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_ENABLE : 60|1@1+ (1,0) [0|1] ""  MONITOR
+ SG_ MCU_I_s_0 : 48|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_q : 36|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_I_s_d : 24|12@1- (0.05,0) [-102.4|102.35] "A"  MONITOR
+ SG_ MCU_U_s_q : 12|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+ SG_ MCU_U_s_d : 0|12@1- (0.05,0) [-102.4|102.35] "V"  MONITOR
+
+BO_ 433 MCU1_STATUS: 8 MCU1
+ SG_ MCU_Speed : 44|12@1- (0.2,0) [-409.6|409.4] "rad/s"  MONITOR
+ SG_ MCU_I_REF : 32|12@1+ (0.02,0) [0|81.9] "A"  MONITOR
+ SG_ MCU_FAULT : 56|2@1+ (1,0) [0|3] ""  MONITOR
+ SG_ MCU_STATE : 12|4@1+ (1,0) [0|8] ""  MONITOR
+ SG_ MCU_Temp_PowerStage : 24|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_Temp_Winding : 16|8@1+ (0.5,0) [0|127.5] "DegC"  MONITOR
+ SG_ MCU_U_DC : 0|12@1+ (0.03,0) [0|122.85] "V"  MONITOR
+
+
+
+CM_ SG_ 424 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 424 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 424 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 424 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 424 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 424 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 424 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 424 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 423 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 423 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 423 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 423 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 423 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 423 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 423 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 423 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 440 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 440 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 440 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 440 MCU_STATE "MCU state machine state";
+CM_ SG_ 440 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 440 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 440 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 439 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 439 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 439 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 439 MCU_STATE "MCU state machine state";
+CM_ SG_ 439 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 439 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 439 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 438 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 438 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 438 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 438 MCU_STATE "MCU state machine state";
+CM_ SG_ 438 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 438 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 438 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 437 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 437 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 437 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 437 MCU_STATE "MCU state machine state";
+CM_ SG_ 437 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 437 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 437 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 436 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 436 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 436 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 436 MCU_STATE "MCU state machine state";
+CM_ SG_ 436 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 436 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 436 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 435 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 435 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 435 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 435 MCU_STATE "MCU state machine state";
+CM_ SG_ 435 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 435 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 435 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 434 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 434 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 434 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 434 MCU_STATE "MCU state machine state";
+CM_ SG_ 434 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 434 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 434 MCU_U_DC "measured DC side voltage";
+CM_ SG_ 422 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 422 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 422 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 422 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 422 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 422 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 422 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 422 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 421 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 421 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 421 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 421 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 421 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 421 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 421 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 421 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 420 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 420 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 420 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 420 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 420 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 420 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 420 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 420 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 419 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 419 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 419 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 419 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 419 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 419 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 419 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 419 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 418 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 418 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 418 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 418 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 418 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 418 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 418 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 418 MCU_U_s_d "reference d-axis output voltage";
+CM_ BO_ 273 "Sends Target Values to all MCUs, might be used as watchdog as well.";
+CM_ SG_ 273 MCU8_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU7_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU6_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU5_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU4_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU3_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU2_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 273 MCU1_TARGET "MCU Target Value for Torque/Current in 1/255";
+CM_ SG_ 417 MCU_SENSORLESS "Motor in sensorless operation and not in open loop startup";
+CM_ SG_ 417 MCU_nPowerGND "Precharge resistor ACTIVE/bridged";
+CM_ SG_ 417 MCU_ENABLE "Power Stage EnNABLED/disabled ";
+CM_ SG_ 417 MCU_I_s_0 "measured zero-sequence current";
+CM_ SG_ 417 MCU_I_s_q "measured q-axis current";
+CM_ SG_ 417 MCU_I_s_d "measured d-axis current";
+CM_ SG_ 417 MCU_U_s_q "reference q-axis output voltage";
+CM_ SG_ 417 MCU_U_s_d "reference d-axis output voltage";
+CM_ SG_ 433 MCU_Speed "Speed of Motor in radians per second (equals 60/2/pi RPM)";
+CM_ SG_ 433 MCU_I_REF "q-Axis current controller reference  input ";
+CM_ SG_ 433 MCU_FAULT "Description of FAULT State";
+CM_ SG_ 433 MCU_STATE "MCU state machine state";
+CM_ SG_ 433 MCU_Temp_PowerStage "PCB temperature of MCUs power stage/MOSFETS";
+CM_ SG_ 433 MCU_Temp_Winding "Motor winding temperature
+";
+CM_ SG_ 433 MCU_U_DC "measured DC side voltage";
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_  "MultiplexExtEnabled" ENUM  "No","Yes";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "VFrameFormat" "ExtendedCAN_FD";
+BA_DEF_DEF_  "MultiplexExtEnabled" "No";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "BusType" "CAN";
+BA_ "VFrameFormat" BO_ 424 0;
+BA_ "VFrameFormat" BO_ 423 0;
+BA_ "VFrameFormat" BO_ 440 0;
+BA_ "VFrameFormat" BO_ 439 0;
+BA_ "VFrameFormat" BO_ 438 0;
+BA_ "VFrameFormat" BO_ 437 0;
+BA_ "VFrameFormat" BO_ 436 0;
+BA_ "VFrameFormat" BO_ 435 0;
+BA_ "VFrameFormat" BO_ 434 0;
+BA_ "VFrameFormat" BO_ 422 0;
+BA_ "VFrameFormat" BO_ 421 0;
+BA_ "VFrameFormat" BO_ 420 0;
+BA_ "VFrameFormat" BO_ 419 0;
+BA_ "VFrameFormat" BO_ 418 0;
+BA_ "VFrameFormat" BO_ 273 0;
+BA_ "VFrameFormat" BO_ 417 0;
+BA_ "VFrameFormat" BO_ 433 0;
+VAL_ 440 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 440 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 439 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 439 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 438 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 438 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 437 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 437 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 436 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 436 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 435 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 435 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 434 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 434 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+VAL_ 433 MCU_FAULT 2 "voltage band violation" 1 "overcurrent" 0 "none" ;
+VAL_ 433 MCU_STATE 10 "EXTSTARTUP" 9 "IDLE" 8 "SENSORLESS" 7 "STABILIZATION" 6 "IFSTARTUP" 5 "ORIENTATION" 4 "STANDSTILL" 3 "RESET" 2 "FAULT" 1 "INITIALIZE" 0 "none" ;
+

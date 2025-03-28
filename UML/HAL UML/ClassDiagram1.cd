@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HAL_UML.PCAN">
+    <Position X="21.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAAAAEBCAAAAAAACAAEQAAAQBCAACAAAA=</HashCode>
+      <FileName>PCAN.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.221" />
+  </Class>
+  <Class Name="HAL_UML.MessageQueue">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HAL_UML.Message">
+    <Position X="20" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HAL_UML.ConfigureFromJSONStrategy">
+    <Position X="24" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConfigurationJSON.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HAL_UML.DAQmxBase">
+    <Position X="16" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>DAQmxBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HAL_UML.DO_DAQmxPWMFixedFreq">
+    <Position X="11.25" Y="8.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>DO_DAQmxPWMFixedFreq.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HAL_UML.DO_DAQmxPWMFixedFreqProxy">
+    <Position X="11.25" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEAA=</HashCode>
+      <FileName>DO_DAQmxPWMFixedFreqProxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HAL_UML.InstrumentProxyBase">
+    <Position X="5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ProxyBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HAL_UML.LinearScalingStrategy">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAEAAgAAAIAAAAAAAAAAAAAAAAKAAAAAAA=</HashCode>
+      <FileName>LinearScalingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="HAL_UML.IInstrument">
+    <Position X="19.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAACAAAA=</HashCode>
+      <FileName>IInstrument.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IRunnable">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>IRunnable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.ICalibratable">
+    <Position X="22" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICalibratable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.ICommunicate">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICommunicate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IConfigurable">
+    <Position X="18" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACACAAAAgAAAAAAAAAAAAEAAAgAACAQAAAAQ=</HashCode>
+      <FileName>IConfigurable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IConfigure">
+    <Position X="24" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAQCAAAQ=</HashCode>
+      <FileName>IConfigure.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IAdjustDutyCycle">
+    <Position X="9.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAdjustDutyCycle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IAdjustDutyCycleOnChannel">
+    <Position X="9.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAdjustDutyCycleOnChannel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="HAL_UML.IScalingStrategy">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>IScalingStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

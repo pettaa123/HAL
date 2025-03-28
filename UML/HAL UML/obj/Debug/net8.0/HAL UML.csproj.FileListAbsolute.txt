@@ -1,0 +1,5 @@
+D:\git\HAL\UML\HAL UML\obj\Debug\net8.0\HAL UML.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\HAL\UML\HAL UML\obj\Debug\net8.0\HAL UML.AssemblyInfoInputs.cache
+D:\git\HAL\UML\HAL UML\obj\Debug\net8.0\HAL UML.AssemblyInfo.cs
+D:\git\HAL\UML\HAL UML\obj\Debug\net8.0\HAL UML.csproj.CoreCompileInputs.cache
+D:\git\HAL\UML\HAL UML\obj\Debug\net8.0\HAL UML.sourcelink.json

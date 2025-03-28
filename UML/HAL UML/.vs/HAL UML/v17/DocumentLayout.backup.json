@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\HAL\\UML\\HAL UML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|d:\\git\\hal\\uml\\hal uml\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|solutionrelative:classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|d:\\git\\hal\\uml\\hal uml\\pcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|solutionrelative:pcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|d:\\git\\hal\\uml\\hal uml\\configurationjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|solutionrelative:configurationjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|d:\\git\\hal\\uml\\hal uml\\icalibratable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75BACC66-5FB6-4BB8-ACFE-8AA8566C9DCE}|HAL UML.csproj|solutionrelative:icalibratable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICalibratable.cs",
+              "DocumentMoniker": "D:\\git\\HAL\\UML\\HAL UML\\ICalibratable.cs",
+              "RelativeDocumentMoniker": "ICalibratable.cs",
+              "ToolTip": "D:\\git\\HAL\\UML\\HAL UML\\ICalibratable.cs",
+              "RelativeToolTip": "ICalibratable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:07:06.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigurationJSON.cs",
+              "DocumentMoniker": "D:\\git\\HAL\\UML\\HAL UML\\ConfigurationJSON.cs",
+              "RelativeDocumentMoniker": "ConfigurationJSON.cs",
+              "ToolTip": "D:\\git\\HAL\\UML\\HAL UML\\ConfigurationJSON.cs",
+              "RelativeToolTip": "ConfigurationJSON.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T13:04:23.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PCAN.cs",
+              "DocumentMoniker": "D:\\git\\HAL\\UML\\HAL UML\\PCAN.cs",
+              "RelativeDocumentMoniker": "PCAN.cs",
+              "ToolTip": "D:\\git\\HAL\\UML\\HAL UML\\PCAN.cs",
+              "RelativeToolTip": "PCAN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T12:54:48.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "D:\\git\\HAL\\UML\\HAL UML\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "ClassDiagram1.cd",
+              "ToolTip": "D:\\git\\HAL\\UML\\HAL UML\\ClassDiagram1.cd",
+              "RelativeToolTip": "ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-03-25T10:38:11.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

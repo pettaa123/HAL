@@ -1,0 +1,8 @@
+{
+    "InstrIdent": "PCAN",
+    "InstrClass": "PCAN.lvclass",
+    "Attributes": {
+            "Interface": "PCAN_USBBUS1  0x51",
+            "Baudrate": "PCAN_BAUD_1M 0x0014"
+    }
+}
