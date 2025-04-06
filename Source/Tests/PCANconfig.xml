@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
- <root>
-     <InstrIdent>PCAN</InstrIdent>
-     <InstrClass>PCAN.lvclass</InstrClass>
-     <Attributes>
-         <Interface>PCAN_USBBUS1  0x51</Interface>
-         <Baudrate>PCAN_BAUD_1M 0x0014</Baudrate>
-     </Attributes>
- </root>

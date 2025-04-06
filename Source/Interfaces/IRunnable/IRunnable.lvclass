@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="24008000">
+	<Property Name="EndevoGOOP_ClassItemIcon" Type="Str">InterfaceBlue</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*(!!!*Q(C=\&gt;5R4BN"&amp;-&lt;RDYACL1PXS")NT&lt;P#+DG"L`#OM#WF?WB?(RJ,[&gt;,Z"*'?O)%\'BJ@9@DP_,%"CLA"+9L9^&gt;DL&lt;W@?`*B&gt;,V,@PELH;C?WZ9GN&gt;_GP_GR`MG7LI_.&lt;G]^8NGSPR\?ZZTT_2?HH5_XV_/8&lt;KM`D7RW=^0^VU_@WO@X@W`7JX]$(`Q\/.$W);%E,GN.-U\1NS:-]S:-]S:-]S)-]S)-]S)0=S:X=S:X=S:X=S)X=S)X=S)W]\_1C&amp;\H))374*R-F2:-#37=I3NY34_**0)G(LUI]C3@R**\%1R=FHM34?"*0YG'9%E`C34S**`&amp;1KEOS\_2Y%A`F&amp;8A#4_!*0)'(+26Y!E!Q76!Y+!*$Q=HA)0!%HM$$I1*0Y!E]A3@Q=&amp;K"*`!%HM!4?"D36S7[:NL*]6"'DM@R/"\(YXAI,=@D?"S0YX%]4#@(YXA=B$/B5RS#H%&amp;/"_?,YX%]@-DR/"\(YXA=$[@[&amp;@+_-J.GWMHR'"\$9XA-D_'BB!S0Y4%]BM@Q5&amp;;'R`!9(M.D?*B+BM@Q'"Y$9ET+^$++'1/.4E:A?(DVO]8[69IOM&lt;Z,&gt;@/K&lt;EL6T;;[C61XB_KCKS[G[C+J&amp;F_VK+L&amp;5CW#[I^4I659V33KQ6.((8D@UX;U,7V$'WFLWE"&lt;U2&lt;4U(@O?$A=N.`PN&gt;PNN.VON&gt;FM.)[DVOOVBG(1;L839L'9(Q-8\0-$Y@B=GLY]`,D`@PPL^`$Q]_L&lt;\&gt;XD=(.Z.2Z8_-0`0`]$TU:^U=MZ7+-H%_J8T!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>

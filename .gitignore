@@ -17,3 +17,6 @@
 *.aliases
 *.lvlps
 .cache/
+
+#Submodules
+HAL-Devices/
