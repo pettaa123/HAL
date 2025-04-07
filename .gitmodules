@@ -1,9 +1,9 @@
-[submodule "grpc-labview"]
-	path = grpc-labview
-	url = https://github.com/ni/grpc-labview
 [submodule "HAL-Devices"]
 	path = HAL-Devices
 	url = https://github.com/pettaa123/HAL-Devices
 [submodule "Common-LabVIEW-Helpers"]
 	path = Common-LabVIEW-Helpers
 	url = https://github.com/pettaa123/Common-LabVIEW-Helpers
+[submodule "grpc-labview"]
+	path = grpc-labview
+	url = https://github.com/pettaa123/grpc-labview
