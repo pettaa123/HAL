@@ -4,3 +4,6 @@
 [submodule "HAL-Devices"]
 	path = HAL-Devices
 	url = https://github.com/pettaa123/HAL-Devices
+[submodule "Common-LabVIEW-Helpers"]
+	path = Common-LabVIEW-Helpers
+	url = https://github.com/pettaa123/Common-LabVIEW-Helpers
