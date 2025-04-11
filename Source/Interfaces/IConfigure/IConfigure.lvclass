@@ -48,6 +48,16 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="Load.vi" Type="VI" URL="../Load.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%EF$&lt;WZG;7&gt;V=G5O&lt;(:D&lt;'&amp;T=Q!!$EF$&lt;WZG;7&gt;V=G5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%%!Q`````Q:4&lt;X6S9W5!!#R!=!!?!!!5%EF$&lt;WZG;7&gt;V=G5O&lt;(:D&lt;'&amp;T=Q!!$5F$&lt;WZG;7&gt;V=G5A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!*)!!!!!!1!*!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.MustOverride" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Set IConfiguration.vi" Type="VI" URL="../Set IConfiguration.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$M!!!!"1!%!!!!,E"Q!"Y!!"1335.P&lt;G:J:X6S:3ZM&gt;G.M98.T!!!/35.P&lt;G:J:X6S:3"P&gt;81!!$*!=!!?!!!9&amp;EF$&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-!!!Z*1W^O:GFH&gt;8*B&gt;'FP&lt;A!!,%"Q!"Y!!"1335.P&lt;G:J:X6S:3ZM&gt;G.M98.T!!!.35.P&lt;G:J:X6S:3"J&lt;A"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!)!!Q)!!(A!!!!!!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!E!!!!!!"!!1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
