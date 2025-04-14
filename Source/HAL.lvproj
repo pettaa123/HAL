@@ -43,7 +43,6 @@
 			<Item Name="NEOXID480.lvclass" Type="LVClass" URL="../../HAL-Devices/NEOXID480/NEOXID480.lvclass"/>
 		</Item>
 		<Item Name="Task.vi" Type="VI" URL="../Task.vi"/>
-		<Item Name="DBC Communication.lvclass" Type="LVClass" URL="../DBCCommunication/DBC Communication.lvclass"/>
 		<Item Name="Instrument Factory.lvclass" Type="LVClass" URL="../Instrument Factory/Instrument Factory.lvclass"/>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
