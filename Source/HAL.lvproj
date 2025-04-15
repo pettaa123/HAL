@@ -23,27 +23,20 @@
 			<Item Name="IMessage.lvclass" Type="LVClass" URL="../Interfaces/IMessage/IMessage.lvclass"/>
 			<Item Name="IConfiguration.lvclass" Type="LVClass" URL="../Interfaces/IConfiguration/IConfiguration.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
+			<Item Name="IValidate Configuration.lvclass" Type="LVClass" URL="../Interfaces/IValidate Configuration/IValidate Configuration.lvclass"/>
+			<Item Name="IVirtual Instrument.lvclass" Type="LVClass" URL="../Interfaces/IVirtual Instrument/IVirtual Instrument.lvclass"/>
+			<Item Name="IClose.lvclass" Type="LVClass" URL="../Interfaces/IClose/IClose.lvclass"/>
+			<Item Name="IRead Temperature.lvclass" Type="LVClass" URL="../Interfaces/IRead Temperature/IRead Temperature.lvclass"/>
+			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../Interfaces/IInitialize/IInitialize.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
+			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
 		</Item>
-		<Item Name="Configuration Storages" Type="Folder">
+		<Item Name="Configuration Strategies" Type="Folder">
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
 			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../Config from XML/Config from XML.lvclass"/>
 		</Item>
-		<Item Name="Configuration Strategies" Type="Folder">
-			<Item Name="XNET" Type="Folder">
-				<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Configuration Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
-			</Item>
-		</Item>
-		<Item Name="Devices" Type="Folder">
-			<Item Name="NI 9862.lvclass" Type="LVClass" URL="../../HAL-Devices/NI 9862/NI 9862.lvclass"/>
-			<Item Name="HSU MCU V2.lvclass" Type="LVClass" URL="../../HAL-Devices/HSU MCU V2/HSU MCU V2.lvclass"/>
-			<Item Name="PCAN.lvlib" Type="Library" URL="../../HAL-Devices/PCAN/PCAN.lvlib"/>
-			<Item Name="NEOXID480.lvclass" Type="LVClass" URL="../../HAL-Devices/NEOXID480/NEOXID480.lvclass"/>
-		</Item>
-		<Item Name="Task.vi" Type="VI" URL="../Task.vi"/>
-		<Item Name="Instrument Factory.lvclass" Type="LVClass" URL="../Instrument Factory/Instrument Factory.lvclass"/>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>

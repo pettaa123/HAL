@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="24008000">
+	<Property Name="EndevoGOOP_ClassItemIcon" Type="Str">InterfaceBlue</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)8!!!*Q(C=\&gt;4.51*"%-8RJ_8"+RF9J."H&lt;[2!#JU#6Y_E]&amp;)A"6,I&amp;%C"&amp;0!`9W.B;&gt;6?N-KSH'%7?00V9X&gt;:;::([5'8B@+]7#ZP&gt;1Q&gt;B`%W0MWXG`\HD[^0`8/L;``VU!-_T&lt;`U4F`U8Z?_,LGE8SD[,``F&lt;Z?8J@`!T`]0\D1?2,3CG:;UU.DW5O2&amp;8O2&amp;8O2&amp;&lt;H+4G^TE*D&gt;ZEC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!@ZL/1C&amp;\H))27&lt;&amp;RM6CR9,&amp;)/BK$A5HM*4?!I08V6Y#E`B+4S&amp;BS%K0)7H]"3?QM-U&amp;:\#5XA+4_&amp;BK3GJ7=HR&amp;"[7F`%9D`%9D`'QJ9T(!-RG:G'T#!S:4P0"?)T(?0AIYT%?YT%?Y[&amp;&lt;RG-]RG-]RM/5?69].;/3YW%:*:\%EXA34_*B;37?R*.Y%E`C94MFHM34)*).E]5B+*G5$%C_**\%QZM34_**0)EH]&gt;!VLV$/-T-UIZ,D#4S"*`!%HM$$%AI]A3@Q"*\!Q\)+0)%H]!3?Q-.7#DS"*`!%E'"4NF?Q7$!R'"1%A9@8P&amp;NC8C603=QK^=WLPCH6.ZP[*F,@(/K,LL[9[IOE0PHKE[I_7?K4I0ZR;L1;I^Z%08E-V*HDC8;E(7B\WI[WJ7VI;^JK40XGA?@T7;@43=@D59@$1@P^8LP&gt;4NPN6JP.2OPV7KP6[PUR]%2^@S$]BO@3LT$=[X90TN%LTK:UO!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
