@@ -32,6 +32,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
+			<Item Name="Test Config From EXCEL.lvclass" Type="LVClass" URL="../Test Config From EXCEL/Test Config From EXCEL.lvclass"/>
 		</Item>
 		<Item Name="Configuration Strategies" Type="Folder">
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
@@ -44,7 +45,6 @@
 		</Item>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
-		<Item Name="Test Config From EXCEL.lvclass" Type="LVClass" URL="../Test Config From EXCEL/Test Config From EXCEL.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

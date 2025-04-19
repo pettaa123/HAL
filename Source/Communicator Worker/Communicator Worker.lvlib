@@ -4,8 +4,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Get Messages Msg.lvclass" Type="LVClass" URL="../Communicator Worker Messages/Receive Messages Msg/Get Messages Msg.lvclass"/>
 		<Item Name="Read Messages Msg.lvclass" Type="LVClass" URL="../Communicator Worker Messages/Read Messages Msg/Read Messages Msg.lvclass"/>
-		<Item Name="Receive Messages Msg.lvclass" Type="LVClass" URL="../Communicator Worker Messages/Receive Messages Msg/Receive Messages Msg.lvclass"/>
 	</Item>
 	<Item Name="Communicator Worker.lvclass" Type="LVClass" URL="../Communicator Worker/Communicator Worker.lvclass"/>
 </Library>
