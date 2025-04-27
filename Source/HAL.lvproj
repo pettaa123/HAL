@@ -28,6 +28,7 @@
 			<Item Name="IClose.lvclass" Type="LVClass" URL="../Interfaces/IClose/IClose.lvclass"/>
 			<Item Name="IRead Temperature.lvclass" Type="LVClass" URL="../Interfaces/IRead Temperature/IRead Temperature.lvclass"/>
 			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../Interfaces/IInitialize/IInitialize.lvclass"/>
+			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../Interfaces/ILog Data/ILog Data.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
@@ -45,6 +46,7 @@
 		</Item>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
+		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
