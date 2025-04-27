@@ -14,17 +14,9 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="IClose.lvclass" Type="Parent" URL="../../IClose/IClose.lvclass"/>
+		<Item Name="IHasConfiguration.lvclass" Type="Parent" URL="../../IHasConfiguration/IHasConfiguration.lvclass"/>
 		<Item Name="IInitialize.lvclass" Type="Parent" URL="../../IInitialize/IInitialize.lvclass"/>
 		<Item Name="IRunnable.lvclass" Type="Parent" URL="../../IRunnable/IRunnable.lvclass"/>
-	</Item>
-	<Item Name="Set IConfiguration.vi" Type="VI" URL="../Set IConfiguration.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'UF7;8*U&gt;7&amp;M)%FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!836:J=H2V97QA37ZT&gt;(*V&lt;76O&gt;#"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!$*!=!!?!!!9&amp;EF$&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-!!!Z*1W^O:GFH&gt;8*B&gt;'FP&lt;A!!0E"Q!"Y!!"U&lt;36:J=H2V97QA37ZT&gt;(*V&lt;76O&gt;#ZM&gt;G.M98.T!":*6GFS&gt;(6B&lt;#"*&lt;H.U=H6N:7ZU)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 	</Item>
 	<Item Name="Set IInstrument.vi" Type="VI" URL="../Set IInstrument.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;:!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'UF7;8*U&gt;7&amp;M)%FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!836:J=H2V97QA37ZT&gt;(*V&lt;76O&gt;#"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!#J!=!!?!!!6%UF*&lt;H.U=H6N:7ZU,GRW9WRB=X-!#UF*&lt;H.U=H6N:7ZU!$Z!=!!?!!!&gt;'UF7;8*U&gt;7&amp;M)%FO=X2S&gt;7VF&lt;H1O&lt;(:D&lt;'&amp;T=Q!736:J=H2V97QA37ZT&gt;(*V&lt;76O&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
