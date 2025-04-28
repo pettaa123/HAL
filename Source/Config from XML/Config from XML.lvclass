@@ -19,6 +19,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
+		<Item Name="IClose.lvclass" Type="Parent" URL="../../Interfaces/IClose/IClose.lvclass"/>
 		<Item Name="IConfiguration.lvclass" Type="Parent" URL="../../Interfaces/IConfiguration/IConfiguration.lvclass"/>
 	</Item>
 	<Item Name="Config from XML.ctl" Type="Class Private Data" URL="Config from XML.ctl">
@@ -63,7 +64,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="Get Attribute as JSON.vi" Type="VI" URL="../Get Attribute as JSON.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'0%J44UY_!!!W1(!!(A!!'2&gt;$&lt;WZG;7=A:H*P&lt;3"945QO&lt;(:D&lt;'&amp;T=Q!41W^O:GFH)':S&lt;WUA7%V-)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E!Q`````QF"&gt;(2S;7*V&gt;'5!.E"Q!"Y!!"E81W^O:GFH)':S&lt;WUA7%V-,GRW9WRB=X-!%E.P&lt;G:J:S"G=G^N)&amp;B.4#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E#!!"Y!!!*!!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##!!!!*!!!!!!!1!+!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'0%J44UY_!!!W1(!!(A!!'2&gt;$&lt;WZG;7=A:H*P&lt;3"945QO&lt;(:D&lt;'&amp;T=Q!41W^O:GFH)':S&lt;WUA7%V-)'^V&gt;!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E!Q`````QF"&gt;(2S;7*V&gt;'5!.E"Q!"Y!!"E81W^O:GFH)':S&lt;WUA7%V-,GRW9WRB=X-!%E.P&lt;G:J:S"G=G^N)&amp;B.4#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!)!!E#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##!!!!*!!!!!!!1!+!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
