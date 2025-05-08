@@ -44,6 +44,9 @@
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../Communicator/Communicator.lvclass"/>
 			<Item Name="Communicator Worker.lvlib" Type="Library" URL="../Communicator Worker/Communicator Worker.lvlib"/>
 		</Item>
+		<Item Name="Configure Strategies" Type="Folder">
+			<Item Name="Playback from Csv.lvclass" Type="LVClass" URL="../Simulated Devices/Playback from Csv/Playback from Csv.lvclass"/>
+		</Item>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
