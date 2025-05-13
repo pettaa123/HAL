@@ -29,11 +29,14 @@
 			<Item Name="IRead Temperature.lvclass" Type="LVClass" URL="../Interfaces/IRead Temperature/IRead Temperature.lvclass"/>
 			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../Interfaces/IInitialize/IInitialize.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../Interfaces/ILog Data/ILog Data.lvclass"/>
+			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../Interfaces/IParse CSV/IParse CSV.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
+			<Item Name="Test Simple CSV Parser.lvclass" Type="LVClass" URL="../Tests/Test Simple CSV Parser/Test Simple CSV Parser.lvclass"/>
 			<Item Name="Test Config From EXCEL.lvclass" Type="LVClass" URL="../Tests/Test Config From EXCEL/Test Config From EXCEL.lvclass"/>
+			<Item Name="Test Named Fields Parser.lvclass" Type="LVClass" URL="../Tests/Test Named Fields Parser/Test Named Fields Parser.lvclass"/>
 		</Item>
 		<Item Name="Configuration Strategies" Type="Folder">
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
@@ -44,8 +47,9 @@
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../Communicator/Communicator.lvclass"/>
 			<Item Name="Communicator Worker.lvlib" Type="Library" URL="../Communicator Worker/Communicator Worker.lvlib"/>
 		</Item>
-		<Item Name="Configure Strategies" Type="Folder">
-			<Item Name="Playback from Csv.lvclass" Type="LVClass" URL="../Simulated Devices/Playback from Csv/Playback from Csv.lvclass"/>
+		<Item Name="CSV Parser" Type="Folder">
+			<Item Name="Named Fields Parser.lvclass" Type="LVClass" URL="../CSV Parser/Named Fields Parser/Named Fields Parser.lvclass"/>
+			<Item Name="Simple CSV Parser.lvclass" Type="LVClass" URL="../CSV Parser/Simple CSV Parser/Simple CSV Parser.lvclass"/>
 		</Item>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
