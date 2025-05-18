@@ -14,7 +14,7 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="IClose.lvclass" Type="Parent" URL="../../IClose/IClose.lvclass"/>
-		<Item Name="IHasConfiguration.lvclass" Type="Parent" URL="../../IHasConfiguration/IHasConfiguration.lvclass"/>
+		<Item Name="IHas Configuration.lvclass" Type="Parent" URL="../../IHas Configuration/IHas Configuration.lvclass"/>
 		<Item Name="IInitialize.lvclass" Type="Parent" URL="../../IInitialize/IInitialize.lvclass"/>
 		<Item Name="IRunnable.lvclass" Type="Parent" URL="../../IRunnable/IRunnable.lvclass"/>
 	</Item>

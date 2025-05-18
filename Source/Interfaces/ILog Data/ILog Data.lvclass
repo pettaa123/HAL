@@ -12,11 +12,11 @@
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="IClose.lvclass" Type="Parent" URL="../../IClose/IClose.lvclass"/>
-		<Item Name="IHasConfiguration.lvclass" Type="Parent" URL="../../IHasConfiguration/IHasConfiguration.lvclass"/>
+		<Item Name="IHas Configuration.lvclass" Type="Parent" URL="../../IHas Configuration/IHas Configuration.lvclass"/>
 		<Item Name="IInitialize.lvclass" Type="Parent" URL="../../IInitialize/IInitialize.lvclass"/>
 	</Item>
 	<Item Name="Log Data DBL.vi" Type="VI" URL="../Log Data DBL.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!4%5F-&lt;W=A2'&amp;U93ZM&gt;G.M98.T!!^*2'&amp;U95RP:W&gt;F=C"P&gt;81!&amp;%!Q`````QJ*:'6O&gt;'FG;76S!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!#U!+!!2%982B!!!M1(!!(A!!%R&amp;*4'^H)%2B&gt;'%O&lt;(:D&lt;'&amp;T=Q!/352B&gt;'&amp;-&lt;W&gt;H:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"A!(!!A!#1!+!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!AA!!!!)!!!!#!!!!"!!!!#1!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">*!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%]!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#R!=!!?!!!4%5F-&lt;W=A2'&amp;U93ZM&gt;G.M98.T!!^*2'&amp;U95RP:W&gt;F=C"P&gt;81!&amp;%!Q`````QJ*:'6O&gt;'FG;76S!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!#U!+!!2%982B!!!M1(!!(A!!%R&amp;*4'^H)%2B&gt;'%O&lt;(:D&lt;'&amp;T=Q!/352B&gt;'&amp;-&lt;W&gt;H:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!#1!+!A!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!##!!!!!!!!!!)!!!!#!!!!"!!!!#1!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

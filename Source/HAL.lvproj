@@ -30,6 +30,9 @@
 			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../Interfaces/IInitialize/IInitialize.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../Interfaces/ILog Data/ILog Data.lvclass"/>
 			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../Interfaces/IParse CSV/IParse CSV.lvclass"/>
+			<Item Name="IHas Configuration.lvclass" Type="LVClass" URL="../Interfaces/IHas Configuration/IHas Configuration.lvclass"/>
+			<Item Name="IHas Baud Rate.lvclass" Type="LVClass" URL="../Interfaces/IHas Baudrate/IHas Baud Rate.lvclass"/>
+			<Item Name="ICreate Action Point.lvclass" Type="LVClass" URL="../Interfaces/ICreate Action Point/ICreate Action Point.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
@@ -51,9 +54,15 @@
 			<Item Name="Named Fields Parser.lvclass" Type="LVClass" URL="../CSV Parser/Named Fields Parser/Named Fields Parser.lvclass"/>
 			<Item Name="Simple CSV Parser.lvclass" Type="LVClass" URL="../CSV Parser/Simple CSV Parser/Simple CSV Parser.lvclass"/>
 		</Item>
-		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
-		<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
-		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
+		<Item Name="Data Logger" Type="Folder">
+			<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
+		</Item>
+		<Item Name="Instrument Manager" Type="Folder">
+			<Item Name="Configure Strategies" Type="Folder">
+				<Item Name="Alarming Strategy.lvclass" Type="LVClass" URL="../Alarming Strategy/Alarming Strategy.lvclass"/>
+			</Item>
+			<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
