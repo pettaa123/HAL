@@ -15,6 +15,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="Generic Image.lvclass" Type="LVClass" URL="../Typedefs/Generic Image/Generic Image.lvclass"/>
+		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigurable.lvclass" Type="LVClass" URL="../Interfaces/IConfigurable/IConfigurable.lvclass"/>
 			<Item Name="IRunnable.lvclass" Type="LVClass" URL="../Interfaces/IRunnable/IRunnable.lvclass"/>
@@ -27,6 +30,7 @@
 			<Item Name="IVirtual Instrument.lvclass" Type="LVClass" URL="../Interfaces/IVirtual Instrument/IVirtual Instrument.lvclass"/>
 			<Item Name="IClose.lvclass" Type="LVClass" URL="../Interfaces/IClose/IClose.lvclass"/>
 			<Item Name="IRead Temperature.lvclass" Type="LVClass" URL="../Interfaces/IRead Temperature/IRead Temperature.lvclass"/>
+			<Item Name="IRead Image.lvclass" Type="LVClass" URL="../Interfaces/IRead Image/IRead Images/IRead Image.lvclass"/>
 			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../Interfaces/IInitialize/IInitialize.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../Interfaces/ILog Data/ILog Data.lvclass"/>
 			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../Interfaces/IParse CSV/IParse CSV.lvclass"/>
@@ -59,6 +63,10 @@
 		</Item>
 		<Item Name="Instrument Manager" Type="Folder">
 			<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
+		</Item>
+		<Item Name="Camera" Type="Folder">
+			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera/Camera Worker/Camera Worker.lvlib"/>
+			<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
