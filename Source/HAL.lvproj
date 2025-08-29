@@ -65,8 +65,8 @@
 			<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../Instrument Manager/Instrument Manager.lvclass"/>
 		</Item>
 		<Item Name="Camera" Type="Folder">
-			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera/Camera Worker/Camera Worker.lvlib"/>
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
+			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera Worker/Camera Worker.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
