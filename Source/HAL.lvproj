@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="24008000">
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
+<Project Type="Project" LVVersion="19008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">19.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="TopVI" Type="Xml">..\Task.vi</Property>
@@ -24,7 +24,6 @@
 			<Item Name="IInstrument.lvclass" Type="LVClass" URL="../Interfaces/IInstrument/IInstrument.lvclass"/>
 			<Item Name="ICommunicate.lvclass" Type="LVClass" URL="../Interfaces/ICommunicate/ICommunicate.lvclass"/>
 			<Item Name="IMessage.lvclass" Type="LVClass" URL="../Interfaces/IMessage/IMessage.lvclass"/>
-			<Item Name="IConfiguration.lvclass" Type="LVClass" URL="../Interfaces/IConfiguration/IConfiguration.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../Interfaces/IConfigure/IConfigure.lvclass"/>
 			<Item Name="IValidate Configuration.lvclass" Type="LVClass" URL="../Interfaces/IValidate Configuration/IValidate Configuration.lvclass"/>
 			<Item Name="IVirtual Instrument.lvclass" Type="LVClass" URL="../Interfaces/IVirtual Instrument/IVirtual Instrument.lvclass"/>
@@ -37,18 +36,6 @@
 			<Item Name="IHas Configuration.lvclass" Type="LVClass" URL="../Interfaces/IHas Configuration/IHas Configuration.lvclass"/>
 			<Item Name="ICreate Action Point.lvclass" Type="LVClass" URL="../Interfaces/ICreate Action Point/ICreate Action Point.lvclass"/>
 			<Item Name="To IRunnable.vi" Type="VI" URL="../Interfaces/IRunnable/To IRunnable.vi"/>
-		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="My Config from XML.lvclass" Type="LVClass" URL="../Tests/My Config from XML/My Config from XML.lvclass"/>
-			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
-			<Item Name="Test Simple CSV Parser.lvclass" Type="LVClass" URL="../Tests/Test Simple CSV Parser/Test Simple CSV Parser.lvclass"/>
-			<Item Name="Test Config From EXCEL.lvclass" Type="LVClass" URL="../Tests/Test Config From EXCEL/Test Config From EXCEL.lvclass"/>
-			<Item Name="Test Named Fields Parser.lvclass" Type="LVClass" URL="../Tests/Test Named Fields Parser/Test Named Fields Parser.lvclass"/>
-		</Item>
-		<Item Name="Configuration Strategies" Type="Folder">
-			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
-			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../Config from XML/Config from XML.lvclass"/>
-			<Item Name="Config from EXCEL.lvclass" Type="LVClass" URL="../Config from EXCEL/Config from EXCEL.lvclass"/>
 		</Item>
 		<Item Name="Communicator" Type="Folder">
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../Communicator/Communicator.lvclass"/>
@@ -68,6 +55,8 @@
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera Worker/Camera Worker.lvlib"/>
 		</Item>
+		<Item Name="Tests.lvproj" Type="Document" URL="../../Tests/Tests.lvproj"/>
+		<Item Name="Configuration.lvlib" Type="Library" URL="../../Configuration/Configuration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
