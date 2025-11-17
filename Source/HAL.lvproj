@@ -20,6 +20,7 @@
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
 			<Item Name="IConfigurable.lvclass" Type="LVClass" URL="../Interfaces/IConfigurable/IConfigurable.lvclass"/>
+			<Item Name="IConfiguration.lvclass" Type="LVClass" URL="../Interfaces/IConfiguration/IConfiguration.lvclass"/>
 			<Item Name="IRunnable.lvclass" Type="LVClass" URL="../Interfaces/IRunnable/IRunnable.lvclass"/>
 			<Item Name="IInstrument.lvclass" Type="LVClass" URL="../Interfaces/IInstrument/IInstrument.lvclass"/>
 			<Item Name="ICommunicate.lvclass" Type="LVClass" URL="../Interfaces/ICommunicate/ICommunicate.lvclass"/>
@@ -55,8 +56,12 @@
 			<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera Worker/Camera Worker.lvlib"/>
 		</Item>
+		<Item Name="Configuration Strategies" Type="Folder">
+			<Item Name="Config from EXCEL.lvclass" Type="LVClass" URL="../Config from EXCEL/Config from EXCEL.lvclass"/>
+			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
+			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../Config from XML/Config from XML.lvclass"/>
+		</Item>
 		<Item Name="Tests.lvproj" Type="Document" URL="../../Tests/Tests.lvproj"/>
-		<Item Name="Configuration.lvlib" Type="Library" URL="../../Configuration/Configuration.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
