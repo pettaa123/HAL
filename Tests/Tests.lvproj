@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -13,8 +14,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Absolute Difference Less Than.vim" Type="VI" URL="../Absolute Difference Less Than.vim"/>
 		<Item Name="Delete Test File.vi" Type="VI" URL="../Delete Test File.vi"/>
-		<Item Name="Test Config From EXCEL.lvclass" Type="LVClass" URL="../Test Config From EXCEL/Test Config From EXCEL.lvclass"/>
+		<Item Name="Test Config From Excel Table.lvclass" Type="LVClass" URL="../Test Config From EXCEL/Test Config From Excel Table.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

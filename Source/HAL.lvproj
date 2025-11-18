@@ -57,7 +57,7 @@
 			<Item Name="Camera Worker.lvlib" Type="Library" URL="../Camera Worker/Camera Worker.lvlib"/>
 		</Item>
 		<Item Name="Configuration Strategies" Type="Folder">
-			<Item Name="Config from EXCEL.lvclass" Type="LVClass" URL="../Config from EXCEL/Config from EXCEL.lvclass"/>
+			<Item Name="Config from Excel Table.lvclass" Type="LVClass" URL="../Config from Excel Table/Config from Excel Table.lvclass"/>
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../Config from JSON/Config from JSON.lvclass"/>
 			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../Config from XML/Config from XML.lvclass"/>
 		</Item>
