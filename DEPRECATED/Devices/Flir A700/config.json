@@ -1,9 +1,0 @@
-{
-	"MAX Identifier":"webcam",
-	"Attributes":{
-	"Brightness::Value":0,
-	"Contrast::Value":0,
-	"Exposure::Mode":"Manual",
-	"Exposure::Value":0.0625
-	}
-}
