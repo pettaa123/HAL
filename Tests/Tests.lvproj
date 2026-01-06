@@ -17,6 +17,7 @@
 		<Item Name="Absolute Difference Less Than.vim" Type="VI" URL="../Absolute Difference Less Than.vim"/>
 		<Item Name="Delete Test File.vi" Type="VI" URL="../Delete Test File.vi"/>
 		<Item Name="Test Config From Excel Table.lvclass" Type="LVClass" URL="../Test Config From EXCEL/Test Config From Excel Table.lvclass"/>
+		<Item Name="Test Instrument Manager AE.lvclass" Type="LVClass" URL="../Test Instrument Manager AE/Test Instrument Manager AE.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
